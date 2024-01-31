@@ -12,18 +12,18 @@ const  Navbar = () => {
     }
     return ( 
         <div className="flex justify-center items-center max-w-[1240px] mx-auto px-4 text-white font-Montserrat">
-            <div className="text-black flex justify-center items-center">
-                <div className="mobile:hidden 2xl:block xl:block lg:block">
+            <div className="text-black flex justify-center">
+                <div className="mobile:hidden sm:hidden 2xl:block xl:block lg:block">
                     <ul className="flex gap-3">
                         <li>Home</li>
                         <li>About Us</li>
                         <li> Services</li>
                     </ul>
                 </div>
-                <div className="mx-4 pb-4">
+                <div className="mx-4 pb-4 mobile:block mobile:pt-2">
                     <img src={hommastonlogo} alt="logo" className="w-40"/>
                 </div>
-                <div className="mobile:hidden 2xl:block xl:block lg:block">
+                <div className="mobile:hidden sm:hidden 2xl:block xl:block lg:block">
                     <ul className="flex gap-3">
                         <li>Hepburn</li>
                         <li>Our Team</li>
@@ -39,7 +39,7 @@ const  Navbar = () => {
             {/* toggle menu */}
             <div className={nav ? "fixed left-0 top-0 h-full w-[90%] border-r border-r-gray-900 ease-out duration-500 bg-black" : "fixed left-[-100%]"}>
 
-                <div className="mx-4 pt-4 flex justify-center">
+                <div className="mx-4 pt-4">
                     <img src={hommastonlogo} alt="logo" className="w-40"/>
                 </div>
                 <ul className="p-4 my-6">
