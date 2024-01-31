@@ -12,7 +12,7 @@ const  Navbar = () => {
     }
     return ( 
         <div className="flex justify-center items-center max-w-[1240px] mx-auto px-4 text-white font-Montserrat">
-            <div className="text-black flex justify-center">
+            <div className="text-black flex justify-center items-center">
                 <div className="mobile:hidden sm:hidden 2xl:block xl:block lg:block">
                     <ul className="flex gap-3">
                         <li>Home</li>
@@ -40,7 +40,7 @@ const  Navbar = () => {
             <div className={nav ? "fixed left-0 top-0 h-full w-[90%] border-r border-r-gray-900 ease-out duration-500 bg-black" : "fixed left-[-100%]"}>
 
                 <div className="mx-4 pt-4">
-                    <img src={hommastonlogo} alt="logo" className="w-40"/>
+                    <img src={hommastonlogo} alt="logo" className="w-20"/>
                 </div>
                 <ul className="p-4 my-6">
                     <li className="p-4 border-l mb-2 border-blue-600">Home</li>
