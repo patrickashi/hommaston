@@ -20,8 +20,8 @@ const  Navbar = () => {
                         <li> Services</li>
                     </ul>
                 </div>
-                <div className="mx-4 pb-4 mobile:block mobile:pt-2">
-                    <img src={hommastonlogo} alt="logo" className="w-40"/>
+                <div className="mx-4 pb-4 mobile:block mobile:pt-2 mobile:ml-0 mobile:pl-1">
+                    <img src={hommastonlogo} alt="logo" className="w-40 mobile:w-30 "/>
                 </div>
                 <div className="mobile:hidden sm:hidden 2xl:block xl:block lg:block">
                     <ul className="flex gap-3">
@@ -40,7 +40,7 @@ const  Navbar = () => {
             <div className={nav ? "fixed left-0 top-0 h-full w-[90%] border-r border-r-gray-900 ease-out duration-500 bg-black" : "fixed left-[-100%]"}>
 
                 <div className="mx-4 pt-4">
-                    <img src={hommastonlogo} alt="logo" className="w-20"/>
+                    <img src={hommastonlogo} alt="logo" className="w-40"/>
                 </div>
                 <ul className="p-4 my-6">
                     <li className="p-4 border-l mb-2 border-blue-600">Home</li>
