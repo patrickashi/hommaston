@@ -1,9 +1,10 @@
 import React from 'react'
+import Secone from '../components/Secone'
 
 const Home = () => {
   return (
-    <div className='w-full '>
-        Home
+    <div className='w-full text-black'>
+        <Secone />
     </div>
   )
 }

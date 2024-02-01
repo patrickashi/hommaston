@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {AiOutlineClose, AiOutlineMenu} from "react-icons/ai";
 import hommastonlogo from "../assets/hommastonlogo.png"
+import { Link } from "react-router-dom";
 
 
 const  Navbar = () => {
@@ -14,8 +15,8 @@ const  Navbar = () => {
         <div className="flex justify-center items-center max-w-[1240px] mx-auto px-4 text-white font-Montserrat">
             <div className="text-black flex justify-center items-center">
                 <div className="mobile:hidden sm:hidden 2xl:block xl:block lg:block">
-                    <ul className="flex gap-3">
-                        <li>Home</li>
+                    <ul className="flex gap-3 mr-3">
+                        <Link to="/"><li>Home</li></Link>
                         <li>About Us</li>
                         <li> Services</li>
                     </ul>
