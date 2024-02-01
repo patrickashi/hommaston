@@ -37,18 +37,18 @@ const  Navbar = () => {
             </div>
 
             {/* toggle menu */}
-            <div className={nav ? "fixed left-0 top-0 h-full w-[90%] border-r border-r-gray-900 ease-out duration-500 bg-black" : "fixed left-[-100%]"}>
+            <div className={nav ? "fixed left-0 top-0 h-full w-[85%] border-r border-r-gray-900 ease-out duration-500 bg-black" : "fixed left-[-100%]"}>
 
                 <div className="mx-4 pt-4">
                     <img src={hommastonlogo} alt="logo" className="w-40"/>
                 </div>
                 <ul className="p-4 my-6">
-                    <li className="p-4 border-l mb-2 border-blue-600">Home</li>
-                    <li className="p-4 border-l mb-2 border-green-600">About Us</li>
-                    <li className="p-4 border-l mb-2 border-red-600">Services</li>
-                    <li className="p-4 border-l mb-2 border-pink-600">Hepburn</li>
-                    <li className="p-4 border-l mb-2 border-yellow-600">Our Team</li>
-                    <li className="p-4 border-l border-emerald-300">Contact</li>
+                    <li className="px-4 py-1 border-l mb-2 border-blue-600">Home</li>
+                    <li className="px-4 py-1 border-l mb-2 border-green-600">About Us</li>
+                    <li className="px-4  py-1 border-l mb-2 border-red-600">Services</li>
+                    <li className="px-4 py-1 border-l mb-2 border-pink-600">Hepburn</li>
+                    <li className="px-4 py-1 border-l mb-2 border-yellow-600">Our Team</li>
+                    <li className="px-4 py-1 border-l border-emerald-300">Contact</li>
                 </ul>
 
                {/* <div className="">
