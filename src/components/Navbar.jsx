@@ -1,5 +1,12 @@
 import React, {useState} from "react";
 import {AiOutlineClose, AiOutlineMenu} from "react-icons/ai";
+import { MdHome } from "react-icons/md";
+import { BsPatchQuestion } from "react-icons/bs";
+import { GrServices } from "react-icons/gr";
+
+import { LiaServicestack } from "react-icons/lia";
+import { AiOutlineTeam } from "react-icons/ai";
+import { LuContact } from "react-icons/lu";
 import hommastonlogo from "../assets/hommastonlogo.png"
 import { Link } from "react-router-dom";
 
@@ -43,13 +50,31 @@ const  Navbar = () => {
                 <div className="mx-4 pt-4">
                     <img src={hommastonlogo} alt="logo" className="w-40"/>
                 </div>
-                <ul className="p-4 my-6">
-                    <li className="px-4 py-1 border-l mb-2 border-blue-600">Home</li>
-                    <li className="px-4 py-1 border-l mb-2 border-green-600">About Us</li>
-                    <li className="px-4  py-1 border-l mb-2 border-red-600">Services</li>
-                    <li className="px-4 py-1 border-l mb-2 border-pink-600">Hepburn</li>
-                    <li className="px-4 py-1 border-l mb-2 border-yellow-600">Our Team</li>
-                    <li className="px-4 py-1 border-l border-emerald-300">Contact</li>
+                <ul className="p-4 my-6 ">
+                    <div className="flex gap-2 items-center py-2">
+                        <MdHome  className="flex items-center"/>
+                        <li className="">Home</li>
+                    </div>
+                    <div className="flex gap-2 items-center  py-2">
+                        <BsPatchQuestion className="flex items-center" />
+                        <li className="">About Us</li>
+                    </div>
+                    <div className="flex gap-2 items-center  py-2">
+                        <GrServices className="flex items-center"/>
+                        <li className="">Services</li>
+                    </div>
+                    <div className="flex gap-2 items-center  py-2">
+                        <LiaServicestack className="flex items-center"/>
+                        <li className="">Hepburn</li>
+                    </div>
+                    <div className="flex gap-2 items-center  py-2">
+                        <AiOutlineTeam className="flex items-center"/>
+                        <li className="">Our Team</li>
+                    </div>
+                    <div className="flex gap-2 items-center  py-2">
+                        <LuContact className="flex items-center" />
+                         <li className="">Contact</li>
+                    </div>
                 </ul>
 
                {/* <div className="">
