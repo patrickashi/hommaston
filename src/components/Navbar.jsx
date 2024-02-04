@@ -51,27 +51,27 @@ const  Navbar = () => {
                     <img src={hommastonlogo} alt="logo" className="w-40"/>
                 </div>
                 <ul className="p-4 my-6 ">
-                    <div className="flex gap-2 items-center py-2">
+                    <div className="flex gap-2 items-center py-2 my-4">
                         <MdHome  className="flex items-center"/>
                         <li className="">Home</li>
                     </div>
-                    <div className="flex gap-2 items-center  py-2">
+                    <div className="flex gap-2 items-center  py-2 my-5">
                         <BsPatchQuestion className="flex items-center" />
                         <li className="">About Us</li>
                     </div>
-                    <div className="flex gap-2 items-center  py-2">
+                    <div className="flex gap-2 items-center  py-2 my-5">
                         <GrServices className="flex items-center"/>
                         <li className="">Services</li>
                     </div>
-                    <div className="flex gap-2 items-center  py-2">
+                    <div className="flex gap-2 items-center  py-2 my-5">
                         <LiaServicestack className="flex items-center"/>
                         <li className="">Hepburn</li>
                     </div>
-                    <div className="flex gap-2 items-center  py-2">
+                    <div className="flex gap-2 items-center  py-2 my-5">
                         <AiOutlineTeam className="flex items-center"/>
                         <li className="">Our Team</li>
                     </div>
-                    <div className="flex gap-2 items-center  py-2">
+                    <div className="flex gap-2 items-center  py-2 my-5">
                         <LuContact className="flex items-center" />
                          <li className="">Contact</li>
                     </div>
