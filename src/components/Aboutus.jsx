@@ -1,11 +1,12 @@
 import React from 'react'
 import { FaCircleDot } from "react-icons/fa6";
+import trafficlight from "../assets/trafficlight.png";
 import "../index.css"
 
 const Aboutus = () => {
   return (
-    <div className='2xl:mx-[40px] mobile:ml-5 font-nunito'>
-        <div className='mobile:grid 2xl:grid-cols-2'>
+    <div className='2xl:mx-[40px] mobile:ml-5 font-nunito py-4'>
+        <div className='mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2'>
             <div className=''>
                 <p className='text-[#FF0000] font-bold text-2xl'>About Us</p>
                 <p className='font-bold'>One Platform, Countless Benefits</p>
@@ -28,8 +29,8 @@ const Aboutus = () => {
 
                 <button className='text-white bg-[#0504AA] rounded-xl px-3'>LearnMore</button>
             </div>
-            <div>
-                <img src="" alt="img" />
+            <div className='flex items-center mobile:justify-center 2xl:justify-start xl:justify-start'>
+                <img src={trafficlight} size={40} alt="img" className='h-[300px]' />
             </div>
         </div>
     </div>
