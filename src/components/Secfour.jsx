@@ -1,5 +1,6 @@
 import React from 'react'
-import hommastonlogo from "../assets/hommastonlogo.png";
+import hommastonlogo from "../assets/hommastonlogo.png"
+import hommastonhepburn from "../assets/hommastonhepburn.jpg";
 
 
 const Secfour = () => {
@@ -8,7 +9,7 @@ const Secfour = () => {
         <div className='flex bg-gray-300 my-6 2xl:mx-20 xl:mx-20 lg:mx-20 mobile:mx-2 mobile:rounded-lg 2xl:rounded-full xl:rounded-full lg:rounded-full
         md:rounded-full py-4 2xl:px-20 xl:px-20 lg:px-20 md:px-20 mobile:px-4 flex-col items-center justify-center border-4 border-[#178F04]'>
             <div>
-                <img src={hommastonlogo} size={20} alt="img" />
+                <img src={hommastonlogo} size={20} alt="img" className='' />
             </div>
             <p className='my-6 flex justify-center'>
                 Hommaston Limited is an Indegenous company, with a focus to positively impact capacity development goals and 

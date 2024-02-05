@@ -2,6 +2,7 @@ import React from 'react'
 import Secone from '../components/Secone'
 import Aboutus from '../components/Aboutus'
 import Secfour from '../components/Secfour'
+import Secfive from '../components/Secfive'
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
         <Secone />
         <Aboutus />
         <Secfour />
+        <Secfive />
     </div>
   )
 }
