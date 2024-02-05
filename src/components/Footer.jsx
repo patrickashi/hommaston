@@ -8,7 +8,7 @@ const Footer = () => {
          2xl:mx-20 xl:mx-20 lg:mx-20 md:mx-20'>
             <div className='flex flex-col justify-center items-center'>
                 <div>
-                    <img src={hommastonlogo} alt="img" />
+                    <img src={hommastonlogo} size={10} alt="img" className='w-40' />
                 </div>
                 <div>
                     <ul className='flex'>
@@ -35,12 +35,12 @@ const Footer = () => {
             </div>
 
             <div className='flex flex-col 2xl:items-end xl:items-end lg:items-end md:items-center sm:items-center mobile:items-center'>
-                <div className='flex'>
+                <div className='flex mobile:flex-col items-center justify-center'>
                     <p>9.Adebola Street off Adeniran ogunsanya Rd,Surulere.Lagos.</p>
                     <img src="" alt="img" />
                 </div>
-                <div className='my-4'>
-                    <p>5th Floor.Knight Frank Building, 24 Campbell Street. Lagos Island Nigeria.</p>
+                <div className='my-4 md:items-end sm:items-end flex mobile:justify-center mobile:items-center'>
+                    <p className='flex justify-center items-center'>5th Floor.Knight Frank Building, 24 Campbell Street. Lagos Island Nigeria.</p>
                 </div>
                 <div className='flex my-4'>
                     <p>+234 705 551 9436</p>
