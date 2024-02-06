@@ -1,5 +1,7 @@
 import React from 'react'
 import hommastonlogo from "../assets/hommastonlogo.png";
+import { FaFacebook } from "react-icons/fa";
+import { LiaLinkedinIn } from "react-icons/lia";
 
 const Footer = () => {
   return (
@@ -12,10 +14,10 @@ const Footer = () => {
                 </div>
                 <div className='flex'>
                     <ul className='flex gap-8'>
-                        <li>1</li>
+                        <li><LiaLinkedinIn size={20} className='shadow-md shadow-gray-300 rounded-full'/></li>
                         <li>2</li>
                         <li>3</li>
-                        <li>4</li>
+                        <li><FaFacebook size={20} className='shadow-md shadow-gray-300 rounded-full'/></li>
                     </ul>
                 </div>
             </div>
