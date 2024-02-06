@@ -13,7 +13,7 @@ const Secone = () => {
                 
 
                 <p className='my-5 text-xl'>Share your Experience through Hommaston</p>
-                <button className='bg-[#ED1C24] text-white rounded-2xl px-4 py-1 my-5'>Explore Courses</button>
+                <button className='bg-[#ED1C24] text-white rounded-2xl px-4 py-3 my-5'>Explore Courses</button>
 
                 <div className='flex mt-10 gap-[-4px]'>
                   <div className='bg-[#ED1C24] rounded-full py-2 px-5 '></div>
