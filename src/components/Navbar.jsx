@@ -9,6 +9,7 @@ import { AiOutlineTeam } from "react-icons/ai";
 import { LuContact } from "react-icons/lu";
 import hommastonlogo from "../assets/hommastonlogo.png"
 import { Link } from "react-router-dom";
+import "../index.css"
 
 
 const  Navbar = () => {
@@ -23,19 +24,19 @@ const  Navbar = () => {
             <div className="text-black flex justify-center items-center">
                 <div className="mobile:hidden sm:hidden 2xl:block xl:block lg:block">
                     <ul className="flex gap-3 mr-3">
-                        <Link to="/"><li>Home</li></Link>
-                        <li>About Us</li>
-                        <li> Services</li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/aboutusp">About Us</Link></li>
+                        <li><Link to="/Servicesp">Services</Link> </li>
                     </ul>
                 </div>
                 <div className="mx-4 pb-4 mobile:block mobile:pt-2 mobile:ml-0 mobile:pl-1">
-                    <img src={hommastonlogo} alt="logo" className="w-40 mobile:w-30 "/>
+                    <Link to="/"><img src={hommastonlogo} alt="logo" className="w-40 mobile:w-30 "/></Link>
                 </div>
                 <div className="mobile:hidden sm:hidden 2xl:block xl:block lg:block">
                     <ul className="flex gap-3">
-                        <li>Hepburn</li>
-                        <li>Our Team</li>
-                        <li> Contact</li>
+                        <li><Link to="/Hepburnp">Hepburn</Link></li>
+                        <li><Link to="/Ourteamp">Our Team</Link></li>
+                        <li> <Link to="/Contactp">Contact</Link></li>
                     </ul>
                 </div>
             </div>
@@ -53,27 +54,27 @@ const  Navbar = () => {
                 <ul className="p-4 my-6 ">
                     <div className="flex gap-2 items-center py-2 my-4">
                         <MdHome  className="flex items-center"/>
-                        <li className="">Home</li>
+                        <li className=""> <Link to="/"> Home</Link></li>
                     </div>
                     <div className="flex gap-2 items-center  py-2 my-5">
                         <BsPatchQuestion className="flex items-center" />
-                        <li className="">About Us</li>
+                        <li className=""><Link to="/aboutusp">About Us</Link></li>
                     </div>
                     <div className="flex gap-2 items-center  py-2 my-5">
                         <GrServices className="flex items-center"/>
-                        <li className="">Services</li>
+                        <li className=""> <Link to="/Servicesp">Services</Link></li>
                     </div>
                     <div className="flex gap-2 items-center  py-2 my-5">
                         <LiaServicestack className="flex items-center"/>
-                        <li className="">Hepburn</li>
+                        <li className=""><Link to="/Hepburnp">Hepburn</Link></li>
                     </div>
                     <div className="flex gap-2 items-center  py-2 my-5">
                         <AiOutlineTeam className="flex items-center"/>
-                        <li className="">Our Team</li>
+                        <li className=""><Link to="/Ourteamp">Our Team</Link></li>
                     </div>
                     <div className="flex gap-2 items-center  py-2 my-5">
                         <LuContact className="flex items-center" />
-                         <li className="">Contact</li>
+                         <li className=""><Link to="/Contactp">Contact</Link></li>
                     </div>
                 </ul>
 

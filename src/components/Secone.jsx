@@ -2,6 +2,7 @@ import React from 'react'
 import sponge from "../assets/sponge.gif";
 import hommastonlogo from "../assets/hommastonlogo.png";
 import { PiDropboxLogoDuotone } from "react-icons/pi";
+import manwhite from "../assets/manwhite.png"
 
 const Secone = () => {
   return (
@@ -26,7 +27,7 @@ const Secone = () => {
                 </div>
             </div>
             <div className='flex items-center mobile:justify-center 2xl:justify-start xl:justify-start'>
-              <img src={sponge} alt="img" className='w-80' />
+              <img src={manwhite} alt="img" className='w-80' />
             </div>
         </div>
 
