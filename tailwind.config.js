@@ -20,7 +20,11 @@ module.exports = {
       '2xl': {'min': '1536px'},
       // => @media (min-width: 1536px) { ... }
     }, 
-    extend: {},
+    extend: {
+      fontFamily:{
+        Montserrat:['Montserrat', 'sans-serif']
+      }
+    },
   },
   plugins: [],
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],

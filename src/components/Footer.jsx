@@ -3,15 +3,15 @@ import hommastonlogo from "../assets/hommastonlogo.png";
 
 const Footer = () => {
   return (
-    <div className='bg-black py-8 text-white'>
+    <div className='bg-black py-8 text-white font-Montserrat'>
         <div className='flex xl:flex-row lg:flex-row 2xl:flex-row mobile:flex-col py-4 text-sm justify-evenly border-b border-gray-700
          2xl:mx-20 xl:mx-20 lg:mx-20 md:mx-20'>
             <div className='flex flex-col justify-center items-center'>
                 <div>
                     <img src={hommastonlogo} size={10} alt="img" className='w-40' />
                 </div>
-                <div>
-                    <ul className='flex'>
+                <div className='flex'>
+                    <ul className='flex gap-8'>
                         <li>1</li>
                         <li>2</li>
                         <li>3</li>

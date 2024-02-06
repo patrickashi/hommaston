@@ -9,7 +9,7 @@ import car5 from "../assets/car5.jpg";
 const Secfive = () => {
   return (
     <div>
-        <div className='flex justify-center flex-col items-center py-6'>
+        <div className='flex justify-center flex-col items-center py-6 font-Montserrat'>
             <h1 className='text-3xl mb-2'>Our most Popular <span className='text-[#0504AA]'>Courses</span></h1>
             <div className='flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col mobile:flex-col gap-5'>
                 <div className='px-4 mobile:mx-4 py-4 flex flex-col items-center shadow-md rounded-md shadow-[#ED1C24] justify-center'>
