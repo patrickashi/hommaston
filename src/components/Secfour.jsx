@@ -6,8 +6,8 @@ import hommastonhepburn from "../assets/hommastonhepburn.jpg";
 const Secfour = () => {
   return (
     <div className='font-Montserrat'>
-        <div className='flex bg-[#D9D9D9] my-6 2xl:mx-20 xl:mx-20 lg:mx-20 mobile:mx-2 mobile:rounded-lg 2xl:rounded-full xl:rounded-full lg:rounded-full
-        md:rounded-full py-14 2xl:px-20 xl:px-20 lg:px-20 md:px-20 mobile:px-4 flex-col items-center justify-center border-4 border-[#178F04]'>
+        <div className='flex bg-[#D9D9D9] my-6
+         py-14 2xl:px-20 xl:px-20 lg:px-20 md:px-20 mobile:px-4 flex-col items-center justify-center'>
             <div>
                 <img src={hommastonlogo} size={20} alt="img" className='' />
             </div>
