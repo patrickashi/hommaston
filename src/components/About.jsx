@@ -12,6 +12,20 @@ const About = () => {
                 <h1 className='2xl:text-6xl xl:text-6xl lg:text-6xl mobile:text-3xl py-4 font-bold text-black'>About Us</h1>
             </div>
         </div>
+
+        <div className='py-16 mt-10 2xl:mx-20 xl:mx-20 lg:mx-20 md:mx-20 sm:mx-4 mobile:mx-4'>
+          <p className='text-center text-2xl'>
+            Hommaston operates two core divisions. Red Division(Hommaston Engineering)
+            focal delivery of choice skillset for design engineering, facility maintenance
+            and operations support competency and performance. The blue division(Hommaston digital)
+            handles human capital, Drone tech, Cloud computing, Corporate soft skills
+            and all other non-engineering, certification preparatory courses.
+          </p>
+
+          <div className='my-8'>
+            <h1 className='text-2xl text-center font-bold'>Training programmes</h1>
+          </div>
+        </div>
         
     </div>
   )
