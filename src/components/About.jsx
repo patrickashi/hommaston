@@ -8,7 +8,7 @@ const About = () => {
             <img src={webdesign2}  alt="img" size={20} className='h-full w-full object-cover z-0' />
             <div className='absolute mt-[-55px] mx-auto border-2 flex justify-center items-center inset-x-0 bg-gray-100/10
             2xl:mx-20 mobile:mx-5 rounded-2xl shadow-md shadow-violet-400 mx-auto z-0'>
-                <h1 className='text-6xl py-4 font-bold'>About Us</h1>
+                <h1 className='2xl:text-6xl mobile:text-3xl py-4 font-bold'>About Us</h1>
             </div>
         </div>
         
