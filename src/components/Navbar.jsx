@@ -46,7 +46,7 @@ const  Navbar = () => {
             </div>
 
             {/* toggle menu */}
-            <div className={nav ? "fixed left-0 top-0 h-full w-[85%] border-r border-r-gray-900 ease-out duration-500 bg-black" : "fixed left-[-100%]"}>
+            <div className={nav ? "fixed left-0 top-0 h-full w-[85%] border-r border-r-gray-900 ease-out duration-500 bg-black" : "fixed left-[-100%] z-10"}>
 
                 <div className="mx-4 pt-4">
                     <img src={hommastonlogo} alt="logo" className="w-40"/>
