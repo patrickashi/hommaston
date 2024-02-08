@@ -3,8 +3,8 @@ import webdesign2 from "../assets/webdesign2.jpg";
 
 const About = () => {
   return (
-    <div >
-        <div className='relative w-full h-[300px] font-Montserrat'>
+    <div className='font-Montserrat'>
+        <div className='relative w-full h-[300px]'>
             <img src={webdesign2}  alt="img" size={20} className='h-full w-full object-cover z-0' />
             <div className='absolute 2xl:mt-[-55px] mobile:mt-[-20px] mx-auto border-2 flex justify-center 
             xl:mt-[-55px] lg:mt-[-55px] md:mt-[-55px] sm:mt-[-20px] items-center inset-x-0 bg-gray-700/20
