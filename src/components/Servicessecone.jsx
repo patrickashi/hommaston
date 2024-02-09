@@ -22,8 +22,6 @@ const Servicessecone = () => {
                     mobile:px-6 mobile:py-3 xl:rounded-[100px] lg:rounded-[100px]'>Division Red</div>
                 </div>
 
-               
-                
             </div>
         </div>
     </div>
