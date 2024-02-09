@@ -1,9 +1,10 @@
 import React from 'react'
+import Servicessecone from '../components/Servicessecone';
 
 const Servicesp = () => {
   return (
-    <div className='bg-orange-400 h-screen'>
-        <div>Services p</div>
+    <div className=' h-screen'>
+        <Servicessecone />
     </div>
   )
 }
