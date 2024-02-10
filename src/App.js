@@ -8,6 +8,8 @@ import Servicesp from "./pages/Servicesp";
 import Hepburnp from "./pages/Hepburnp";
 import Ourteamp from "./pages/Ourteamp";
 import Contactp from "./pages/Contactp";
+import Hommastonbluep from "./pages/Hommastonbluep";
+import Hommastonredp from "./pages/Hommastonredp";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
                 <Route path="/Hepburnp" element={<Hepburnp />} />
                 <Route path="/Ourteamp" element={<Ourteamp />} />
                 <Route path="/Contactp" element={<Contactp />} />
+                <Route path="/Hommastonbluep" element={<Hommastonbluep />} />
+                <Route path="/Hommastonredp" element={<Hommastonredp />}/>
               </Routes>
           </div>
         </div>
