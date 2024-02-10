@@ -10,7 +10,7 @@ const Hepburnp = () => {
             <div className='absolute 2xl:mt-[250px] mobile:mt-[250px] mx-auto border-2 flex justify-center 
             xl:mt-[250px] lg:mt-[250px] md:mt-[250px] sm:mt-[250px] items-center inset-x-0 bg-gray-700/20
             2xl:mx-20 mobile:mx-5 rounded-[300px] shadow-md shadow-violet-400'>
-                <h1 className='2xl:text-6xl xl:text-6xl lg:text-6xl mobile:text-3xl py-4 font-bold 2xl:text-gray-600
+                <h1 className='2xl:text-6xl xl:text-6xl lg:text-6xl mobile:text-3xl py-4 font-bold 2xl:text-gray-700
                 mobile:text-gray-600 bg-neutral-50/70 w-full text-center rounded-full'>HepBurn</h1>
             </div>
         </div>
