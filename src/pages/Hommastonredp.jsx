@@ -1,5 +1,6 @@
 import React from 'react'
 import mechanicalpiping from "../assets/mechanicalpiping.jpg";
+import Footer from '../components/Footer';
 
 const Hommastonredp = () => {
   return (
@@ -13,6 +14,7 @@ const Hommastonredp = () => {
                 mobile:text-[#ED1C24] bg-neutral-50/70 w-full text-center rounded-full'>Hommaston Red</h1>
             </div>
         </div>
+
         <div className='mt-20 2xl:mx-20 xl:mx-20 lg:mx-20 md:mx-10 sm:mx-5 mobile:mx-4'>
             <p>
                 Thank you for visiting our Red division page. The Red Division provides a diverse range of training programs 
@@ -20,7 +22,16 @@ const Hommastonredp = () => {
                 services in the Oil and Gas industry with a strong emphasis on integrity. Our pedigree is world-class,
                 and we take pride in our continued progress and success.
             </p>
+
+            <div className='mt-10 mb-20 flex justify-center gap-4 mobile:text-sm 2xl:text-xl xl:text-xl lg:text-lg md:text-md sm:text-sm flex-wrap'>
+                <button className='border-1 rounded-full py-2 px-4 shadow-md shadow-gray-300'>Classroom Training</button>
+                <button className='border-1 rounded-full py-2 px-4 shadow-md shadow-gray-300'>Online Training</button>
+                <button className='border-1 rounded-full py-2 px-4 shadow-md shadow-gray-300'>Blended Training</button>
+            </div>
+
         </div>
+
+        <Footer />
     </div>
   )
 }
