@@ -14,7 +14,7 @@ const Hommastonbluep = () => {
             xl:mt-[250px] lg:mt-[250px] md:mt-[250px] sm:mt-[250px] items-center inset-x-0 bg-neutral-50/70
             2xl:mx-20 mobile:mx-5 rounded-[300px] shadow-md shadow-violet-400'>
                 <Link to="/Servicesp"> <MdArrowBackIosNew className='mr-3 rounded-md bg-gray-100 w-10 '/> </Link>
-                <h1 className='2xl:text-5xl xl:text-5xl lg:text-5xl mobile:text-3xl py-4 font-bold 2xl:text-[#0504AA]
+                <h1 className='2xl:text-5xl xl:text-5xl lg:text-5xl sm:text-2xl mobile:text-2xl py-4 font-bold 2xl:text-[#0504AA]
                 mobile:text-[#0504AA]  text-center rounded-full'>Hommaston Blue</h1>
             </div>
         </div>
