@@ -1,6 +1,9 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import instrumentationandcontrol from "../assets/instrumentationandcontrol.jpg";
 import Footer from '../components/Footer';
+
+import { MdArrowBackIosNew } from "react-icons/md";
 
 const Hommastonbluep = () => {
   return (
@@ -8,10 +11,11 @@ const Hommastonbluep = () => {
         <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${instrumentationandcontrol})` }}>
             {/* <img src={hepburnpic}  alt="img" size={20} className='h-full w-full object-cover z-0' /> */}
             <div className='absolute 2xl:mt-[250px] mobile:mt-[250px] mx-auto border-2 flex justify-center 
-            xl:mt-[250px] lg:mt-[250px] md:mt-[250px] sm:mt-[250px] items-center inset-x-0 bg-gray-700/20
+            xl:mt-[250px] lg:mt-[250px] md:mt-[250px] sm:mt-[250px] items-center inset-x-0 bg-neutral-50/70
             2xl:mx-20 mobile:mx-5 rounded-[300px] shadow-md shadow-violet-400'>
+                <Link to="/Servicesp"> <MdArrowBackIosNew className='mr-6 rounded-md bg-gray-100 w-10 '/> </Link>
                 <h1 className='2xl:text-5xl xl:text-5xl lg:text-5xl mobile:text-3xl py-4 font-bold 2xl:text-[#0504AA]
-                mobile:text-[#0504AA] bg-neutral-50/70 w-full text-center rounded-full'>Hommaston Blue</h1>
+                mobile:text-[#0504AA]  text-center rounded-full'>Hommaston Blue</h1>
             </div>
         </div>
         
@@ -27,7 +31,9 @@ const Hommastonbluep = () => {
             </p>
 
             <div className='my-10  flex justify-center gap-4 mobile:text-sm 2xl:text-xl xl:text-xl lg:text-lg md:text-md sm:text-sm flex-wrap'>
-                <button className='border-1 rounded-full py-2 px-4 shadow-md shadow-gray-300'>Classroom Training</button>
+                <Link to="/Classroomblue">
+                    <button className='border-1 rounded-full py-2 px-4 shadow-md shadow-gray-300'>Classroom Training</button>
+                </Link>
                 <button className='border-1 rounded-full py-2 px-4 shadow-md shadow-gray-300'>Online Training</button>
                 <button className='border-1 rounded-full py-2 px-4 shadow-md shadow-gray-300'>Blended Training</button>
             </div>
