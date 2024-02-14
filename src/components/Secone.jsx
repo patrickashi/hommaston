@@ -46,10 +46,10 @@ const Secone = () => {
           <div className='flex justify-between 2xl:gap-20 xl:gap-20 lg:gap-8 mobile:gap-8 flex-wrap'>
 
             <div> <img src={iso1} size={20} alt="logo" className='w-20 '/></div>
-            <div> <img src={CPD} alt="logo" size={20} className='w-[50px]'/></div>
-            <div><img src={iso9} size={20} alt="logo" className='w-20'/></div>
-            <div> <img src={LPI} alt="logo" size={20} className='w-20'/></div>
-            <div> <img src={acdt} alt="logo" size={20} className='w-20'/></div>
+            <div> <img src={iso1} alt="logo" size={20} className='w-20'/></div>
+            <div><img src={iso1} size={20} alt="logo" className='w-20'/></div>
+            <div> <img src={iso1} alt="logo" size={20} className='w-20'/></div>
+            
             
             {/* <div> <img src={} alt="logo" /></div> */}
            
