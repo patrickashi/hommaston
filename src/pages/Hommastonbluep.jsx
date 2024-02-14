@@ -20,7 +20,7 @@ const Hommastonbluep = () => {
         </div>
         
         <div className='mt-20 2xl:mx-20 xl:mx-20 lg:mx-20 md:mx-10 sm:mx-5 mobile:mx-4'>
-            <p>
+            <p className='text-justify'>
                 Welcome to Blue Division, where we have expanded our focus to include digital skills, blue-collar skills, 
                 and non-oil and gas sectors. Our goal is to provide a comprehensive range of services that cater to the
                 needs of these industries. We are committed to delivering high-quality solutions that meet the demands

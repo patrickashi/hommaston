@@ -20,7 +20,7 @@ const Hommastonredp = () => {
         </div>
 
         <div className='mt-20 2xl:mx-20 xl:mx-20 lg:mx-20 md:mx-10 sm:mx-5 mobile:mx-4'>
-            <p>
+            <p className='text-justify'>
                 Thank you for visiting our Red division page. The Red Division provides a diverse range of training programs 
                 tailored for the oil and gas industry. For over a decade, we have been providing top-notch training 
                 services in the Oil and Gas industry with a strong emphasis on integrity. Our pedigree is world-class,

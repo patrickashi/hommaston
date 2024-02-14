@@ -21,7 +21,8 @@ const Hepburnp = () => {
         {/* section1 */}
         <div className='mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid sm:grid mt-20 2xl:mx-[200px]
          xl:mx-20 lg:mx-15 md:mx-4 sm:mx-4 mobile:mx-4'>
-          <div>
+
+          <div className='text-justify'>
             <p>
               Hommaston Limited is an indigenous company, with a focus to positively impact capacity development goals
               and to deliver quality cost-effective solutions and services. Our effective management of technical 
@@ -60,7 +61,7 @@ const Hepburnp = () => {
               <img src={plantingtrees} alt="img" className='h-full object-cover'/>
             </div>
 
-            <div className='2xl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2'>
+            <div className='text-justify 2xl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2'>
               <p>
                   Our solution achieves three, 3, key things: Breakup of difficult and caked concentrated formulations
                   of sewage in sewage pits - an anaerobic pit, improved biological wastewater parameters in-line with
@@ -91,7 +92,7 @@ const Hepburnp = () => {
         <div className='mobile:grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 sm:grid my-12
         2xl:mx-[200px] xl:mx-20 lg:mx-15 md:mx-4 sm:mx-4 mobile:mx-4 gap-4'>
 
-          <div className='2xl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2'>
+          <div className='text-justify 2xl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2'>
             <p>
               Hommaston now seeks to align in Lagos with the Holistic deployment of its licensed range of Hepburn 
               Bio Care chemical products as a SUSTAINABLE SOLUTION FOR WASTEWATER MANAGEMENT. By tackling the familiar 

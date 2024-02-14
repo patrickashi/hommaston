@@ -32,7 +32,8 @@ const Nchcdp = () => {
 
         <div className='my-20 2xl:mx-[200px] xl:mx-20 lg:mx-20 md:mx-10 sm:mx-5 mobile:mx-4
         2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 mobile:grid'>
-            <div className='2xl:col-span-2 xl:col-span-2 lg:col-span-2'>
+
+            <div className='2xl:col-span-2 xl:col-span-2 lg:col-span-2 text-justify'>
                 <p>
                     Meeting the client's expectation and deliver as required qualitatively as previously explained.
                 </p>
