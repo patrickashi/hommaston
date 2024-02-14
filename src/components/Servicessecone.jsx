@@ -11,8 +11,8 @@ const Servicessecone = () => {
                 <div className='text-4xl text-center bg-white/50 text-[#292D32] py-10 rounded-xl'>Services</div>
             </div>
             
-            <div className='absolute flex flex-row 2xl:gap-20 mobile:gap-6 items-center justify-center mt-6 2xl:ml-[440px]
-             mobile:ml-4 xl:ml-[440px] lg:ml-[300px] md:ml-[300px] sm:ml-[100px]'>
+            <div className='absolute flex flex-row 2xl:gap-20 mobile:gap-3 items-center justify-center mt-6 2xl:ml-[200px]
+             mobile:ml-0 xl:ml-[150px] lg:ml-[100px] md:ml-[100px] sm:ml-[100px]'>
                 <div className='pt-2'>
                     <Link to="/Hommastonbluep">
                         <div className='2xl:text-4xl xl:text-4xl lg:text-3xl mobile:text-md text-center bg-white 2xl:rounded-[100px] mobile:rounded-lg 2xl:py-4 2xl:px-16 mx-auto text-[#292D32]
@@ -26,6 +26,14 @@ const Servicessecone = () => {
                         mobile:px-6 mobile:py-3 xl:rounded-[100px] lg:rounded-[100px]'>Division Red</div>
                     </Link>
                 </div>
+
+                <div className='pt-2'>
+                    <Link to="/Nchcdp">
+                        <div className='2xl:text-4xl xl:text-4xl lg:text-3xl  mobile:text-md text-center bg-white 2xl:rounded-[100px] mobile:rounded-lg 2xl:py-4 2xl:px-16 text-[#292D32]
+                        mobile:px-6 mobile:py-3 xl:rounded-[100px] lg:rounded-[100px]'>NC-HCD Training</div>
+                    </Link>
+                </div>
+
 
             </div>
         </div>

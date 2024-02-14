@@ -12,6 +12,7 @@ import Hommastonbluep from "./pages/Hommastonbluep";
 import Hommastonredp from "./pages/Hommastonredp";
 import Classroomredp from "./pages/Classroomredp";
 import Classroomblue from "./pages/Classroomblue";
+import Nchcdp from "./pages/Nchcdp";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
                 <Route path="/Hommastonredp" element={<Hommastonredp />}/>
                 <Route path="/Classroomredp" element={<Classroomredp />}/>
                 <Route path="/Classroomblue" element={<Classroomblue />}/>
+                <Route path="/Nchcdp" element={<Nchcdp />} />
               </Routes>
           </div>
         </div>

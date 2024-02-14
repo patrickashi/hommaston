@@ -14,7 +14,8 @@ const About = () => {
         </div>
 
         <div className='py-16 mt-10 2xl:mx-20 xl:mx-20 lg:mx-20 md:mx-20 sm:mx-4 mobile:mx-4'>
-          <p className='text-center text-2xl'>
+
+          <p className='2xl:text-center xl:text-center lg:text-center md:text-center sm:text-start mobile:text-start 2xl:text-xl xl:text-xl lg:text-xl md:text-lg mobile:text-sm'>
             Hommaston operates two core divisions. Red Division(Hommaston Engineering)
             focal delivery of choice skillset for design engineering, facility maintenance
             and operations support competency and performance. The blue division(Hommaston digital)
