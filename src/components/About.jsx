@@ -6,9 +6,9 @@ const About = () => {
     <div className='font-Montserrat'>
         <div className='relative w-full h-[300px]'>
             <img src={webdesign2}  alt="img" size={20} className='h-full w-full object-cover z-0' />
-            <div className='absolute 2xl:mt-[-55px] mobile:mt-[-20px] mx-auto border-2 flex justify-center 
-            xl:mt-[-55px] lg:mt-[-55px] md:mt-[-55px] sm:mt-[-20px] items-center inset-x-0 bg-neutral-50/70
-            2xl:mx-20 mobile:mx-5 rounded-[300px] shadow-md shadow-violet-400 z-10'>
+            <div className='absolute 2xl:mt-[-50px] mobile:mt-[-35px] mx-auto border-2 flex justify-center 
+            xl:mt-[-50px] lg:mt-[-50px] md:mt-[-35px] sm:mt-[-35px] items-center inset-x-0 bg-neutral-50/70
+            2xl:mx-20 mobile:mx-5 rounded-2xl shadow-md shadow-violet-400 z-10'>
                 <h1 className='2xl:text-6xl xl:text-6xl lg:text-6xl mobile:text-3xl py-4 font-bold text-gray-700'>About Us</h1>
             </div>
         </div>

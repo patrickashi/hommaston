@@ -15,22 +15,22 @@ const Servicessecone = () => {
              mobile:ml-0 xl:ml-[150px] lg:ml-[100px] md:ml-[100px] sm:ml-[100px]'>
                 <div className='pt-2'>
                     <Link to="/Hommastonbluep">
-                        <div className='2xl:text-4xl xl:text-4xl lg:text-3xl mobile:text-md text-center bg-white 2xl:rounded-[100px] mobile:rounded-lg 2xl:py-4 2xl:px-16 mx-auto text-[#292D32]
-                        mobile:px-6 mobile:py-3 xl:rounded-[100px] lg:rounded-[100px]'>Division Blue</div>
+                        <div className='2xl:text-4xl xl:text-4xl lg:text-3xl mobile:text-md text-center bg-white 2xl:rounded-xl mobile:rounded-lg 2xl:py-4 2xl:px-16 mx-auto text-[#292D32]
+                        mobile:px-6 mobile:py-3 xl:rounded-xl lg:rounded-xl'>Division Blue</div>
                     </Link>
                 </div>
 
                 <div className='pt-2'>
                     <Link to="/Hommastonredp">
-                        <div className='2xl:text-4xl xl:text-4xl lg:text-3xl  mobile:text-md text-center bg-white 2xl:rounded-[100px] mobile:rounded-lg 2xl:py-4 2xl:px-16 text-[#292D32]
-                        mobile:px-6 mobile:py-3 xl:rounded-[100px] lg:rounded-[100px]'>Division Red</div>
+                        <div className='2xl:text-4xl xl:text-4xl lg:text-3xl  mobile:text-md text-center bg-white 2xl:rounded-xl mobile:rounded-lg 2xl:py-4 2xl:px-16 text-[#292D32]
+                        mobile:px-6 mobile:py-3 xl:rounded-xl lg:rounded-xl'>Division Red</div>
                     </Link>
                 </div>
 
                 <div className='pt-2'>
                     <Link to="/Nchcdp">
-                        <div className='2xl:text-4xl xl:text-4xl lg:text-3xl  mobile:text-md text-center bg-white 2xl:rounded-[100px] mobile:rounded-lg 2xl:py-4 2xl:px-16 text-[#292D32]
-                        mobile:px-6 mobile:py-3 xl:rounded-[100px] lg:rounded-[100px]'>NC-HCD Training</div>
+                        <div className='2xl:text-4xl xl:text-4xl lg:text-3xl  mobile:text-md text-center bg-white 2xl:rounded-xl mobile:rounded-lg 2xl:py-4 2xl:px-16 text-[#292D32]
+                        mobile:px-6 mobile:py-3 xl:rounded-xl lg:rounded-xl'>NC-HCD Training</div>
                     </Link>
                 </div>
 
