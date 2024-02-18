@@ -34,7 +34,7 @@ const Secone = () => {
                   <div className='bg-[#ED1C24] rounded-full py-2 px-[6px] text-white'>+20 </div> <span className='flex items-center ml-2 text-[#808080]'>Experts Worldwide</span>
                 </div>
             </div>
-            <div className='flex items-center mobile:justify-center 2xl:justify-start xl:justify-start'>
+            <div className='flex items-center mobile:justify-center 2xl:justify-center xl:justify-start'>
               <img src={manwhite} alt="img" className='w-80' />
             </div>
         </div>
