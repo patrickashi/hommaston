@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 import Accreditors from '../components/Accreditors'
 import Newsletter from '../components/Newsletter'
 
+
 const Home = () => {
   return (
     <div className='w-full text-black'>
