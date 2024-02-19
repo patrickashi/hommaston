@@ -12,7 +12,7 @@ const Faq = () => {
   return (
     <div className='w-full py-8 font-Montserrat h-full bg-black text-white'>
         <div className=''>
-            <h1 className='font-bold text-center mobile:text-2xl'>FAQ'S</h1>
+            <h1 className='font-bold text-center mobile:text-2xl animate-pulse space-x-4'>FAQ'S</h1>
             <h2 className='text-[#C7C5C5] text-center my-4'> Got Questions?</h2>
 
             <p className='text-center'>Get the answers to your questions about Hommaston</p>
