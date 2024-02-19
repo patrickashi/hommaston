@@ -6,6 +6,7 @@ import Secfive from '../components/Secfive'
 import Footer from '../components/Footer'
 import Accreditors from '../components/Accreditors'
 import Newsletter from '../components/Newsletter'
+import Faq from '../components/Faq'
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
         <Aboutus />
         <Secfour />
         <Secfive />
+        <Faq />
         <Newsletter />
         <Footer />
     </div>
