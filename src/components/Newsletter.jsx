@@ -6,10 +6,10 @@ const Newsletter = () => {
   return (
     <div className='flex justify-center items-center w-[100%] flex-col text-white py-16 bg-black font-Montserrat border-b border-gray-700'>
         <h1 className='2xl:text-4xl mobile:text-3xl text-center font-bold'>Join Our Learning Community</h1>
-        <h2 className='text-xl mt-2 mobile:p-3 mobile:text-center'>Stay Connected with fellow learners and Instructors by subscribing to our newsletter. 
+        <h2 className='text-xl mt-2 mobile:p-3 mobile:text-center 2xl:w-[1000px]'>Stay Connected with fellow learners and Instructors by subscribing to our newsletter. 
             Get the latest update and be a part of our growing community</h2>
 
-        <div className='flex mt-[3rem] items-center justify-between w-[40rem] h-14 bg-white rounded-2xl border-[#cccccc]
+        <div className='flex mt-[3rem] items-center justify-between 2xl:w-[40rem] xl:w-[40rem] lg:w-[40rem] h-14 bg-white rounded-2xl border-[#cccccc]
          overflow-hidden mobile:w-[23rem]'>
             <input type="email" placeholder='Enter your email address here' className='flex-[7] pl-[10px] text-black  border-none outline-none'/>
             <button className='bg-[#FF0000] flex-1 h-full'>
