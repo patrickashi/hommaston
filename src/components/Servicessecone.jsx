@@ -8,7 +8,7 @@ const Servicessecone = () => {
         <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${classroomedit})` }}>
             {/* <img src={classroomedit} alt="" className='h-full w-full object-cover' /> */}
             <div className='abosolute pt-10 2xl:px-[400px] xl:px-[400px] lg:px-[200px] mobile:px-20 rounded-md'>
-                <div className='text-4xl text-center bg-white/50 text-[#292D32] py-10 rounded-xl'>Services</div>
+                <div className='text-4xl text-center bg-white/50 font-bold text-[#292D32] py-10 rounded-xl animate-pulse space-x-4'>Services</div>
             </div>
             
             <div className='absolute flex flex-row 2xl:gap-20 mobile:gap-3 items-center justify-center mt-6 2xl:ml-[200px]
