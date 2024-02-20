@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import manwhite from "../assets/manwhite.png";
+import tower from "../assets/tower.png";
 import trafficlight from "../assets/trafficlight.png";
 
 const Changeimg = () => {
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
-    const images = [manwhite, trafficlight];
+    const images = [tower, trafficlight];
 
     useEffect( () => {
         const interval = setInterval( () => {
