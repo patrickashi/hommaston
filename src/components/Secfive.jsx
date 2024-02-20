@@ -11,7 +11,7 @@ const Secfive = () => {
     <div>
         <div className='flex justify-center flex-col items-center py-6 font-Montserrat'>
             <h1 className='text-center text-3xl mb-2'>Our most Popular <span className='text-[#0504AA]'>Courses</span></h1>
-            <div className='flex py-16 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col mobile:flex-col mobile:gap-[100px] sm:gap-[100px] md:gap-0 lg:gap-0 xl:gap-0 2xl:gap-5'>
+            <div className='flex py-16 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col mobile:flex-col mobile:gap-[100px] sm:gap-[100px] md:gap-20 lg:gap-0 xl:gap-0 2xl:gap-5'>
 
                 <div className='px-4 mobile:mx-4 py-4 2xl:w-[380px] mobile:w-[340px] flex flex-col items-center shadow-md rounded-md shadow-[#ED1C24] justify-center'>
                     <div className=' 2xl:w-[380px] mobile:w-[300px] flex justify-center'>
