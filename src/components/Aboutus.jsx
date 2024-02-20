@@ -27,7 +27,7 @@ const Aboutus = () => {
                     <p>A supportive community of learners and educators, creating a collaborative and enriching learning environment</p>
                 </div>
 
-                <button className='text-white bg-[#0504AA] rounded-xl px-3 py-1'>Learn More</button>
+                <button className='text-white bg-[#0504AA] rounded-lg px-3 py-1 hover:scale-110 duration-200'>Learn More</button>
             </div>
             <div className='flex items-center mobile:justify-center 2xl:justify-start xl:justify-start'>
                 <img src={trafficlight} size={40} alt="img" className='h-[300px]' />

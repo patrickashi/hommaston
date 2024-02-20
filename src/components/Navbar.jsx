@@ -22,7 +22,7 @@ const  Navbar = () => {
     return ( 
         <div className="flex justify-center items-center max-w-[1240px] mx-auto px-4 text-white font-Montserrat">
             <div className="text-black flex justify-center items-center">
-                <div className="mobile:hidden sm:hidden 2xl:block xl:block lg:block">
+                <div className="mobile:hidden sm:hidden md:block 2xl:block xl:block lg:block">
                     <ul className="flex gap-3 mr-3">
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/aboutusp">About Us</Link></li>
@@ -32,7 +32,7 @@ const  Navbar = () => {
                 <div className="mx-4 pb-4 mobile:block mobile:pt-2 mobile:ml-0 mobile:pl-1">
                     <Link to="/"><img src={hommastonlogo} alt="logo" className="w-40 mobile:w-30 "/></Link>
                 </div>
-                <div className="mobile:hidden sm:hidden 2xl:block xl:block lg:block">
+                <div className="mobile:hidden sm:hidden md:block 2xl:block xl:block lg:block">
                     <ul className="flex gap-3">
                         <li><Link to="/Hepburnp">Hepburn</Link></li>
                         <li><Link to="/Ourteamp">Our Team</Link></li>

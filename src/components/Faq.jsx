@@ -48,8 +48,8 @@ const Faq = () => {
 
             <p className='text-center'>Get the answers to your questions about Hommaston</p>
 
-            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-40 mobile:mx-4 my-4 rounded-2xl
-            xl:mx-40 lg:mx-20 md:mx-20 sm:mx-4'>
+            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-80 lg:mx-20 mobile:mx-4 my-4 rounded-2xl
+            xl:mx-80 md:mx-20 sm:mx-4'>
                 <div className='flex justify-between'>
                     <div className='flex font-bold'>Do You Offer E-Learning?</div>
                     <button onClick={handleClick} className={ hide ?  '' : ""}>
@@ -58,13 +58,17 @@ const Faq = () => {
                 </div>
 
                 <div className={ hide ? "hidden" : "block" }>
-                    <p>Lorem ipsum dolor sit.</p>
+                    <p>
+                        Hommaston Limited offers e-learning courses that enable learners to access course materials
+                        and training modules online. This mode of learning is convenient, flexible, and can be completed
+                        from anywhere with internet access.
+                    </p>
                 </div>
 
             </div>
 
-            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-40 mobile:mx-4 my-4 rounded-2xl
-            xl:mx-40 lg:mx-20 md:mx-20 sm:mx-4'>
+            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-80 lg:mx-20 mobile:mx-4 my-4 rounded-2xl
+            xl:mx-80 md:mx-20 sm:mx-4'>
                 <div className='flex justify-between'>
                     <div className='flex font-bold'>Can I Pay For Course Online Using My Credit Card?</div>
                     <button onClick={handleClickSecond}>
@@ -78,8 +82,8 @@ const Faq = () => {
 
             </div>
 
-            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-40 mobile:mx-4 my-4 rounded-2xl
-            xl:mx-40 lg:mx-20 md:mx-20 sm:mx-4'>
+            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-80 mobile:mx-4 my-4 rounded-2xl
+            xl:mx-80 lg:mx-20 md:mx-20 sm:mx-4'>
                 <div className='flex justify-between'>
                     <div className='flex font-bold'>Is Hommaston Limited On Social Media?</div>
                     <button onClick={handleClickThird} className={ hide ?  '' : ""}>
@@ -93,8 +97,8 @@ const Faq = () => {
 
             </div>
 
-            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-40 mobile:mx-4 my-4 rounded-2xl
-            xl:mx-40 lg:mx-20 md:mx-20 sm:mx-4'>
+            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-80 mobile:mx-4 my-4 rounded-2xl
+            xl:mx-80 lg:mx-20 md:mx-20 sm:mx-4'>
                 <div className='flex justify-between'>
                     <div className='flex font-bold'>What Payment Method Or Form Do You Accept?</div>
                     <button onClick={handleClickFourth} className={ hide ?  '' : ""}>
@@ -108,8 +112,8 @@ const Faq = () => {
 
             </div>
 
-            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-40 mobile:mx-4 my-4 rounded-2xl
-            xl:mx-40 lg:mx-20 md:mx-20 sm:mx-4'>
+            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-80 mobile:mx-4 my-4 rounded-2xl
+            xl:mx-80 lg:mx-20 md:mx-20 sm:mx-4'>
                 <div className='flex justify-between'>
                     <div className='flex font-bold'>Are All Hommaston Courses Certified?</div>
                     <button onClick={handleClickFifth} className={ hide ?  '' : ""}>
@@ -123,8 +127,8 @@ const Faq = () => {
 
             </div>
 
-            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-40 mobile:mx-4 my-4 rounded-2xl
-            xl:mx-40 lg:mx-20 md:mx-20 sm:mx-4'>
+            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-80 mobile:mx-4 my-4 rounded-2xl
+            xl:mx-80 lg:mx-20 md:mx-20 sm:mx-4'>
                 <div className='flex justify-between'>
                     <div className='flex font-bold'>Where Does the Training Take Place?</div>
                     <button onClick={handleClickSixth} className={ hide ?  '' : ""}>
@@ -138,8 +142,8 @@ const Faq = () => {
 
             </div>
 
-            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-40 mobile:mx-4 my-4 rounded-2xl
-            xl:mx-40 lg:mx-20 md:mx-20 sm:mx-4 font-bold'>
+            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-80 mobile:mx-4 my-4 rounded-2xl
+            xl:mx-80 lg:mx-20 md:mx-20 sm:mx-4 font-bold'>
                 <div className='flex justify-between'>
                     <div className='flex font-bold'>What Is the Mode Of Training?</div>
                     <button onClick={handleClickSeventh} className={ hide ?  '' : ""}>
@@ -153,8 +157,8 @@ const Faq = () => {
 
             </div>
 
-            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-40 mobile:mx-4 my-4 rounded-2xl
-            xl:mx-40 lg:mx-20 md:mx-20 sm:mx-4'>
+            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-80 mobile:mx-4 my-4 rounded-2xl
+            xl:mx-80 lg:mx-20 md:mx-20 sm:mx-4'>
                 <div className='flex justify-between'>
                     <div className='flex font-bold'>How Do You Measure Attendee Satisfaction?</div>
                     <button onClick={handleClickEight} className={ hide ?  '' : ""}>
