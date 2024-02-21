@@ -8,6 +8,7 @@ import Accreditors from '../components/Accreditors'
 import Newsletter from '../components/Newsletter'
 import Faq from '../components/Faq'
 import Sectwo from '../components/Sectwo'
+import Secsix from '../components/Secsix'
 
 
 const Home = () => {
@@ -19,8 +20,9 @@ const Home = () => {
         <Aboutus />
         <Secfour />
         <Secfive />
-        <Faq />
+        <Secsix />
         <Newsletter />
+        <Faq />
         <Footer />
     </div>
   )

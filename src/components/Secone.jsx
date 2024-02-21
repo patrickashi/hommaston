@@ -1,8 +1,11 @@
 import React from 'react'
-import sponge from "../assets/sponge.gif";
+
 import hommastonlogo from "../assets/hommastonlogo.png";
 import { PiDropboxLogoDuotone } from "react-icons/pi";
-import manwhite from "../assets/manwhite.png";
+
+import hero1 from "../assets/hero1.png";
+
+
 
 import iso1 from "../assets/iso1.png";
 import iso9 from "../assets/iso9.png";
@@ -32,15 +35,16 @@ const Secone = () => {
                 <button className='bg-[#ED1C24] text-white font-bold rounded-2xl px-4 py-3 my-5 hover:scale-110 duration-300'>Explore Courses</button>
 
                 <div className='flex mt-10 gap-[-4px]'>
-                  <div className='bg-[#ED1C24] rounded-full py-2 px-5 '></div>
-                  <div className='bg-[#ED1C24] rounded-full py-2 px-5 pl-[-2px]'></div>
-                  <div className='bg-[#ED1C24] rounded-full py-2 px-5'></div>
-                  <div className='bg-[#ED1C24] rounded-full py-2 px-[6px] text-white'>+20 </div> <span className='flex items-center ml-2 text-[#808080]'>Experts Worldwide</span>
+                  <div>
+                      <img src={hero1} size={20} className='w-40' alt="img" />
+                  </div>
+
+                  <div className='flex items-center ml-1 text-gray-600'>
+                    Experts Worldwide
+                  </div>
                 </div>
             </div>
-            {/* <div className='flex items-center mobile:justify-center 2xl:justify-center xl:justify-start'>
-              <img src={manwhite} alt="img" className='w-80' />
-            </div> */}
+            
 
             <Changeimg />
         </div>
