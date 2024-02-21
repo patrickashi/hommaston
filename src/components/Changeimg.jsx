@@ -17,8 +17,8 @@ const Changeimg = () => {
 
 
   return (
-    <div className='flex justify-center items-center'>
-        <img src={images[currentImageIndex]} alt="lpimg" className='w-80' />
+    <div className=' flex justify-center items-center'>
+        <img src={images[currentImageIndex]} alt="lpimg" className=' w-80' />
     </div>
   )
 }

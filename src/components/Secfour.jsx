@@ -7,7 +7,7 @@ const Secfour = () => {
   return (
     <div className='font-Montserrat'>
         <div className='flex bg-[#D9D9D9] my-6
-         py-14 2xl:px-20 xl:px-20 lg:px-20 md:px-20 mobile:px-4 flex-col items-center justify-center'>
+         py-14 2xl:px-80 xl:px-80 lg:px-40 md:px-20 mobile:px-4 flex-col items-center justify-center'>
             <div>
                 <img src={hommastonlogo} size={20} alt="img" className='' />
             </div>

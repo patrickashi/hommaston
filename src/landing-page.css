@@ -1,0 +1,17 @@
+.changing-paragraph {
+    font-size: 18px; /* Adjust as needed */
+    line-height: 1.5;
+    margin: 0;
+    transition: opacity 0.5s ease; /* Add transition effect */
+    font-weight: 800;
+  }
+
+  .changing-paragraph.fade-in {
+    opacity: 1;
+  }
+  
+  /* Fade-out animation */
+  .changing-paragraph.fade-out {
+    opacity: 0;
+  }
+  
