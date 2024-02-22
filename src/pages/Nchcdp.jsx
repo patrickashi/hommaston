@@ -1,6 +1,11 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import instrumentationandcontrol from "../assets/instrumentationandcontrol.jpg";
+import fcdesign from "../assets/fcdesign.jpg";
+import icon1 from "../assets/icon1.png";
+import icon2 from "../assets/icon2.png";
+import icon3 from "../assets/icon3.png";
+import icon4 from "../assets/icon4.png";
+import bg1 from "../assets/bg1.jpg";
 
 import { MdArrowBackIosNew } from "react-icons/md";
 import Footer from '../components/Footer';
@@ -8,7 +13,7 @@ import Footer from '../components/Footer';
 const Nchcdp = () => {
   return (
     <div className='font-Montserrat'>
-        <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${instrumentationandcontrol})` }}>
+        <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${fcdesign})` }}>
             {/* <img src={hepburnpic}  alt="img" size={20} className='h-full w-full object-cover z-0' /> */}
             <div className='absolute 2xl:mt-[255px] mobile:mt-[265px] mx-auto border-2 flex justify-center 
             xl:mt-[255px] lg:mt-[255px] md:mt-[265px] sm:mt-[265px] items-center inset-x-0 bg-neutral-50/70
@@ -30,7 +35,7 @@ const Nchcdp = () => {
             <div></div>
         </div>
 
-        <div className='my-20 2xl:mx-[200px] xl:mx-20 lg:mx-20 md:mx-10 sm:mx-5 mobile:mx-4
+        <div className='mt-20 mb-10 2xl:mx-[200px] xl:mx-20 lg:mx-20 md:mx-10 sm:mx-5 mobile:mx-4
         2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 mobile:grid'>
 
             <div className='2xl:col-span-2 xl:col-span-2 lg:col-span-2 text-justify'>
@@ -55,6 +60,78 @@ const Nchcdp = () => {
             </div>
             <div></div>
             
+
+        </div>
+
+
+        <div className='flex mobile:flex-col 2xl:flex-row xl:flex-row lg:flex-row md:flex-row
+        2xl:mx-40 mobile:mx-4 2xl:items-center  2xl:justify-center gap-6 mobile:justify-start mb-12'>
+
+            <div className='flex mobile:flex-row 2xl:flex-col xl:flex-col lg:flex-col md:flex-col items-center'>
+                <div> <img src={icon1} alt="icon" className='w-20' /></div>
+                <div className='md:text-center'> Tailored programs based on client’s need</div>
+            </div>
+
+            <div className='flex mobile:flex-row 2xl:flex-col xl:flex-col lg:flex-col md:flex-col items-center'>
+                <div> <img src={icon2} alt="icon" className='w-20' /></div>
+                <div className='md:text-center'> Industry relevant Curriculum</div>
+            </div>
+
+            <div className='flex mobile:flex-row 2xl:flex-col xl:flex-col lg:flex-col md:flex-col items-center'>
+                <div> <img src={icon3} alt="icon" className='w-20' /></div>
+                <div className='md:text-center'>Experienced Instructors</div>
+            </div>
+
+            <div className='flex mobile:flex-row 2xl:flex-col xl:flex-col lg:flex-col md:flex-col items-center'>
+                <div> <img src={icon4} alt="icon" className='w-20' /></div>
+                <div className='md:text-center'>Conducive facility.</div>
+            </div>
+
+        </div>
+
+
+        <div className='h-[400px] w-full bg-cover bg-start py-8 my-20 flex justify-evenly' 
+        style={{ backgroundImage:  `url(${bg1})` }}>  
+
+            <div></div>
+
+            <div className='2xl:w-[450px] xl:w-[450px] lg:w-[450px] md:w-[450px] mobile:w-[350px] 2xl:h-[450px] xl:h-[450px] lg:h-[450px] md:h-[450px] mobile:h-[500px]  pt-6 pb-12
+             bg-white rounded-2xl 2xl:mt-[-50px] xl:mt-[-50px] lg:mt-[-50px] md:mt-[-50px] mobile:mt-[-80px] border-2
+              border-gray-300 shadow-lg shadow-gray-300'>
+
+                <form >
+                    <div className='flex mobile:flex-col 2xl:flex-row xl:flex-row lg:flex-row md:flex-row gap-2 px-4'>
+                        <div className=''>
+                            <input type="text" className='rounded-lg bg-gray-300 pl-2 mobile:w-full py-4' placeholder='firstname' />
+                        </div>
+                        <div>
+                            <input type="text" className='rounded-lg bg-gray-300 pl-2 mobile:w-full py-4' placeholder='lastname' />
+                        </div>
+                    </div>
+
+                    <div className='px-4'>
+                        <input type="text" className='rounded-lg bg-gray-300 pl-2 my-2 w-full py-4 ' placeholder='company name' />
+                    </div>
+
+                    <div className='flex mobile:flex-col 2xl:flex-row xl:flex-row lg:flex-row md:flex-row gap-2 px-4'>
+                        <div className=''>
+                            <input type="text" className='rounded-lg bg-gray-300 pl-2 mobile:w-full py-4' placeholder='email' />
+                        </div>
+                        <div>
+                            <input type="text" className='rounded-lg bg-gray-300 pl-2 mobile:w-full py-4' placeholder='phone no' />
+                        </div>
+                    </div>
+
+                    <div className='px-4'>
+                        <input type="text" className='rounded-lg bg-gray-300 pl-2 my-2 w-full 2xl:pb-20 xl:pb-20 lg:pb-20 md:pb-20 mobile:pb-10 py-4 text-sm' placeholder='other information you want us to know' />
+                    </div>
+
+                    <div className='text-center 2xl:mt-8 xl:mt-8 lg:mt-8 md:mt-8 mobile:mt-2'>
+                        <button className='bg-[#0504AA] text-white rounded-md px-4 py-2 hover:scale-105 duration-200'>Send Message</button>
+                    </div>
+                    
+                </form>
+            </div>
 
         </div>
 
