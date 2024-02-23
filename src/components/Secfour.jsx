@@ -1,5 +1,5 @@
 import React from 'react'
-import hommastonlogo from "../assets/hommastonlogo.png"
+import hommastonlogo from "../assets/hommastonlogo.png";
 import hommastonhepburn from "../assets/hommastonhepburn.jpg";
 
 

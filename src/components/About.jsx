@@ -41,18 +41,18 @@ const About = () => {
           </div>
         </div>
 
-        <div className=' grid 2xl:grid-cols-2 2xl:mx-40 xl:mx-40 lg:mx-40 md:mx-20 mobile:mx-10'>
-          <div className='flex justify-center'>
-            <img src={hommastonashlogo} size={20} className='w-80' alt="img" />
+        <div className=' grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 2xl:mx-40 xl:mx-40 lg:mx-40 md:mx-20 mobile:mx-10'>
+          <div className='flex justify-center md:w-full '>
+            <img src={hommastonashlogo} size={20} className='w-80 md:w-full lg:w-full' alt="img" />
           </div>
           <div className=''>
-            <p className='flex text-end mt-2'>
+            <p className='flex 2xl:text-end xl:text-end lg:text-end md:text-end mobile:text-start mt-2'>
               At Our Training Facilities, we prioritize creating a conducive learning environment that promotes comfort and enhances the 
               learning experience. Our courses are carefully crafted to ensure that our learners acquire,
               retain, and apply knowledge effectively.
             </p>
 
-            <p className='flex text-end mt-8'>
+            <p className='flex 2xl:text-end xl:text-end lg:text-end md:text-end mobile:text-start mt-8'>
               We are a world-class training delivery organization supported by international collaborative 
               synergies for specialized deliveries. We offer courses and certifications through
               various methods such as Classroom training, Corporate bespoke, Online learning,
@@ -62,15 +62,16 @@ const About = () => {
           </div>
         </div>
 
-        <div className='2xl:mx-40 xl:mx-40 lg:mx-40 md:mx-20 mobile:mx-10'>
-          <p className='flex text-center mt-8'>
+        <div className='2xl:mx-40 xl:mx-40 lg:mx-40 md:mx-20 mobile:mx-10 border-t border-b pb-6 mt-4'>
+          <p className='flex 2xl:text-center xl:text-center lg:text-center md:text-center mobile:text-start mt-8'>
             Our company offers workforce skills enhancement programs that are designed to cater to the learning needs of auditory,
             visual, and kinaesthetic learners on a global scale. We provide outcome measurements and competency
             evaluation for all our training programs. Hommaston’s Promise is “we empower you to perform”
           </p>
         </div>
 
-        <div className='2xl:mx-40  xl:mx-40  lg:mx-40  md:mx-20 mobile:mx-10 my-14 mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2'>
+        <div className='2xl:mx-40  xl:mx-40  lg:mx-40  md:mx-20 mobile:mx-10 my-14 mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2
+        border-b pb-6'>
           <div>
             <p>
               To provide a reputable skills enhancement platform that proficiently
@@ -82,21 +83,23 @@ const About = () => {
           </div>
         </div>
 
-        <div className='2xl:mx-40  xl:mx-40  lg:mx-40  md:mx-20 mobile:mx-10 my-14 mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2'>
+        <div className='2xl:mx-40  xl:mx-40  lg:mx-40  md:mx-20 mobile:mx-10 my-14 mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2
+        border-b pb-4'>
 
           <div className='flex justify-start'>
               <img src={vission} size={20} className='w-40' alt="img" />
           </div>
 
           <div>
-            <p className='flex text-end'>
+            <p className='flex 2xl:text-end xl:text-end lg:text-end md:text-end mobile:text-start'>
               To be the prominent standard in global delivery of qualitative capacity building services.
             </p>
           </div>
           
         </div>
 
-        <div className='2xl:mx-40  xl:mx-40  lg:mx-40  md:mx-20 mobile:mx-10 my-14 mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2'>
+        <div className='2xl:mx-40  xl:mx-40  lg:mx-40  md:mx-20 mobile:mx-10 my-14 mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2
+        border-b pb-6'>
           <div>
             <p>
               Our core value ‘‘WI3N’’ is the embodiment of our organisational culture, definitive of our corporate character and service delivery expectations.
@@ -112,7 +115,7 @@ const About = () => {
         </div>
 
         <div className='text-center mb-12'>
-          <button className='text-black border border-gray-700 px-4 rounded-md font-bold'>View Team</button>
+          <button className='text-black border border-gray-700 px-4 rounded-md font-bold hover:scale-105 duration-200 hover:bg-black hover:text-white'>View Team</button>
         </div>
         
     </div>
