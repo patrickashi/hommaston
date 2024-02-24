@@ -5,13 +5,13 @@ import { PiDropboxLogoDuotone } from "react-icons/pi";
 
 import hero1 from "../assets/hero1.png";
 
+import nysclogo from "../assets/nysclogo.png";
+import lng from "../assets/lng.png";
+import deltaafflick from "../assets/deltaafflick.png";
+import eit from "../assets/eit.png";
+import oando from "../assets/oando.png";
+import koeing from "../assets/koenig.png";
 
-
-import iso1 from "../assets/iso1.png";
-import iso9 from "../assets/iso9.png";
-import LPI from "../assets/LPI.png";
-import acdt from "../assets/acdt2.png";
-import CPD from "../assets/CPD.png";
 import Changeimg from './Changeimg';
 import Changeparagraph from './Changeparagraph';
 
@@ -54,12 +54,14 @@ const Secone = () => {
           <div className='flex items-center'>
             <p className='font-bold text-2xl text-center xl:text-start lg:text-start mobile:text-center'>Worldwide network of Trusted Partners and clients</p>
           </div>
-          <div className='flex justify-between 2xl:gap-20 xl:gap-20 lg:gap-8 mobile:gap-8 flex-wrap'>
+          <div className='flex justify-between 2xl:gap-5 xl:gap-2 lg:gap-8 md:gap-2 sm:gap-8 mobile:gap-8 flex-wrap'>
 
-            <div> <img src={iso1} size={20} alt="logo" className='w-20 '/></div>
-            <div> <img src={iso1} alt="logo" size={20} className='w-20'/></div>
-            <div><img src={iso1} size={20} alt="logo" className='w-20'/></div>
-            <div> <img src={iso1} alt="logo" size={20} className='w-20'/></div>
+            <div> <img src={nysclogo} size={20} alt="logo" className='w-10 '/></div>
+            <div> <img src={lng} alt="logo" size={20} className='w-20'/></div>
+            <div className='flex items-center'><img src={deltaafflick} size={20} alt="logo" className='w-28 flex items-center'/></div>
+            <div className='flex items-center'> <img src={eit} alt="logo" size={20} className='w-20'/></div>
+            <div className='flex items-center'> <img src={oando} size={20} alt="logo" className='w-20 '/></div>
+            <div className='flex items-center'> <img src={koeing} size={20} alt="logo" className='w-20 '/></div>
             
             
             {/* <div> <img src={} alt="logo" /></div> */}

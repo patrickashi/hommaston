@@ -5,21 +5,24 @@ import plantingtrees from "../assets/plantingtrees.jpg";
 import hebbb from "../assets/hebbb.png";
 import Footer from '../components/Footer';
 
+import hepburn1 from "../assets/hepburn1.png";
+
 const Hepburnp = () => {
   return (
     <div className='font-Montserrat'>
         <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${hepburnpic})` }}>
             {/* <img src={hepburnpic}  alt="img" size={20} className='h-full w-full object-cover z-0' /> */}
-            <div className='absolute 2xl:mt-[255px] mobile:mt-[260px] mx-auto border-2 flex justify-center 
-            xl:mt-[255px] lg:mt-[255px] md:mt-[260px] sm:mt-[260px] items-center inset-x-0 bg-neutral-50/70 
-            2xl:mx-20 mobile:mx-5 rounded-2xl shadow-md shadow-violet-400'>
-                <h1 className='2xl:text-5xl xl:text-5xl lg:text-5xl mobile:text-3xl py-4 font-bold 2xl:text-gray-700
-                mobile:text-gray-600 text-center rounded-full'>HepBurn</h1>
+            <div className='absolute 2xl:mt-[250px] mobile:mt-[250px] mx-auto flex justify-center 
+            xl:mt-[250px] lg:mt-[250px] md:mt-[250px] sm:mt-[250px] items-center inset-x-0 
+            2xl:mx-20 mobile:mx-5'>
+                {/* <h1 className='2xl:text-5xl xl:text-5xl lg:text-5xl mobile:text-3xl py-4 font-bold 2xl:text-gray-700
+                mobile:text-gray-600 text-center rounded-full'>HepBurn</h1> */}
+                <img src={hepburn1} className='w-80' alt="" />
             </div>
         </div>
 
         {/* section1 */}
-        <div className='mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid sm:grid mt-20 2xl:mx-[200px]
+        <div className='mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid sm:grid mt-20 2xl:mx-[150px]
          xl:mx-20 lg:mx-15 md:mx-4 sm:mx-4 mobile:mx-4'>
 
           <div className='text-justify'>
@@ -48,14 +51,14 @@ const Hepburnp = () => {
           </div>
 
           <div className='flex justify-center 2xl:mt-0 xl:mt-0 lg:mt-0 md:mt-0 sm:mt-6 mobile:mt-6'>
-            <img src={hepheroearth} size={20} alt="img" className='h-100px w-full ' />
+            <img src={hepheroearth} size={20} alt="img" className='h-100px w-contain ' />
           </div>
 
         </div>
 
         {/* section2 */}
         <div className='mobile:grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 sm:grid my-12
-        2xl:mx-[200px] xl:mx-20 lg:mx-15 md:mx-4 sm:mx-4 mobile:mx-4 gap-4'>
+        2xl:mx-[150px] xl:mx-20 lg:mx-15 md:mx-4 sm:mx-4 mobile:mx-4 gap-4'>
 
             <div className='flex items-center justify-center'>
               <img src={plantingtrees} alt="img" className='h-full object-cover'/>
@@ -90,7 +93,7 @@ const Hepburnp = () => {
 
         {/* section3 */}
         <div className='mobile:grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 sm:grid my-12
-        2xl:mx-[200px] xl:mx-20 lg:mx-15 md:mx-4 sm:mx-4 mobile:mx-4 gap-4'>
+        2xl:mx-[150px] xl:mx-20 lg:mx-15 md:mx-4 sm:mx-4 mobile:mx-4 gap-4'>
 
           <div className='text-justify 2xl:col-span-2 xl:col-span-2 lg:col-span-2 md:col-span-2'>
             <p>

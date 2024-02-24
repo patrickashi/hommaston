@@ -12,7 +12,7 @@ const Sectwo = () => {
         <div className='2xl:mx-20 mobile:mx-4 mobile:grid sm:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2'>
 
             <div className='flex justify-center'>
-                <img src={tower} size={20} className='md:w-full 2xl:w-80 xl:w-80 lg:w-80 mobile:w-80' alt="img" />
+                <img src={tower} size={20} className='md:w-full 2xl:w-80 object-contain xl:w-80 lg:w-80 mobile:w-80' alt="img" />
             </div>
 
             <div className='py-6'>

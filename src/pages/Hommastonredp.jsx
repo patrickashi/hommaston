@@ -29,10 +29,10 @@ const Hommastonredp = () => {
 
             <div className='mt-10 mb-20 flex justify-center gap-4 mobile:text-sm 2xl:text-xl xl:text-xl lg:text-lg md:text-md sm:text-sm flex-wrap'>
                 <Link to="/Classroomredp">
-                    <button className='border-1 rounded-full py-2 px-4 shadow-md shadow-gray-300'>Classroom Training</button>
+                    <button className='border-1 rounded-full py-2 px-4 shadow-md shadow-gray-300 hover:scale-105 duration-200 hover:bg-[#ED1C24] hover:text-white'>Classroom Training</button>
                 </Link>
-                <button className='border-1 rounded-full py-2 px-4 shadow-md shadow-gray-300'>Online Training</button>
-                <button className='border-1 rounded-full py-2 px-4 shadow-md shadow-gray-300'>Blended Training</button>
+                <button className='border-1 rounded-full py-2 px-4 shadow-md shadow-gray-300 hover:scale-105 duration-200 hover:bg-[#ED1C24] hover:text-white'>Online Training</button>
+                <button className='border-1 rounded-full py-2 px-4 shadow-md shadow-gray-300 hover:scale-105 duration-200 hover:bg-[#ED1C24] hover:text-white'>Blended Training</button>
             </div>
 
         </div>

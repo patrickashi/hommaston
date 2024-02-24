@@ -6,7 +6,7 @@ import hommastonhepburn from "../assets/hommastonhepburn.jpg";
 const Secfour = () => {
   return (
     <div className='font-Montserrat'>
-        <div className='flex bg-[#D9D9D9] my-6
+        <div className='flex bg-gray-200 my-6
          py-14 2xl:px-80 xl:px-80 lg:px-40 md:px-20 mobile:px-4 flex-col items-center justify-center'>
             <div>
                 <img src={hommastonlogo} size={20} alt="img" className='' />

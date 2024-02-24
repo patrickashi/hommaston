@@ -11,19 +11,19 @@ const Aboutus = () => {
                 <p className='text-[#FF0000] font-bold text-2xl'>About Us</p>
                 <p className='font-bold'>One Platform, Countless Benefits</p>
                 <div className='flex gap-4 my-4 items-center'>
-                    <FaCircleDot className='text-[#FF0000] ' size={15}/>
+                    <FaCircleDot className='text-[#FF0000] w-5'/>
                     <p>Our platform connects Participants with world-class instructors around the globe</p>
                 </div>
                 <div className='flex gap-4 my-4 items-center'>
-                    <FaCircleDot className='text-[#FF0000]' size={15}/>
+                    <FaCircleDot className='text-[#FF0000] w-5'/>
                     <p>Cutting-edge online courses in the most in-demand fields</p>
                 </div>
                 <div className='flex gap-4 my-4 items-center'>
-                    <FaCircleDot className='text-[#FF0000]' size={15}/>
+                    <FaCircleDot className='text-[#FF0000] w-5' />
                     <p>Provision for a personalized and learning experience for every participant</p>
                 </div>
                 <div className='flex gap-4 my-4 items-center'>
-                    <FaCircleDot className='text-[#FF0000]' size={15}/>
+                    <FaCircleDot className='text-[#FF0000] w-5' />
                     <p>A supportive community of learners and educators, creating a collaborative and enriching learning environment</p>
                 </div>
 
