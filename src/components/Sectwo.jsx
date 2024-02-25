@@ -2,9 +2,9 @@ import React from 'react'
 import tower from "../assets/tower.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
-import homeicon5 from "../assets/homeicon5.png";
-import homeicon4 from "../assets/homeicon4.png";
-import homeicon22 from "../assets/homeicon22.png";
+import homeiconclassroom from "../assets/homeiconclassroom.png";
+import homeiconred2 from "../assets/homeiconred2.png";
+import homeiconwhite1 from "../assets/homeiconwhite1.png";
 
 const Sectwo = () => {
   return (
@@ -24,33 +24,30 @@ const Sectwo = () => {
                 <div className='flex justify-between'>
                     <div className='grid'>
                         <div className='flex'>
-                            
-                            <div><img src={homeicon5} size={20} className='w-14' alt="img" /></div>
-                            <div className='gap'>
-                                <h1 className='font-bold flex items-center'>Classroom Training</h1>
-                                <p className='flex mt-8'>
+                            <img src={homeiconclassroom} size={20} className='w-14' alt="img" />
+                            <h1 className='font-bold flex items-center'>Classroom Training</h1>
+                        </div>
+                       <div className=''>
+                            <p className=' border-l-2 border-gray-400 px-3 ml-[29px]'>
                                 There is no better investment than
                                 learning. Discover our hands-on courses
-                                </p>
-                            </div>
-                            
-                        </div>
-                       
+                            </p>
+                       </div>
                     </div>
                         
                     <div className='flex items-center'>
-                        <MdOutlineKeyboardArrowRight className='rounded-full bg-white text-[#FF0000] border border-[#FF0000] hover:text-white hover:bg-[#FF0000] duration-200 cursor-pointer ' size={40}/>
+                        <MdOutlineKeyboardArrowRight className='rounded-full bg-white text-[#FF0000] border border-[#FF0000] hover:bg-[#FF0000] hover:text-white hover:border-[#FF0000] duration-200 cursor-pointer ' size={40}/>
                     </div>
                 </div>
 
                 <div className='flex justify-between'>
                     <div className='grid'>
                         <div className='flex'>
-                            <img src={homeicon22} size={20} className='w-14' alt="img" />
+                            <img src={homeiconred2} size={20} className='w-14' alt="img" />
                             <h1 className='font-bold flex items-center'>Classroom Training</h1>
                         </div>
-                       <div className='my-2'>
-                            <p className='ml-4 border-l-2 border-[#FF0000] px-3'>
+                       <div className=''>
+                            <p className='ml-[29px] border-l-2 border-[#FF0000] px-3'>
                                 There is no better investment than
                                 learning. Discover our hands-on courses
                             </p>
@@ -65,11 +62,11 @@ const Sectwo = () => {
                 <div className='flex justify-between'>
                     <div className='grid'>
                         <div className='flex'>
-                            <img src={homeicon4} size={20} className='w-14' alt="img" />
+                            <img src={homeiconwhite1} size={20} className='w-14' alt="img" />
                             <h1 className='font-bold flex items-center'>Classroom Training</h1>
                         </div>
-                       <div className='my-2'>
-                            <p className='ml-4 border-l-2 border-gray-400 px-3'>
+                       <div className=''>
+                            <p className='ml-[29px] border-l-2 border-gray-400 px-3'>
                                 There is no better investment than
                                 learning. Discover our hands-on courses
                             </p>
@@ -77,7 +74,7 @@ const Sectwo = () => {
                     </div>
                         
                     <div className='flex items-center'>
-                        <MdOutlineKeyboardArrowRight className='rounded-full bg-white text-[#FF0000] border border-[#FF0000] hover:text-white hover:bg-[#FF0000] duration-200 cursor-pointer' size={40}/>
+                        <MdOutlineKeyboardArrowRight className='rounded-full bg-white text-[#FF0000] border border-[#FF0000] hover:bg-[#FF0000] hover:text-white hover:border-[#FF0000] duration-200 cursor-pointer ' size={40}/>
                     </div>
                 </div>
 
