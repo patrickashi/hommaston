@@ -91,7 +91,7 @@ const  Navbar = () => {
                     <button className=" w-[95%] mx-2  py-3 border-2 border-[#2dd4bf]  rounded-md px-11  text-[#2dd4bf]">Sign up</button>
                 </div> */}
 
-                <div className='flex 2xl:mt-8 xl:mt-8 lg:mt-8 md:mt-8 mobile:mt-20 justify-between'>
+                <div className='flex 2xl:mt-8 xl:mt-8 lg:mt-8 md:mt-8 mobile:mt-8 justify-between'>
 
                     <div className='flex items-center ml-2'>
                         <ul className='flex gap-8 '>
