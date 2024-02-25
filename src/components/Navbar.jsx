@@ -59,7 +59,7 @@ const  Navbar = () => {
                         <img src={hommastonashlogo} alt="logo" className="w-16"/>
                     </Link>
                 </div>
-                <ul className="p-4 my-6 ">
+                <ul className="p-4 my-2 ">
                     <div className="flex gap-2 items-center py-2 my-4">
                         <MdHome  className="flex items-center"/>
                         <li className=""> <Link to="/"> Home</Link></li>
@@ -91,9 +91,9 @@ const  Navbar = () => {
                     <button className=" w-[95%] mx-2  py-3 border-2 border-[#2dd4bf]  rounded-md px-11  text-[#2dd4bf]">Sign up</button>
                 </div> */}
 
-                <div className='flex 2xl:mt-8 xl:mt-8 lg:mt-8 md:mt-8 mobile:mt-8 justify-between'>
+                <div className='flex-col 2xl:mt-8 xl:mt-8 lg:mt-8 md:mt-8 mobile:mt-2 justify-between gap-4'>
 
-                    <div className='flex items-center ml-2'>
+                    <div className='flex items-center ml-3'>
                         <ul className='flex gap-8 '>
                             <li><LiaLinkedinIn size={20} className='shadow-md shadow-gray-300 rounded-full hover:scale-110 duration-200 cursor-pointer'/></li>
                             <li> <FaInstagramSquare size={20} className='shadow-md shadow-gray-300 rounded-full hover:scale-110 duration-200 cursor-pointer' /> </li>
@@ -102,9 +102,9 @@ const  Navbar = () => {
                         </ul>
                     </div> 
 
-                    <div className="mr-2 ">
+                    <div className="mr-2 mt-6">
                         <Link to="/Contactp">
-                            <button className='bg-[#0504AA] ml-4 text-white rounded-md px-4 py-2 hover:scale-105 duration-200'>Send Message</button>
+                            <button className='bg-[#0504AA] ml-2 text-white rounded-md px-4 py-2 hover:scale-105 duration-200'>Send Message</button>
                         </Link>
                     </div>
 
