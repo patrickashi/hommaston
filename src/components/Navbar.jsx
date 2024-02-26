@@ -19,6 +19,39 @@ import { LiaLinkedinIn } from "react-icons/lia";
 
 
 const  Navbar = () => {
+    // dropdownforwidescreens
+    const DropdownLink = ({ title, children }) => {
+        const [isOpen, setIsOpen] = useState(false);
+    
+        return (
+          <div className="relative" onMouseEnter={() => setIsOpen(true)} onMouseLeave={() => setIsOpen(false)}>
+            <Link to="/Servicesp" href="#" className="text-black px-3 py-2">{title}&#9662;</Link>
+            {isOpen && (
+              <div className="absolute z-10 mt-2 text-center  bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg">
+                <ul>
+                  {children}
+                </ul>
+              </div>
+            )}
+          </div>
+        );
+      };
+
+      const DropdownItem = ({ children }) => {
+        return (
+          <li className="px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">{children}</li>
+        );
+      };
+
+        // dropdownfortogglemenu
+        const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+        const toggleDropdown = () => {
+            setIsDropdownOpen(!isDropdownOpen);
+        };
+
+
+
     const [nav, setNav] = useState(false);
 
     const handleNav = () => {
@@ -29,10 +62,22 @@ const  Navbar = () => {
         <div className="flex justify-center items-center max-w-[1240px] mx-auto px-4 text-white font-Montserrat">
             <div className="text-black flex justify-center items-center font-bold">
                 <div className="mobile:hidden sm:hidden md:block 2xl:block xl:block lg:block">
-                    <ul className="flex gap-3 mr-3">
+                    <ul className="flex gap-3">
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/aboutusp">About Us</Link></li>
-                        <li><Link to="/Servicesp">Services</Link> </li>
+                        <li>
+                            <DropdownLink to="/Servicesp" title="Services">
+                                <Link to="/Hommastonbluep" className="rounded-md hover:bg-[#0504AA] hover:text-white duration-200">
+                                    <DropdownItem >Division Blue</DropdownItem> 
+                                </Link>
+                                <Link to="/Hommastonredp">
+                                    <DropdownItem>Division Red</DropdownItem> 
+                                </Link>
+                                <Link to="/Nchcdp"> 
+                                    <DropdownItem>NC-HCD Training</DropdownItem>
+                                </Link>
+                            </DropdownLink>
+                        </li>
                     </ul>
                 </div>
                 <div className="mx-4 pb-4 mobile:block mobile:pt-2 mobile:ml-0 mobile:pl-1">
@@ -68,10 +113,22 @@ const  Navbar = () => {
                         <BsPatchQuestion className="flex items-center" />
                         <li className=""><Link to="/aboutusp">About Us</Link></li>
                     </div>
-                    <div className="flex gap-2 items-center  py-2 my-5">
+                    <div className="flex gap-2 items-center  py-2 my-2">
                         <GrServices className="flex items-center"/>
-                        <li className=""> <Link to="/Servicesp">Services</Link></li>
+                        <li onClick={toggleDropdown}> 
+                            <Link to="/Servicesp">Services &#9662;</Link>
+                        </li>
                     </div>
+
+                            {isDropdownOpen && (
+                                <div className="absolute top-68 left-4 bg-gray-100 text-black rounded-md py-4 px-2 text-center w-[100px]">
+                                    <li className="bg-gray-300 rounded-md hover:bg-[#0504AA] hover:text-white duration-200"><Link to="/Hepburnp">Division Blue</Link></li>
+                                    <li className="bg-gray-300 rounded-md hover:bg-[#ED1C24] hover:text-white duration-200 my-2"><Link to="/Ourteamp">Division Red</Link></li>
+                                    <li className="bg-gray-300 rounded-md hover:bg-[#0504AA] hover:text-white duration-200"> <Link to="/Contactp">NC-HCD Training</Link></li>
+                                </div>
+                            )}
+
+
                     <div className="flex gap-2 items-center  py-2 my-5">
                         <LiaServicestack className="flex items-center"/>
                         <li className=""><Link to="/Hepburnp">Hepburn</Link></li>
