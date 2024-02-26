@@ -92,12 +92,12 @@ const  Navbar = () => {
                 </div>
             </div>
 
-            <div onClick={handleNav} className="flex mobile:block mobile:ml-auto md:hidden 2xl:hidden lg:hidden xl:hidden">
-                {nav ? <AiOutlineClose className="text-black" size={20}/> : <AiOutlineMenu className="text-black" size={20}/>} 
+            <div onClick={handleNav} className="flex z-20 cursor-pointer mobile:block mobile:ml-auto md:hidden 2xl:hidden lg:hidden xl:hidden">
+                {nav ? <AiOutlineClose className="text-white mr-36 z-40" size={20}/> : <AiOutlineMenu className="text-black" size={20}/>} 
             </div>
 
             {/* toggle menu */}
-            <div className={nav ? "absolute z-20 left-0 top-0 h-full w-[85%] border-r border-r-gray-900 ease-out duration-500 bg-black" : "fixed left-[-100%]"}>
+            <div className={nav ? "absolute z-10 left-0 top-0 h-full w-[70%] border-r border-r-gray-900 ease-out duration-500 bg-black" : "fixed left-[-100%]"}>
 
                 <div className="mx-4 pt-4">
                     <Link to="/">
