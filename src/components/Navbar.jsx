@@ -67,7 +67,7 @@ const  Navbar = () => {
                         <li><Link to="/aboutusp">About Us</Link></li>
                         <li>
                             <DropdownLink to="/Servicesp" title="Services">
-                                <Link to="/Hommastonbluep" className="rounded-md hover:bg-[#0504AA] hover:text-white duration-200">
+                                <Link to="/Hommastonbluep">
                                     <DropdownItem >Division Blue</DropdownItem> 
                                 </Link>
                                 <Link to="/Hommastonredp">
@@ -122,9 +122,9 @@ const  Navbar = () => {
 
                             {isDropdownOpen && (
                                 <div className="absolute top-68 left-4 bg-gray-100 text-black rounded-md py-4 px-2 text-center w-[100px]">
-                                    <li className="bg-gray-300 rounded-md hover:bg-[#0504AA] hover:text-white duration-200"><Link to="/Hepburnp">Division Blue</Link></li>
-                                    <li className="bg-gray-300 rounded-md hover:bg-[#ED1C24] hover:text-white duration-200 my-2"><Link to="/Ourteamp">Division Red</Link></li>
-                                    <li className="bg-gray-300 rounded-md hover:bg-[#0504AA] hover:text-white duration-200"> <Link to="/Contactp">NC-HCD Training</Link></li>
+                                    <li className="bg-gray-300 rounded-md hover:bg-[#0504AA] hover:text-white duration-200"><Link to="/Hommastonbluep">Division Blue</Link></li>
+                                    <li className="bg-gray-300 rounded-md hover:bg-[#ED1C24] hover:text-white duration-200 my-2"><Link to="/Hommastonredp">Division Red</Link></li>
+                                    <li className="bg-gray-300 rounded-md hover:bg-[#0504AA] hover:text-white duration-200"> <Link to="/Nchcdp">NC-HCD Training</Link></li>
                                 </div>
                             )}
 
