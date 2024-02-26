@@ -93,7 +93,7 @@ const  Navbar = () => {
             </div>
 
             <div onClick={handleNav} className="flex z-20 cursor-pointer mobile:block mobile:ml-auto md:hidden 2xl:hidden lg:hidden xl:hidden">
-                {nav ? <AiOutlineClose className="text-white mr-36 z-40" size={20}/> : <AiOutlineMenu className="text-black" size={20}/>} 
+                {nav ? <AiOutlineClose className="text-white mr-32 z-40" size={20}/> : <AiOutlineMenu className="text-black" size={20}/>} 
             </div>
 
             {/* toggle menu */}
