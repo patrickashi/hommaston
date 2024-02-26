@@ -97,7 +97,7 @@ const  Navbar = () => {
             </div>
 
             {/* toggle menu */}
-            <div className={nav ? "absolute z-10 left-0 top-0 h-full w-[64%] border-r border-r-gray-900 ease-out duration-500 bg-black" : "fixed left-[-100%]"}>
+            <div className={nav ? "absolute z-10 left-0 top-0 h-full w-[66%] border-r border-r-gray-900 ease-out duration-500 bg-black" : "fixed left-[-100%]"}>
 
                 <div className="mx-4 pt-4">
                     <Link to="/">
