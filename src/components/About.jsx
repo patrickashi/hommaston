@@ -8,14 +8,15 @@ import corevalues from "../assets/corevalues.png";
 const About = () => {
   return (
     <div className='font-Montserrat'>
-        <div className='relative w-full h-[300px]'>
-            <img src={webdesign2}  alt="img" size={20} className='h-full w-full object-cover z-0' />
-            <div className='absolute 2xl:mt-[-50px] mobile:mt-[-35px] mx-auto border-2 flex justify-center 
-            xl:mt-[-50px] lg:mt-[-50px] md:mt-[-35px] sm:mt-[-35px] items-center inset-x-0 bg-neutral-50/70
-            2xl:mx-20 mobile:mx-5 rounded-2xl shadow-md shadow-violet-400 z-10'>
-                <h1 className='2xl:text-6xl xl:text-6xl lg:text-6xl mobile:text-3xl py-4 font-bold text-gray-700'>About Us</h1>
-            </div>
-        </div>
+         <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${webdesign2})` }}>
+                {/* <img src={hepburnpic}  alt="img" size={20} className='h-full w-full object-cover z-0' /> */}
+                <div className='absolute 2xl:mt-[256px] mobile:mt-[264px] mx-auto border-2 flex justify-center 
+                xl:mt-[256px] lg:mt-[256px] md:mt-[264px] sm:mt-[264px] items-center inset-x-0 bg-neutral-50/70
+                2xl:mx-20 mobile:mx-5 rounded-2xl shadow-md shadow-violet-400'>
+                    <h1 className='2xl:text-5xl xl:text-5xl lg:text-5xl mobile:text-3xl py-4 font-bold 2xl:text-gray-700
+                    mobile:text-gray-600  text-center rounded-full'>About Us</h1>
+                </div>
+          </div>
 
         <div className='py-16 mt-10 2xl:mx-20 xl:mx-20 lg:mx-20 md:mx-20 sm:mx-4 mobile:mx-4'>
 
