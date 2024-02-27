@@ -1,5 +1,5 @@
 import React from 'react'
-import interiorplaces from "../assets/interiorplaces.jpg";
+import scapepic from "../assets/scapepic.jpg";
 import Footer from '../components/Footer';
 import contactmapbg from "../assets/contactmapbg.png";
 import { FaCirclePlay } from "react-icons/fa6";
@@ -7,11 +7,12 @@ import { FaInstagramSquare } from "react-icons/fa";
 
 import { FaFacebook } from "react-icons/fa";
 import { LiaLinkedinIn } from "react-icons/lia";
+import Contactform from '../components/Contactform';
 
 const Contactp = () => {
   return (
     <div className='h-screen font-Montserrat'>
-            <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${interiorplaces})` }}>
+            <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${scapepic})` }}>
                 {/* <img src={hepburnpic}  alt="img" size={20} className='h-full w-full object-cover z-0' /> */}
                 <div className='absolute 2xl:mt-[255px] mobile:mt-[262px] mx-auto border-2 flex justify-center 
                 xl:mt-[255px] lg:mt-[255px] md:mt-[262px] sm:mt-[262px] items-center inset-x-0 bg-neutral-50/70
@@ -21,13 +22,15 @@ const Contactp = () => {
                 </div>
             </div>
 
-            <div className='text-2xl font-bold text-[#FF0000] pt-24 mb-12 ml-4 text-center '>
+            <div className='text-2xl font-bold text-gray-600 pt-24 mb-12 ml-4 text-center '>
                 <h1 className='2xl:hidden xl:hidden lg:hidden md:hidden mobile:block animate-bounce'>Contact Us</h1>
             </div>
 
+            <Contactform />
+
             
 
-            <div className='pt-20 mb-40 h-[400px] w-full bg-cover bg-start py-8 flex justify-evenly'
+            {/* <div className='pt-20 mb-40 h-[400px] w-full bg-cover bg-start py-8 flex justify-evenly'
             style={{ backgroundImage:  `url(${contactmapbg})` }}>
 
                 <div className='mobile:hidden 2xl:block xl:block lg:block md:block'>
@@ -83,10 +86,12 @@ const Contactp = () => {
                         </div>
                         
                     </form>
-                </div>
+                </div> 
 
+           
 
-            </div>
+                
+            </div> */}
 
             <Footer />
     </div>

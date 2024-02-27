@@ -16,7 +16,7 @@ const Sectwo = () => {
             </div>
 
             <div className='py-6'>
-                <p className='text-2xl w-120 font-bold py-4'>
+                <p className='text-2xl w-120 font-bold py-4 ml-4'>
                     With The Best &
                     Most Experienced <span className='text-[#FF0000]'>Mentors</span>
                 </p>
