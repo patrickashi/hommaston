@@ -1,5 +1,4 @@
 import React from 'react'
-import scapepic from "../assets/scapepic.jpg";
 import Footer from '../components/Footer';
 import contactmapbg from "../assets/contactmapbg.png";
 import { FaCirclePlay } from "react-icons/fa6";
@@ -12,7 +11,7 @@ import Contactform from '../components/Contactform';
 const Contactp = () => {
   return (
     <div className='h-screen font-Montserrat'>
-            <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${scapepic})` }}>
+            <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${contactmapbg})` }}>
                 {/* <img src={hepburnpic}  alt="img" size={20} className='h-full w-full object-cover z-0' /> */}
                 <div className='absolute 2xl:mt-[255px] mobile:mt-[262px] mx-auto border-2 flex justify-center 
                 xl:mt-[255px] lg:mt-[255px] md:mt-[262px] sm:mt-[262px] items-center inset-x-0 bg-neutral-50/70
@@ -23,7 +22,7 @@ const Contactp = () => {
             </div>
 
             <div className='text-2xl font-bold text-gray-600 pt-24 mb-12 ml-4 text-center '>
-                <h1 className='2xl:hidden xl:hidden lg:hidden md:hidden mobile:block animate-bounce'>Contact Us</h1>
+                <h1 className='2xl:hidden xl:hidden lg:hidden md:hidden mobile:block animate-bounce'></h1>
             </div>
 
             <Contactform />
