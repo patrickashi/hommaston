@@ -50,7 +50,7 @@ const Secone = () => {
         </div>
 
         {/* logos */}
-        <div className='flex 2xl:flex-row xl:flex-row lg:flex-row mobile:flex-col 2xl:mx-20 xl:mx-20 lg:mx-20 mobile:mx-0 py-14 px-6 border-2 rounded-lg gap-8'>
+        <div className='flex 2xl:flex-row xl:flex-row lg:flex-row mobile:flex-col 2xl:mx-28 xl:mx-28 lg:mx-20 mobile:mx-0 py-14 px-6 border-2 rounded-lg gap-8'>
           <div className='flex items-center'>
             <p className='font-bold text-2xl text-center xl:text-start lg:text-start mobile:text-center'>Worldwide network of Trusted Partners and clients</p>
           </div>

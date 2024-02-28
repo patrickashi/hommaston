@@ -17,7 +17,7 @@ const Footer = () => {
 
 
         <div className='flex xl:flex-row lg:flex-row 2xl:flex-row mobile:flex-col py-4 text-sm justify-evenly border-b border-gray-700
-         2xl:mx-20 xl:mx-20 lg:mx-20 md:mx-20'>
+         2xl:mx-28 xl:mx-28 lg:mx-20 md:mx-20'>
             <div className='flex flex-col justify-center items-center'>
                 <div>
                     <img src={hommastonashlogo} size={10} alt="img" className='w-20' />
@@ -54,7 +54,7 @@ const Footer = () => {
                         <p className='text-center'>9.Adebola Street off Adeniran ogunsanya Rd,Surulere.Lagos.</p>
                         <p className='text-center'>5th Floor.Knight Frank Building, 24 Campbell Street. Lagos Island Nigeria.</p>
                     </div>
-                    <div>
+                    <div className='mobile:hidden lg:block xl:block 2xl:block'>
                         <CiLocationOn size={20}  className='ml-2'/>
                     </div>
                 </div>
@@ -63,12 +63,12 @@ const Footer = () => {
                 </div> */}
                 <div className='flex my-4'>
                     <p>+234 705 551 9436</p>
-                    <FaSquarePhoneFlip size={20}  className='ml-2'/>
+                    <FaSquarePhoneFlip size={20}  className='ml-2 mobile:hidden lg:block xl:block 2xl:block'/>
                 </div>
 
                 <div className='flex'>
                     <p>+234 903 419 0032</p>
-                    <FaWhatsapp size={20}  className='ml-2'/>
+                    <FaWhatsapp size={20}  className='ml-2 mobile:hidden lg:block xl:block 2xl:block'/>
 
                 </div>
 
@@ -77,7 +77,7 @@ const Footer = () => {
                         <p className='underline'>info@hommaston.com</p>
                         <p className='underline'>workplaceskills@hommaston.com</p>
                     </div>
-                    <div>
+                    <div className='mobile:hidden lg:block xl:block 2xl:block'>
                         <IoIosMail size={20}  className='ml-2'/>
                     </div>
                 </div>
@@ -95,7 +95,7 @@ const Footer = () => {
                 </ul>
             </div>
 
-            <div className='flex gap-4'>
+            <div className='flex gap-1'>
                 <p className='text-center'>
                     Hommaston Training and Engineering - Copyright @2024.
                 </p>
