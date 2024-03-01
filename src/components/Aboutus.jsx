@@ -12,15 +12,15 @@ const Aboutus = () => {
                 <p className='font-bold'>One Platform, Countless Benefits</p>
                 <div className='flex gap-4 my-4 items-center'>
                     <FaCircleDot className='text-[#FF0000] w-5'/>
-                    <p>Our platform connects Participants with world-class instructors around the globe</p>
+                    <p>Our platform connects participants with world-class instructors around the globe</p>
                 </div>
                 <div className='flex gap-4 my-4 items-center'>
                     <FaCircleDot className='text-[#FF0000] w-5'/>
-                    <p>Cutting-edge online courses in the most in-demand fields</p>
+                    <p>In demand online courses </p>
                 </div>
                 <div className='flex gap-4 my-4 items-center'>
                     <FaCircleDot className='text-[#FF0000] w-5' />
-                    <p>Provision for a personalized and learning experience for every participant</p>
+                    <p>Personalized learning experience</p>
                 </div>
                 <div className='flex gap-4 my-4 items-center'>
                     <FaCircleDot className='text-[#FF0000] w-5' />

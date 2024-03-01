@@ -10,7 +10,7 @@ const Accreditors = () => {
   return (
     <div className=' 2xl:mx-28 mobile:mx-4 xl:mx-28 lg:mx-14 md:mx-10 sm:mx-4 py-12 px-4 font-Montserrat'>
 
-        <p className='text-3xl font-bold text-center mb-10'>NC HCD accreditors</p>
+        <p className='text-3xl font-bold text-center mb-10'>Hommaston's accreditors</p>
 
         <div className='flex justify-center 2xl:gap-8 xl:gap-4 lg:gap-4 mobile:gap-4 flex-wrap'>
             <div> <img src={acdt} alt="logo" size={20} className='mobile:w-[70px] 2xl:w-[150px] xl:w-[150px] lg:w-[150px]'/></div>

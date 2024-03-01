@@ -6,10 +6,10 @@ const Changeparagraph = () => {
 
     const [currentParagraphIndex, setCurrentParagraphIndex] = useState(0);
     const paragraphs = [
-        "Share your Experience through Hommaston",
+        "Create your Experience through Hommaston",
         "Your projects are our projects",
-        "Self directed course at your own convinience and at your own Time",
-        "Engineering, Project Management, Oil field, Consultancy, Training $ Capacity building",
+        "Self directed course at your own Convenience and at your own Time",
+        "Engineering, Project Management, Oil field, Consultancy, Training & Capacity building",
     ];
 
     useEffect(() => {
