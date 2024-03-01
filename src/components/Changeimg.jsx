@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import tower from "../assets/tower.png";
-import trafficlight from "../assets/trafficlight.png";
+import mission from "../assets/mission.png";
+import vission from "../assets/vission.png";
+import corevalues from "../assets/corevalues.png";
 
 const Changeimg = () => {
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
-    const images = [tower, trafficlight];
+    const images = [mission, vission, corevalues];
 
     useEffect( () => {
         const interval = setInterval( () => {

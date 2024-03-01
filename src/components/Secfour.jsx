@@ -6,12 +6,12 @@ import hommastonhepburn from "../assets/hommastonhepburn.jpg";
 const Secfour = () => {
   return (
     <div className='font-Montserrat'>
-        <div className='flex bg-gray-200 my-6
+        <div className='flex my-6
          py-14 2xl:px-80 xl:px-80 lg:px-40 md:px-20 mobile:px-4 flex-col items-center justify-center'>
             <div>
                 <img src={hommastonlogo} size={20} alt="img" className='' />
             </div>
-            <p className='my-6 mobile:text-start 2xl:text-center xl:text-center lg:text-center md:text-center'>
+            <p className='my-6 mobile:text-center 2xl:text-center xl:text-center lg:text-center md:text-center'>
                 Hommaston Limited is an Indegenous company, with a focus to positively impact capacity development goals and 
                 to deliver quality cost-effective solutions and services. Our effective management of technical cleaning and  
                 maintenance services, as well as the integration of our Hommaston Bio services, have resulted in positive

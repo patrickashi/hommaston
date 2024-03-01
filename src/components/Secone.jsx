@@ -21,8 +21,9 @@ import Logoslider from './Logoslider';
 const Secone = () => {
   return (
     <div className='w-full py-[30px] border-b border-gray-200 font-Montserrat'>
-        <div className=' mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 mx-[40px] mobile:mx-0'>
-            <div className='2xl:mx-[100px] 2xl:w-full xl:mx-[100px] lg:mx-[40px] mobile:ml-4 2xl:py-4 xl:py-4 lg:py-4 md:py-4 sm:py-4
+        <div className=' mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 2xl:mx-[100px]
+        xl:mx-[100px] lg:mx-[100px]  mobile:mx-0'>
+            <div className=' 2xl:w-full xl:mx-[100px] lg:mx-[40px] mobile:ml-4 2xl:py-4 xl:py-4 lg:py-4 md:py-4 sm:py-4
             mobile:mb-10 sm:mb-10 md:mb-10'>
 
                 <p className='2xl:text-[50px] 2xl:py-4 mobile:my-8 2xl:my-0 xl:my-0 lg:my-0 md:my-8 mobile:text-[40px] font-bold '>Up Your <span className='text-[#0504AA]'> Skills </span> 
@@ -55,15 +56,6 @@ const Secone = () => {
           <div className='flex items-center'>
             <p className='font-bold text-2xl text-center xl:text-start lg:text-start mobile:text-center'>Worldwide Network Of Trusted Partners and Clients</p>
           </div>
-
-          {/* <div className='flex justify-between 2xl:gap-5 xl:gap-2 lg:gap-8 md:gap-2 sm:gap-8 mobile:gap-8 flex-wrap'>
-            <div> <img src={nysclogo} size={20} alt="logo" className='w-10 '/></div>
-            <div> <img src={lng} alt="logo" size={20} className='w-20'/></div>
-            <div className='flex items-center'><img src={deltaafflick} size={20} alt="logo" className='w-28 flex items-center'/></div>
-            <div className='flex items-center'> <img src={eit} alt="logo" size={20} className='w-20'/></div>
-            <div className='flex items-center'> <img src={oando} size={20} alt="logo" className='w-20 '/></div>
-            <div className='flex items-center'> <img src={koeing} size={20} alt="logo" className='w-20 '/></div>
-          </div> */}
 
           <Logoslider />
 
