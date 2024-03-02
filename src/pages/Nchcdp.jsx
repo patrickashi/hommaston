@@ -25,7 +25,7 @@ const Nchcdp = () => {
         </div>
 
 
-        <div className='pt-20 mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 2xl:mx-[100px] mobile:mx-4 sm:mx-4 md:mx-10 lg:mx-20 xl:mx-20' >
+        <div className='pt-20 mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 2xl:mx-52 mobile:mx-4 sm:mx-4 md:mx-10 lg:mx-20 xl:mx-20' >
             <div>
                 <p>
                     Hommaston is committed in helping companies fulfilling their obligation with the NCDMB by facilitating and delivering 

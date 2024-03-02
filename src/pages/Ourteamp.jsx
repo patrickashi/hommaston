@@ -15,7 +15,7 @@ const Ourteamp = () => {
                 </div>
             </div>
 
-            <div className='2xl:mx-[300px] xl:mx-20 lg:mx-20 md:mx-10 sm:mx-5 mobile:mx-4 pt-20'>
+            <div className='2xl:mx-[300px] xl:mx-20 lg:mx-20 md:mx-10 sm:mx-5 mobile:mx-4 py-20'>
                 <p className='2xl:text-center xl:text-center lg:text-center md:text-center sm:text-left mobile:text-left'>
                   HOMMASTON team of experienced professionals are responsible for the strategic direction and the day-to-day
                   operations of the organisation. Covering all aspects of operations, sales, product strategy, administration
@@ -23,11 +23,11 @@ const Ourteamp = () => {
                 </p>
             </div>
 
-            <div className='flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-row flex-wrap mobile:flex-col justify-center items-center gap-4 my-8'>
+            {/* <div className='flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row sm:flex-row flex-wrap mobile:flex-col justify-center items-center gap-4 my-8'>
                 <div> <img src={domore} size={20} alt="img" className='w-[400px]' /></div>
                 <div> <img src={domore} alt="img" className='w-[400px]'/></div>
                 <div> <img src={domore} alt="img" className='w-[400px]'/></div>
-            </div>
+            </div> */}
 
             <Footer />
     </div>

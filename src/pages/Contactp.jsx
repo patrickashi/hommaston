@@ -22,14 +22,14 @@ const Contactp = () => {
             </div>
 
             <div className='text-2xl font-bold text-gray-600 pt-24 mb-12 ml-4 text-center '>
-                <h1 className='2xl:hidden xl:hidden lg:hidden md:hidden mobile:block animate-bounce'></h1>
+                <h1 className='2xl:hidden xl:hidden lg:hidden md:hidden mobile:block animate-bounce'>Contact us</h1>
             </div>
 
-            <Contactform />
+            {/* <Contactform /> */}
 
             
 
-            {/* <div className='pt-20 mb-40 h-[400px] w-full bg-cover bg-start py-8 flex justify-evenly'
+            <div className='pt-20 mb-40 h-[400px] w-full bg-cover bg-start py-8 flex justify-evenly'
             style={{ backgroundImage:  `url(${contactmapbg})` }}>
 
                 <div className='mobile:hidden 2xl:block xl:block lg:block md:block'>
@@ -90,7 +90,7 @@ const Contactp = () => {
            
 
                 
-            </div> */}
+            </div>
 
             <Footer />
     </div>
