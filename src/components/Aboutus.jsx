@@ -12,9 +12,9 @@ const Aboutus = () => {
                 <p className='font-bold'>One Platform, Countless Benefits</p>
                 <div className='flex gap-4 my-4 items-center'>
                     <FaCircleDot className='text-[#FF0000] w-5' size={10}/>
-                    <p>Our platform connects participants with world-class instructors around the globe</p>
+                    <p>world-class instructors around the globe</p>
                 </div>
-                <div className='flex gap-4 my-4 items-center'>
+                <div className='flex gap-4 my-4 items-center '>
                     <FaCircleDot className='text-[#FF0000] w-5' size={10}/>
                     <p>In demand online courses </p>
                 </div>
@@ -24,7 +24,7 @@ const Aboutus = () => {
                 </div>
                 <div className='flex gap-4 my-4 items-center'>
                     <FaCircleDot className='text-[#FF0000] w-5' size={10}/>
-                    <p>A supportive community of learners and educators, creating a collaborative and enriching learning environment</p>
+                    <p>This succinctly captures the idea of a cooperative and nurturing educational setting.</p>
                 </div>
 
                 <button className='text-white bg-[#0504AA] rounded-lg px-3 py-1 hover:scale-110 duration-200'>Learn More</button>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import tower from "../assets/tower.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
@@ -36,7 +37,9 @@ const Sectwo = () => {
                     </div>
                         
                     <div className='flex items-center'>
-                        <MdOutlineKeyboardArrowRight className='rounded-full bg-white text-[#FF0000] border border-[#FF0000] hover:bg-[#FF0000] hover:text-white hover:border-[#FF0000] duration-200 cursor-pointer ' size={40}/>
+                        <Link to="Hommastonbluep/">
+                            <MdOutlineKeyboardArrowRight className='rounded-full bg-white text-[#FF0000] border border-[#FF0000] hover:bg-[#FF0000] hover:text-white hover:border-[#FF0000] duration-200 cursor-pointer ' size={40}/>
+                        </Link>
                     </div>
                 </div>
 
@@ -44,7 +47,7 @@ const Sectwo = () => {
                     <div className='grid'>
                         <div className='flex'>
                             <img src={homeiconred2} size={20} className='w-14' alt="img" />
-                            <h1 className='font-bold flex items-center'>Classroom Training</h1>
+                            <h1 className='font-bold flex items-center'>Online Training</h1>
                         </div>
                        <div className=''>
                             <p className='ml-[29px] border-l-2 border-[#FF0000] px-3'>
@@ -63,7 +66,7 @@ const Sectwo = () => {
                     <div className='grid'>
                         <div className='flex'>
                             <img src={homeiconwhite1} size={20} className='w-14' alt="img" />
-                            <h1 className='font-bold flex items-center'>Classroom Training</h1>
+                            <h1 className='font-bold flex items-center'>Blended Training</h1>
                         </div>
                        <div className=''>
                             <p className='ml-[29px] border-l-2 border-gray-400 px-3'>
@@ -74,7 +77,9 @@ const Sectwo = () => {
                     </div>
                         
                     <div className='flex items-center'>
-                        <MdOutlineKeyboardArrowRight className='rounded-full bg-white text-[#FF0000] border border-[#FF0000] hover:bg-[#FF0000] hover:text-white hover:border-[#FF0000] duration-200 cursor-pointer ' size={40}/>
+                        <Link to="Hommastonredp/">
+                            <MdOutlineKeyboardArrowRight className='rounded-full bg-white text-[#FF0000] border border-[#FF0000] hover:bg-[#FF0000] hover:text-white hover:border-[#FF0000] duration-200 cursor-pointer ' size={40}/>
+                        </Link>
                     </div>
                 </div>
 

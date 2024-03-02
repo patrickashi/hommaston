@@ -1,6 +1,7 @@
 import React from 'react'
 import people1 from "../assets/people1.png";
 import people2 from "../assets/people2.png";
+import Changetestimonials from './Changetestimonials';
 
 const Secsix = () => {
   return (
@@ -12,7 +13,7 @@ const Secsix = () => {
             </div>
 
             <div className='text-white text-center w-80 py-8'>
-                <h1 className='font-bold text-2xl mb-4'>Impactfull Experience</h1>
+                {/* <h1 className='font-bold text-2xl mb-4'>Impactfull Experience</h1>
                 <p>
                     The experience got me a job at SPIE oil and gas engineering due to my
                     gained ability to express sufficient knowledge and expertise in the utilisation
@@ -26,7 +27,9 @@ const Secsix = () => {
                 </p>
                 <p>
                     (Jeffrey Ijeomah)
-                </p>
+                </p> */}
+
+                <Changetestimonials />
 
             </div>
 

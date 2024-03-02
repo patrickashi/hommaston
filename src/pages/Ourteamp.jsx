@@ -17,9 +17,9 @@ const Ourteamp = () => {
 
             <div className='2xl:mx-[300px] xl:mx-20 lg:mx-20 md:mx-10 sm:mx-5 mobile:mx-4 pt-20'>
                 <p className='2xl:text-center xl:text-center lg:text-center md:text-center sm:text-left mobile:text-left'>
-                  HOMMASTON team of experienced professionals are responsible for the strategic direction and the day-to-dayoperations
-                  of the organisation.Covering all aspects of operations, sales, product strategy, administration and finance, 
-                  our team works together to ensure the continued success of the organistation
+                  HOMMASTON team of experienced professionals are responsible for the strategic direction and the day-to-day
+                  operations of the organisation. Covering all aspects of operations, sales, product strategy, administration
+                  and finance, our team works together to ensure the continued success of the organisation
                 </p>
             </div>
 

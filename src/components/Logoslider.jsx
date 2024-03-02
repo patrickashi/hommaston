@@ -8,9 +8,15 @@ import eit from "../assets/eit.png";
 import oando from "../assets/oando.png";
 import koeing from "../assets/koenig.png";
 
+import montegolg from "../assets/montegolg.png";
+import dredgein from "../assets/dredgein.png";
+import netcolg from "../assets/netcolg.png";
+import tecnimontlg from "../assets/tecnimontlg.png";
+import hybridlg from "../assets/hybridlg.png";
+
 
 const logosSet1 = [nysclogo, lng, deltaafflick, eit, oando, koeing];
-const logosSet2 = [koeing, eit, nysclogo, deltaafflick, oando, lng];
+const logosSet2 = [montegolg, netcolg, dredgein, hybridlg, tecnimontlg, lng];
 
 const Logoslider = () => {
 

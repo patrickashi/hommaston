@@ -79,7 +79,7 @@ const About = () => {
               transforms unskilled resource personnel into invaluable workforce assets.
             </p>
           </div>
-          <div className='flex justify-end'>
+          <div className='flex 2xl:justify-center xl:justify-center lg:justify-center md:justify-center mobile:justify-end'>
               <img src={mission} size={20} className='w-40' alt="img" />
           </div>
         </div>
@@ -87,7 +87,7 @@ const About = () => {
         <div className='2xl:mx-40  xl:mx-40  lg:mx-40  md:mx-20 mobile:mx-10 my-14 mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2
         border-b pb-4'>
 
-          <div className='flex justify-start'>
+          <div className='flex 2xl:justify-center lg:justify-center xl:justify-center md:justify-center mobile:justify-start'>
               <img src={vission} size={20} className='w-40' alt="img" />
           </div>
 
@@ -110,7 +110,7 @@ const About = () => {
               to our esteemed clientele.
             </p>
           </div>
-          <div className='flex justify-end'>
+          <div className='flex md:justify-center mobile:justify-end'>
               <img src={corevalues} size={20} className='w-80' alt="img" />
           </div>
         </div>

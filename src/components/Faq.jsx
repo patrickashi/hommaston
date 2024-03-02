@@ -48,9 +48,9 @@ const Faq = () => {
 
             <p className='text-center'>Get the answers to your questions about Hommaston</p>
 
-            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-80 lg:mx-20 mobile:mx-4 my-4 rounded-2xl
+            <div className='py-2 px-4 bg-white text-[#170F49] 2xl:mx-80 lg:mx-20 mobile:mx-4 my-4 rounded-2xl
             xl:mx-80 md:mx-20 sm:mx-4'>
-                <div className='flex justify-between'>
+                <div className='flex justify-between '>
                     <div className='flex font-bold'>Do You Offer E-Learning?</div>
                     <button onClick={handleClick} className={ hide ?  '' : ""}>
                         { hide ? <FiPlus className='text-[#6F6C90] text-lg bg-gray-300 rounded-lg' size={40}/> : <LuMinus className='bg-[#4A3AFF] rounded-lg text-white' size={40}/>}
@@ -67,7 +67,7 @@ const Faq = () => {
 
             </div>
 
-            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-80 lg:mx-20 mobile:mx-4 my-4 rounded-2xl
+            <div className='py-2 px-4 bg-white text-[#170F49] 2xl:mx-80 lg:mx-20 mobile:mx-4 my-4 rounded-2xl
             xl:mx-80 md:mx-20 sm:mx-4'>
                 <div className='flex justify-between'>
                     <div className='flex font-bold'>Can I Pay For Course Online Using My Credit Card?</div>
@@ -82,7 +82,7 @@ const Faq = () => {
 
             </div>
 
-            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-80 mobile:mx-4 my-4 rounded-2xl
+            <div className='py-2 px-4 bg-white text-[#170F49] 2xl:mx-80 mobile:mx-4 my-4 rounded-2xl
             xl:mx-80 lg:mx-20 md:mx-20 sm:mx-4'>
                 <div className='flex justify-between'>
                     <div className='flex font-bold'>Is Hommaston Limited On Social Media?</div>
@@ -97,7 +97,7 @@ const Faq = () => {
 
             </div>
 
-            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-80 mobile:mx-4 my-4 rounded-2xl
+            <div className='py-2 px-4 bg-white text-[#170F49] 2xl:mx-80 mobile:mx-4 my-4 rounded-2xl
             xl:mx-80 lg:mx-20 md:mx-20 sm:mx-4'>
                 <div className='flex justify-between'>
                     <div className='flex font-bold'>What Payment Method Or Form Do You Accept?</div>
@@ -112,7 +112,7 @@ const Faq = () => {
 
             </div>
 
-            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-80 mobile:mx-4 my-4 rounded-2xl
+            <div className='py-2 px-4 bg-white text-[#170F49] 2xl:mx-80 mobile:mx-4 my-4 rounded-2xl
             xl:mx-80 lg:mx-20 md:mx-20 sm:mx-4'>
                 <div className='flex justify-between'>
                     <div className='flex font-bold'>Are All Hommaston Courses Certified?</div>
@@ -127,7 +127,7 @@ const Faq = () => {
 
             </div>
 
-            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-80 mobile:mx-4 my-4 rounded-2xl
+            <div className='py-2 px-4 bg-white text-[#170F49] 2xl:mx-80 mobile:mx-4 my-4 rounded-2xl
             xl:mx-80 lg:mx-20 md:mx-20 sm:mx-4'>
                 <div className='flex justify-between'>
                     <div className='flex font-bold'>Where Does the Training Take Place?</div>
@@ -142,7 +142,7 @@ const Faq = () => {
 
             </div>
 
-            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-80 mobile:mx-4 my-4 rounded-2xl
+            <div className='py-2 px-4 bg-white text-[#170F49] 2xl:mx-80 mobile:mx-4 my-4 rounded-2xl
             xl:mx-80 lg:mx-20 md:mx-20 sm:mx-4 font-bold'>
                 <div className='flex justify-between'>
                     <div className='flex font-bold'>What Is the Mode Of Training?</div>
@@ -157,7 +157,7 @@ const Faq = () => {
 
             </div>
 
-            <div className='py-4 px-4 bg-white text-[#170F49] 2xl:mx-80 mobile:mx-4 my-4 rounded-2xl
+            <div className='py-2 px-4 bg-white text-[#170F49] 2xl:mx-80 mobile:mx-4 my-4 rounded-2xl
             xl:mx-80 lg:mx-20 md:mx-20 sm:mx-4'>
                 <div className='flex justify-between'>
                     <div className='flex font-bold'>How Do You Measure Attendee Satisfaction?</div>

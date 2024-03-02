@@ -66,7 +66,7 @@ const  Navbar = () => {
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/aboutusp">About Us</Link></li>
                         <li>
-                            <DropdownLink to="/Servicesp" title="Services">
+                            <DropdownLink to="/Servicesp" title="Services" className="">
                                 <Link to="/Hommastonbluep">
                                     <DropdownItem >Division Blue</DropdownItem> 
                                 </Link>
@@ -74,7 +74,7 @@ const  Navbar = () => {
                                     <DropdownItem>Division Red</DropdownItem> 
                                 </Link>
                                 <Link to="/Nchcdp"> 
-                                    <DropdownItem>NC-HCD Training</DropdownItem>
+                                    <DropdownItem>NC-HCD Consultancy</DropdownItem>
                                 </Link>
                             </DropdownLink>
                         </li>
@@ -85,9 +85,9 @@ const  Navbar = () => {
                 </div>
                 <div className="mobile:hidden sm:hidden md:block 2xl:block xl:block lg:block">
                     <ul className="flex gap-3">
-                        <li><Link to="/Hepburnp">Hepburn</Link></li>
                         <li><Link to="/Ourteamp">Our Team</Link></li>
                         <li> <Link to="/Contactp">Contact</Link></li>
+                        <li><Link to="/Hepburnp">Hepburn</Link></li>
                     </ul>
                 </div>
             </div>
@@ -124,7 +124,7 @@ const  Navbar = () => {
                                 <div className="absolute top-68 left-4 bg-gray-100 text-black rounded-md py-4 px-2 text-center w-[100px]">
                                     <li className="bg-gray-300 rounded-md hover:bg-[#0504AA] hover:text-white duration-200"><Link to="/Hommastonbluep">Division Blue</Link></li>
                                     <li className="bg-gray-300 rounded-md hover:bg-[#ED1C24] hover:text-white duration-200 my-2"><Link to="/Hommastonredp">Division Red</Link></li>
-                                    <li className="bg-gray-300 rounded-md hover:bg-[#0504AA] hover:text-white duration-200"> <Link to="/Nchcdp">NC-HCD Training</Link></li>
+                                    <li className="bg-gray-300 rounded-md hover:bg-[#0504AA] hover:text-white duration-200 text-xs"> <Link to="/Nchcdp">NC-HCD Consultancy</Link></li>
                                 </div>
                             )}
 
