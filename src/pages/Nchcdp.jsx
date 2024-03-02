@@ -65,11 +65,11 @@ const Nchcdp = () => {
 
 
         <div className='flex mobile:flex-col 2xl:flex-row xl:flex-row lg:flex-row md:flex-row
-        2xl:mx-40 mobile:mx-4 2xl:items-center  2xl:justify-center gap-6 mobile:justify-start mb-12'>
+        2xl:mx-40 xl:mx-40 lg:mx-20 mobile:mx-4 2xl:items-center  2xl:justify-center xl:justify-center lg:justify-center md:justify-center gap-6 mobile:justify-start mb-12'>
 
             <div className='flex mobile:flex-row 2xl:flex-col xl:flex-col lg:flex-col md:flex-col items-center'>
                 <div> <img src={icon1} alt="icon" className='w-20' /></div>
-                <div className='md:text-center'> Tailored programs based on client’s need</div>
+                <div className='md:text-center'> Tailored programs</div>
             </div>
 
             <div className='flex mobile:flex-row 2xl:flex-col xl:flex-col lg:flex-col md:flex-col items-center'>

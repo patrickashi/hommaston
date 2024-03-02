@@ -18,9 +18,9 @@ const About = () => {
                 </div>
           </div>
 
-        <div className='py-16 mt-10 2xl:mx-20 xl:mx-20 lg:mx-20 md:mx-20 sm:mx-4 mobile:mx-4'>
+        <div className='py-16 mt-10 2xl:mx-40 xl:mx-20 lg:mx-20 md:mx-20 sm:mx-4 mobile:mx-4'>
 
-          <p className='2xl:text-center xl:text-center lg:text-center md:text-center sm:text-start mobile:text-start 2xl:text-xl xl:text-xl lg:text-xl md:text-lg mobile:text-sm'>
+          <p className='2xl:text-center xl:text-center lg:text-center md:text-center sm:text-start mobile:text-start 2xl:text-lg xl:text-lg lg:text-lg md:text-lg mobile:text-sm'>
             Hommaston operates two core divisions. Red Division(Hommaston Engineering)
             focal delivery of choice skillset for design engineering, facility maintenance
             and operations support competency and performance. The blue division(Hommaston digital)
@@ -73,14 +73,14 @@ const About = () => {
 
         <div className='2xl:mx-40  xl:mx-40  lg:mx-40  md:mx-20 mobile:mx-10 my-14 mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2
         border-b pb-6'>
-          <div>
+          <div className='flex items-center'>
             <p>
               To provide a reputable skills enhancement platform that proficiently
               transforms unskilled resource personnel into invaluable workforce assets.
             </p>
           </div>
           <div className='flex 2xl:justify-center xl:justify-center lg:justify-center md:justify-center mobile:justify-end'>
-              <img src={mission} size={20} className='w-40' alt="img" />
+              <img src={mission} size={20} className='w-60' alt="img" />
           </div>
         </div>
 
@@ -88,10 +88,10 @@ const About = () => {
         border-b pb-4'>
 
           <div className='flex 2xl:justify-center lg:justify-center xl:justify-center md:justify-center mobile:justify-start'>
-              <img src={vission} size={20} className='w-40' alt="img" />
+              <img src={vission} size={20} className='w-60' alt="img" />
           </div>
 
-          <div>
+          <div className='flex items-center'>
             <p className='flex 2xl:text-end xl:text-end lg:text-end md:text-end mobile:text-start'>
               To be the prominent standard in global delivery of qualitative capacity building services.
             </p>
@@ -110,8 +110,8 @@ const About = () => {
               to our esteemed clientele.
             </p>
           </div>
-          <div className='flex md:justify-center mobile:justify-end'>
-              <img src={corevalues} size={20} className='w-80' alt="img" />
+          <div className='flex 2xl:justify-center xl:justify-center lg:justify-center md:justify-center mobile:justify-end'>
+              <img src={corevalues} size={20} className='w-80 object-contain' alt="img" />
           </div>
         </div>
 
