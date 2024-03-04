@@ -5,7 +5,7 @@ import trafficlight from "../assets/trafficlight.png";
 
 const Aboutus = () => {
   return (
-    <div className='2xl:mx-28 xl:mx-28 lg:mx-[40px] mobile:ml-5 py-4 font-Montserrat'>
+    <div className='2xl:mx-28 xl:mx-28 lg:mx-[40px] mobile:ml-5 py-4 font-Montserrat border-y border-gray-300'>
         <div className='mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2'>
             <div className=''>
                 <p className='text-[#FF0000] font-bold text-2xl'>About Us</p>

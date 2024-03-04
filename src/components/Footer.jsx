@@ -9,6 +9,7 @@ import { FaSquarePhoneFlip } from "react-icons/fa6";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaCirclePlay } from "react-icons/fa6";
 import hommastonashlogo from "../assets/hommastonashlogo.png";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -88,8 +89,12 @@ const Footer = () => {
         <div className='flex justify-evenly mobile:flex-col 2xl:flex-row xl:flex-row lg:flex-row mobile:items-center text-xs my-2'>
             <div>
                 <ul className='flex gap-2'>
-                    <li className='border-r-2 pr-2 border-gray-700'>Home</li>
-                    <li className='border-r-2 pr-2  border-gray-700'>Contact</li>
+                    <Link to="/">
+                        <li className='border-r-2 pr-2 border-gray-700'>Home</li>
+                    </Link>
+                    <Link to ="Contactp">
+                        <li className='border-r-2 pr-2  border-gray-700'>Contact</li>
+                    </Link>
                     <li className='border-r-2 pr-2 border-gray-700'>Legal Notice</li>
                     <li>Terms & Conditions</li>
                 </ul>
