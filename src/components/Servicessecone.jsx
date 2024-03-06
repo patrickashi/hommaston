@@ -30,7 +30,7 @@ const Servicessecone = () => {
                 <div className='pt-2'>
                     <Link to="/Nchcdp">
                         <div className='2xl:text-3xl xl:text-3xl lg:text-3xl mobile:text-xs text-center bg-white 2xl:rounded-xl mobile:rounded-lg 2xl:py-4 2xl:px-16 text-[#292D32]
-                        mobile:px-1 mobile:py-3 xl:rounded-xl lg:rounded-xl'>NC-HCD Consultancy</div>
+                        mobile:px-1 mobile:py-3 xl:rounded-xl lg:rounded-xl'>NC-HCD Consultancy </div>
                     </Link>
                 </div>
 
