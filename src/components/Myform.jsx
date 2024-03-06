@@ -8,6 +8,14 @@ import { FaFacebook } from "react-icons/fa";
 import { LiaLinkedinIn } from "react-icons/lia";
 
 
+
+// Function to retrieve CSRF token from cookie
+const getCookie = (name) => {
+    const cookieValue = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
+    return cookieValue ? cookieValue.pop() : null;
+};
+
+
 const Myform = () => {
     const [formData, setFormData] = useState({
       firstname: '',
@@ -28,8 +36,17 @@ const Myform = () => {
   
     const handleSubmit = async (e) => {
       e.preventDefault();
+
+       const csrftoken = getCookie('csrftoken');
+
+        // Include CSRF token in request headers
+        const headers = {
+            'X-CSRFToken': csrftoken,
+            'Content-Type': 'application/json'
+        };
+
       try {
-        const response = await axios.post('https://patrickpeko.pythonanywhere.com/', formData);
+        const response = await axios.post('https://patrickpeko.pythonanywhere.com/', formData, { headers });
         console.log('Form submitted successfully:', response.data);
         // Reset form after successful submission
         setFormData({
@@ -40,6 +57,7 @@ const Myform = () => {
           phone_number: '',
           message: ''
         });
+
       } catch (error) {
         console.error('Error submitting form:', error);
       }
