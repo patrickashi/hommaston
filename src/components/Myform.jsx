@@ -29,7 +29,7 @@ const Myform = () => {
     const handleSubmit = async (e) => {
       e.preventDefault();
       try {
-        const response = await axios.post('patrickpeko.pythonanywhere.com', formData);
+        const response = await axios.post('https://patrickpeko.pythonanywhere.com', formData);
         console.log('Form submitted successfully:', response.data);
         // Reset form after successful submission
         setFormData({
