@@ -10,7 +10,7 @@ import homeiconwhite1 from "../assets/homeiconwhite1.png";
 const Sectwo = () => {
   return (
     <div className='font-Montserrat'>
-        <div className='2xl:mx-28 xl:mx-28 mobile:mx-4 mobile:grid sm:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 border-y border-gray-300'>
+        <div className='2xl:mx-28 xl:mx-28 mobile:mx-4 mobile:grid sm:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 border-b border-gray-300'>
 
             <div className='flex justify-center'>
                 <img src={tower} size={20} className='md:w-full 2xl:w-80 object-contain xl:w-80 lg:w-80 mobile:w-80' alt="img" />
