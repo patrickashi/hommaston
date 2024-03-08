@@ -14,7 +14,7 @@ function Emailform() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post('https://patrickpeko.pythonanywhere.com/api/form_submission/', { email });
+            await axios.post('https://patrickpeko.pythonanywhere.com/api/submit_email/', { email });
             alert('Email submitted successfully!');
             setEmail('');
         } catch (error) {
