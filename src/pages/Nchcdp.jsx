@@ -33,7 +33,7 @@ const Nchcdp = () => {
             const csrfToken = getCsrfToken();
             axios.defaults.headers.common['X-CSRFToken'] = csrfToken;
 
-            await axios.post('http://your-django-backend.com/api/nchcd_submission/', formData);
+            await axios.post('https://your-django-backend.com/api/nchcd_submission/', formData);
 
             alert('Form submitted successfully!');
             setFormData({
