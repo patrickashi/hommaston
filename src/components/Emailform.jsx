@@ -39,9 +39,7 @@ function Emailform() {
             <div className='flex mt-[3rem] items-center justify-between 2xl:w-[40rem] xl:w-[40rem] lg:w-[40rem] h-14 bg-white rounded-2xl border-[#cccccc]
             overflow-hidden mobile:w-[23rem]'>
                 <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder='Enter your email address here' className='flex-[7] pl-[10px] text-black  border-none outline-none'/>
-                <button className='bg-[#FF0000] flex-1 h-full'>
-                    <button type="submit" className='text-white px-4'>Subscribe</button>
-                </button>
+                <button type="submit" className='bg-[#FF0000] flex-1 h-full text-white px-4'>Subscribe</button>
             </div>
         </form>
     );
