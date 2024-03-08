@@ -47,6 +47,7 @@ const Myform = () => {
 
       try {
         const response = await axios.post('https://patrickpeko.pythonanywhere.com/api/form_submission/', formData, { headers });
+        alert('Email submitted successfully!');
         console.log('Form submitted successfully:', response.data);
         // Reset form after successful submission
         setFormData({
