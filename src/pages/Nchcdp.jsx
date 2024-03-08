@@ -44,8 +44,6 @@ const Nchcdp = () => {
         };
 
         try {
-            // const csrfToken = getCsrfToken();
-            // axios.defaults.headers.common['X-CSRFToken'] = csrfToken;
 
             await axios.post('https://patrickpeko.pythonanywhere.com/api/nchcd_submission/', formData, { headers });
 
@@ -62,11 +60,6 @@ const Nchcdp = () => {
             console.error('Error submitting form:', error);
             alert('Error submitting form. Please try again.');
         }
-    };
-
-    const getCsrfToken = () => {
-        const cookieValue = document.cookie.match(/csrftoken=([^ ;]+)/);
-        return cookieValue ? cookieValue[1] : null;
     };
 
 
