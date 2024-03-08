@@ -1,4 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react';
+import axios from 'axios';
+
 import { Link } from "react-router-dom";
 import fcdesign from "../assets/fcdesign.jpg";
 import icon1 from "../assets/icon1.png";
@@ -11,6 +13,49 @@ import { MdArrowBackIosNew } from "react-icons/md";
 import Footer from '../components/Footer';
 
 const Nchcdp = () => {
+
+    const [formData, setFormData] = useState({
+        firstname: '',
+        lastname: '',
+        companyname: '',
+        companyemail: '',
+        phonenumber: '',
+        otherinfo: ''
+    });
+
+    const handleChange = (e) => {
+        setFormData({ ...formData, [e.target.name]: e.target.value });
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        try {
+            const csrfToken = getCsrfToken();
+            axios.defaults.headers.common['X-CSRFToken'] = csrfToken;
+
+            await axios.post('http://your-django-backend.com/api/nchcd_submission/', formData);
+
+            alert('Form submitted successfully!');
+            setFormData({
+                firstname: '',
+                lastname: '',
+                companyname: '',
+                companyemail: '',
+                phonenumber: '',
+                otherinfo: ''
+            });
+        } catch (error) {
+            console.error('Error submitting form:', error);
+            alert('Error submitting form. Please try again.');
+        }
+    };
+
+    const getCsrfToken = () => {
+        const cookieValue = document.cookie.match(/csrftoken=([^ ;]+)/);
+        return cookieValue ? cookieValue[1] : null;
+    };
+
+
   return (
     <div className='font-Montserrat'>
         <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${fcdesign})` }}>
@@ -99,35 +144,35 @@ const Nchcdp = () => {
              bg-white rounded-2xl 2xl:mt-[-50px] xl:mt-[-50px] lg:mt-[-50px] md:mt-[-50px] mobile:mt-[-80px] border-2
               border-gray-300 shadow-lg shadow-gray-300'>
 
-                <form >
+                <form onSubmit={handleSubmit}>
                     <div className='flex mobile:flex-col 2xl:flex-row xl:flex-row lg:flex-row md:flex-row gap-2 px-4'>
                         <div className=''>
-                            <input type="text" className='rounded-lg bg-gray-300 pl-2 mobile:w-full py-4' placeholder='firstname' />
+                            <input type="text" id='firstname' name="firstname" value={formData.firstname} onChange={handleChange} className='rounded-lg bg-gray-300 pl-2 mobile:w-full py-4' placeholder='firstname' />
                         </div>
                         <div>
-                            <input type="text" className='rounded-lg bg-gray-300 pl-2 mobile:w-full py-4' placeholder='lastname' />
+                            <input type="text" id="lastname" name="lastname" value={formData.lastname} onChange={handleChange} className='rounded-lg bg-gray-300 pl-2 mobile:w-full py-4' placeholder='lastname' />
                         </div>
                     </div>
 
                     <div className='px-4'>
-                        <input type="text" className='rounded-lg bg-gray-300 pl-2 my-2 w-full py-4 ' placeholder='company name' />
+                        <input type="text" id="companyname" name="companyname" value={formData.companyname} onChange={handleChange} className='rounded-lg bg-gray-300 pl-2 my-2 w-full py-4 ' placeholder='company name' />
                     </div>
 
                     <div className='flex mobile:flex-col 2xl:flex-row xl:flex-row lg:flex-row md:flex-row gap-2 px-4'>
                         <div className=''>
-                            <input type="text" className='rounded-lg bg-gray-300 pl-2 mobile:w-full py-4' placeholder='company email' />
+                            <input type="text" id="companyemail" name="companyemail" value={formData.companyemail} onChange={handleChange} className='rounded-lg bg-gray-300 pl-2 mobile:w-full py-4' placeholder='company email' />
                         </div>
                         <div>
-                            <input type="text" className='rounded-lg bg-gray-300 pl-2 mobile:w-full py-4' placeholder='phone no' />
+                            <input type="text" id="phonenumber" name="phonenumber" value={formData.phonenumber} onChange={handleChange} className='rounded-lg bg-gray-300 pl-2 mobile:w-full py-4' placeholder='phone no' />
                         </div>
                     </div>
 
                     <div className='px-4'>
-                        <input type="text" className='rounded-lg bg-gray-300 pl-2 my-2 w-full 2xl:pb-20 xl:pb-20 lg:pb-20 md:pb-20 mobile:pb-10 py-4 text-sm' placeholder='other information you want us to know' />
+                        <textarea id="otherinfo" name="otherinfo" value={formData.otherinfo} onChange={handleChange} className='rounded-lg bg-gray-300 pl-2 my-2 w-full 2xl:pb-20 xl:pb-20 lg:pb-20 md:pb-20 mobile:pb-10 py-4 text-sm' placeholder='other information you want us to know' />
                     </div>
 
                     <div className='text-center 2xl:mt-8 xl:mt-8 lg:mt-8 md:mt-8 mobile:mt-2'>
-                        <button className='bg-[#0504AA] text-white rounded-md px-4 py-2 hover:scale-105 duration-200'>Send Message</button>
+                        <button type="submit" className='bg-[#0504AA] text-white rounded-md px-4 py-2 hover:scale-105 duration-200'>Send Message</button>
                     </div>
                     
                 </form>
