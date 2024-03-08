@@ -12,6 +12,11 @@ import bg1 from "../assets/bg1.jpg";
 import { MdArrowBackIosNew } from "react-icons/md";
 import Footer from '../components/Footer';
 
+const getCookie = (name) => {
+    const cookieValue = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
+    return cookieValue ? cookieValue.pop() : null;
+};
+
 const Nchcdp = () => {
 
     const [formData, setFormData] = useState({
@@ -29,11 +34,20 @@ const Nchcdp = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        try {
-            const csrfToken = getCsrfToken();
-            axios.defaults.headers.common['X-CSRFToken'] = csrfToken;
 
-            await axios.post('https://patrickpeko.pythonanywhere.com/api/nchcd_submission/', formData);
+        const csrftoken = getCookie('csrftoken');
+
+        // Include CSRF token in request headers
+        const headers = {
+            'X-CSRFToken': csrftoken,
+            'Content-Type': 'application/json'
+        };
+
+        try {
+            // const csrfToken = getCsrfToken();
+            // axios.defaults.headers.common['X-CSRFToken'] = csrfToken;
+
+            await axios.post('https://patrickpeko.pythonanywhere.com/api/nchcd_submission/', formData, { headers });
 
             alert('Form submitted successfully!');
             setFormData({
