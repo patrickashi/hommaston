@@ -40,7 +40,7 @@ const Nchcdp = () => {
 
             <div className='2xl:col-span-2 xl:col-span-2 lg:col-span-2 text-justify'>
                 <p>
-                    Meeting the client's expectation and deliver as required qualitatively as previously explained.
+                    Meeting the client's expectations and delivering as required
                 </p>
 
                 <p className='my-8'>
@@ -115,7 +115,7 @@ const Nchcdp = () => {
 
                     <div className='flex mobile:flex-col 2xl:flex-row xl:flex-row lg:flex-row md:flex-row gap-2 px-4'>
                         <div className=''>
-                            <input type="text" className='rounded-lg bg-gray-300 pl-2 mobile:w-full py-4' placeholder='email' />
+                            <input type="text" className='rounded-lg bg-gray-300 pl-2 mobile:w-full py-4' placeholder='company email' />
                         </div>
                         <div>
                             <input type="text" className='rounded-lg bg-gray-300 pl-2 mobile:w-full py-4' placeholder='phone no' />
