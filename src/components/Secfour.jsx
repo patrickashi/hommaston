@@ -20,7 +20,7 @@ const Secfour = () => {
                 and Oily Water; Food waste and grease oil Effluents and sewage Wasewater on Offshore and Onshore locations.
             </p>
 
-            <button className='text-white bg-[#0504AA] rounded-lg px-3 py-1 hover:scale-110 duration-200'>Learn More</button>
+            <button className='text-white bg-[#0504AA] rounded-lg px-3 py-1 hover:scale-105 opacity-80 duration-200'>Learn More</button>
 
         </div>
     </div>

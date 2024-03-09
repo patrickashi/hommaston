@@ -5,7 +5,7 @@ import trafficlight from "../assets/trafficlight.png";
 
 const Aboutus = () => {
   return (
-    <div className='2xl:mx-28 xl:mx-28 lg:mx-[40px] mobile:ml-5 py-4 font-Montserrat border-y border-gray-300'>
+    <div className='2xl:mx-28 xl:mx-28 lg:mx-[40px] mobile:ml-5 py-4 font-Montserrat border-t border-gray-300'>
         <div className='mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 py-10'>
             <div className=''>
                 <p className='text-[#FF0000] font-bold text-2xl'>About Us</p>
@@ -27,7 +27,7 @@ const Aboutus = () => {
                     <p>This succinctly captures the idea of a cooperative and nurturing educational setting.</p>
                 </div>
 
-                <button className='text-white bg-[#0504AA] rounded-lg px-3 py-1 hover:scale-110 duration-200'>Learn More</button>
+                <button className='text-white bg-[#0504AA] rounded-lg px-3 py-1 hover:scale-105 hover:opacity-80 duration-200'>Learn More</button>
             </div>
             <div className='flex items-center mobile:justify-center 2xl:justify-center xl:justify-center'>
                 <img src={trafficlight} size={40} alt="img" className='h-[300px]' />

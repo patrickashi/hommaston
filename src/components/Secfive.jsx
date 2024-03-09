@@ -35,7 +35,7 @@ const Secfive = () => {
                 </div>
             </div>
 
-            <button className='text-white bg-[#0504AA] rounded-lg px-3 my-6 py-1 hover:scale-110 duration-200'>Learn More</button>
+            <button className='text-white bg-[#0504AA] rounded-lg px-3 my-6 py-1 hover:scale-105 hover:opacity-80 duration-200'>Learn More</button>
 
         </div>
     </div>
