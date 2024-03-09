@@ -142,12 +142,12 @@ const Nchcdp = () => {
         </div>
 
 
-        <div className='h-[400px] w-full bg-cover bg-start py-8 my-20 flex justify-evenly' 
+        <div className='h-[400px] w-full bg-cover bg-start py-6 my-40 flex justify-evenly' 
         style={{ backgroundImage:  `url(${bg1})` }}>  
 
             <div></div>
 
-            <div className='2xl:w-[450px] xl:w-[450px] lg:w-[450px] md:w-[450px] mobile:w-[350px] 2xl:h-[450px] xl:h-[450px] lg:h-[450px] md:h-[450px] mobile:h-[500px]  pt-6 pb-12
+            <div className='2xl:w-[450px] xl:w-[450px] lg:w-[450px] md:w-[450px] mobile:w-[350px] 2xl:h-[480px] xl:h-[480px] lg:h-[480px] md:h-[480px] mobile:h-[550px]  pt-6 pb-12
              bg-white rounded-2xl 2xl:mt-[-50px] xl:mt-[-50px] lg:mt-[-50px] md:mt-[-50px] mobile:mt-[-80px] border-2
               border-gray-300 shadow-lg shadow-gray-300'>
 

@@ -7,7 +7,7 @@ const Servicesp = () => {
     <div className=' h-screen font-Montserrat'>
         <Servicessecone />
 
-        <div className='2xl:mx-20 xl:mx-20 lg:mx-20 md:mx-10 sm:mx-8 mobile:mx-4 py-10
+        <div className='2xl:mx-40 xl:mx-40 lg:mx-20 md:mx-10 sm:mx-8 mobile:mx-4 py-10
         text-justify'>
 
           <div>

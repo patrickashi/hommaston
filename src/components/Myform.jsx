@@ -82,8 +82,8 @@ const Myform = () => {
             <p className='text-2xl font-bold text-[#FF0000] animate-ping'>Contact Us</p>
             </div>
 
-            <div className='2xl:w-[450px] xl:w-[450px] lg:w-[450px] md:w-[450px] mobile:w-[350px] 2xl:h-[450px] xl:h-[450px] lg:h-[450px] md:h-[450px] mobile:h-[500px]  pt-6 pb-12
-            bg-white rounded-2xl 2xl:mt-[-90px] xl:mt-[-90px] lg:mt-[-90px] md:mt-[-90px] mobile:mt-[-100px] border-2
+            <div className='2xl:w-[450px] xl:w-[450px] lg:w-[450px] md:w-[450px] mobile:w-[350px] 2xl:h-[500px] xl:h-[500px] lg:h-[500px] md:h-[500px] mobile:h-[550px]  pt-6 pb-12
+            bg-white rounded-2xl 2xl:mt-[-120px] xl:mt-[-120px] lg:mt-[-120px] md:mt-[-120px] mobile:mt-[-120px] border-2
             border-gray-300 shadow-lg shadow-[#FF0000]'>
 
                 <form onSubmit={handleSubmit}>
@@ -124,8 +124,8 @@ const Myform = () => {
                         </ul>
                         </div> 
 
-                        <div>
-                        <button type="submit" className='bg-[#0504AA] text-white rounded-tl rounded-bl px-4 py-2 hover:scale-105 duration-200'>Send Message</button>
+                        <div className=''>
+                            <button type="submit" className='bg-[#0504AA] text-white rounded-tl rounded-bl px-3 py-2 hover:opacity-80 duration-200'>Send Message</button>
                         </div>
                         
                     </div>
