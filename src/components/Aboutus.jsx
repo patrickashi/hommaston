@@ -2,6 +2,8 @@ import React from 'react'
 import { FaCircleDot } from "react-icons/fa6";
 import trafficlight from "../assets/trafficlight.png";
 
+import seconepng2 from "../assets/seconepng2.png";
+
 
 const Aboutus = () => {
   return (
@@ -29,8 +31,9 @@ const Aboutus = () => {
 
                 <button className='text-white bg-[#0504AA] rounded-lg px-3 py-1 hover:scale-105 hover:opacity-80 duration-200'>Learn More</button>
             </div>
-            <div className='flex items-center mobile:justify-center 2xl:justify-center xl:justify-center'>
-                <img src={trafficlight} size={40} alt="img" className='h-[300px]' />
+            <div className='flex items-center mobile:justify-center 2xl:justify-center xl:justify-center mobile:mt-20 sm:mt-0 md:mt-0
+            lg:mt-0 xl:mt-0 2xl:mt-0'>
+                <img src={seconepng2} size={40} alt="img" className='h-[300px]' />
             </div>
         </div>
     </div>
