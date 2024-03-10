@@ -6,36 +6,15 @@ const Servicessecone = () => {
   return (
     <div className='font-Montserrat'>
         <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${classroomedit})` }}>
-            {/* <img src={classroomedit} alt="" className='h-full w-full object-cover' /> */}
-            <div className='abosolute pt-10 2xl:px-[400px] xl:px-[400px] lg:px-[200px] mobile:px-20 rounded-md'>
-                <div className='text-4xl text-center bg-white/50 font-bold text-[#292D32] py-10 rounded-xl animate-pulse space-x-4'>Services</div>
-            </div>
+              
+                <div className='absolute 2xl:mt-[255px] mobile:mt-[262px] mx-auto border-2 flex justify-center 
+                xl:mt-[255px] lg:mt-[255px] md:mt-[262px] sm:mt-[262px] items-center inset-x-0 bg-neutral-50/70
+                2xl:mx-20 mobile:mx-5 rounded-2xl shadow-md shadow-violet-400'>
+                    <h1 className='2xl:text-5xl xl:text-5xl lg:text-5xl mobile:text-3xl py-4 font-bold 2xl:text-gray-700
+                    mobile:text-gray-600  text-center rounded-full'>Services</h1>
+                </div>
+
             
-            <div className='absolute flex flex-row 2xl:gap-20 mobile:gap-3 items-center justify-center mt-6 2xl:ml-[200px]
-             mobile:ml-0 xl:ml-[150px] lg:ml-[100px] md:ml-[100px] sm:ml-[100px]'>
-                <div className='pt-2'>
-                    <Link to="/Hommastonbluep">
-                        <div className='2xl:text-3xl xl:text-3xl lg:text-3xl mobile:text-xs text-center bg-white 2xl:rounded-xl mobile:rounded-lg 2xl:py-4 2xl:px-16 mx-auto text-[#292D32]
-                        mobile:px-6 mobile:py-3 xl:rounded-xl lg:rounded-xl'>Division Blue</div>
-                    </Link>
-                </div>
-
-                <div className='pt-2'>
-                    <Link to="/Hommastonredp">
-                        <div className='2xl:text-3xl xl:text-3xl lg:text-3xl  mobile:text-xs text-center bg-white 2xl:rounded-xl mobile:rounded-lg 2xl:py-4 2xl:px-16 text-[#292D32]
-                        mobile:px-6 mobile:py-3 xl:rounded-xl lg:rounded-xl'>Division Red</div>
-                    </Link>
-                </div>
-
-                <div className='pt-2'>
-                    <Link to="/Nchcdp">
-                        <div className='2xl:text-3xl xl:text-3xl lg:text-3xl mobile:text-xs text-center bg-white 2xl:rounded-xl mobile:rounded-lg 2xl:py-4 2xl:px-16 text-[#292D32]
-                        mobile:px-1 mobile:py-3 xl:rounded-xl lg:rounded-xl'>NC-HCD Consultancy </div>
-                    </Link>
-                </div>
-
-
-            </div>
         </div>
     </div>
   )
