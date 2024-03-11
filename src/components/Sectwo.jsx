@@ -60,7 +60,9 @@ const Sectwo = () => {
                     </div>
                         
                     <div className='flex items-center'>
+                        <Link to="https://skillsup.hommaston.com/#/course-library">
                         <MdOutlineKeyboardArrowRight className='rounded-full bg-[#FF0000] text-white border border-[#FF0000] hover:bg-white hover:text-[#FF0000] hover:border-[#FF0000] duration-200 cursor-pointer ' size={40}/>
+                        </Link>
                     </div>
                 </div>
 

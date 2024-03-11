@@ -53,16 +53,16 @@ const Servicesp = () => {
 
               <div className='flex items-center'>
                 <p>
-                  HOMMASTON provides structured On-job Training consultancy aimed at enhancing organizational productivity 
-                  and profitability. As a value-added proposition, we further aid client organizations in identifying critical
-                  competency gaps with respect to personnel performance outcomes, evaluate the extent and propose a structured
-                  plan to appropriately address them. We are an organization with a mission to transform non-experienced workforce
-                  entrants into invaluable workforce assets for industry. In our approach, we associate our baseline solution to
-                  include Fresh graduates facing the challenge of non-employment due to the ‘no-experience’ syndrome or the dilemma
-                  of a new entrant in result-oriented project teams. We bridge this gap through intensive preparatory courses
-                  and live case study structured dummy projects. The key objectives are to optimize trainees’ employment 
-                  chances by equipping them with appropriate proficiency to competently deliver on live projects with little
-                  or average supervision.
+                HOMMASTON provides structured On-job training consultancy aimed at enhancing organizational productivity
+                 and profitability. As a value-added proposition, we further aid client and organizations in identifying
+                  critical competency gaps with respect to personnel performance , evaluate the extent and propose a 
+                  structured plan to appropriately address them. We are an organization with a mission to transform
+                   non-experienced workforce entrants into invaluable workforce assets for industry. In our approach,
+                    we associate our baseline solution to include fresh graduates facing the challenge of non-employment
+                     due to the ‘no-experience’ syndrome or the dilemma of a new entrant in result-oriented project teams.
+                      We bridge this gap through intensive preparatory courses and live case study structured dummy projects.
+                       The key objectives are to optimize trainees’ employment chances by equipping them with appropriate
+                        proficiency to competently deliver on live projects with little or average supervision
                 </p>
             </div>
 

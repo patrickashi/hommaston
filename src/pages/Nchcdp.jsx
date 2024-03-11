@@ -9,6 +9,8 @@ import icon3 from "../assets/icon3.png";
 import icon4 from "../assets/icon4.png";
 import bg1 from "../assets/bg1.jpg";
 
+import { PiCheckThin } from "react-icons/pi";
+
 import { MdArrowBackIosNew } from "react-icons/md";
 import Footer from '../components/Footer';
 
@@ -91,24 +93,44 @@ const Nchcdp = () => {
         2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 mobile:grid'>
 
             <div className='2xl:col-span-2 xl:col-span-2 lg:col-span-2 text-justify'>
-                <p>
-                    Meeting the client's expectations and delivering as required
-                </p>
+                
+                    
+                <div className='flex gap-4'>
+                    <div className='flex items-center'> 
+                        <PiCheckThin className='text-red-600' size={20}/>
+                     </div>
+                    <div>Meeting the client's expectations and delivering as required</div>
+                </div>
 
-                <p className='my-8'>
-                    Achievement of ‘work based’ skills with our deliverable-based training approach
-                </p>
+                <div className='flex gap-4'>
+                    <div className='flex items-center'> 
+                        <PiCheckThin className='text-red-600' size={20}/>
+                     </div>
+                    <div className='my-8'>
+                        Achievement of ‘work based’ skills with our deliverable-based training approach
+                    </div>
+                </div>
 
-                <p>
-                    At conclusion of training program, we would have imparted key industry knowledge,
-                    improved trainees' chances of employability and increased capacity in industry.
-                </p>
+                <div className='flex gap-4'>
+                    <div className='flex items-center'> 
+                        <PiCheckThin className='text-red-600' size={20}/>
+                     </div>
+                    <div>
+                        At conclusion of training program, we would have imparted key industry knowledge,
+                        improved trainees' chances of employability and increased capacity in industry.
+                    </div>
+                </div>
 
-                <p className='my-8'>
-                    Hommaston supports NCDMB common objective of increased empowerment, employment opportunities,
-                    skills acquisition in all trainees and professional independence
-                </p>
+                <div className='flex gap-4'>
+                    <div className='flex items-center'> 
+                        <PiCheckThin className='text-red-600 ' size={20} />
+                     </div>
+                    <div className='my-8'>
+                        Hommaston supports NCDMB common objective of increased empowerment, employment opportunities,
+                        skills acquisition in all trainees and professional independence
+                    </div>
 
+                </div>
             </div>
             <div></div>
             

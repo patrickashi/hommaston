@@ -26,7 +26,7 @@ const Aboutus = () => {
                 </div>
                 <div className='flex gap-4 my-4 items-center'>
                     <FaCircleDot className='text-[#FF0000] w-5' size={10}/>
-                    <p>This succinctly captures the idea of a cooperative and nurturing educational setting.</p>
+                    <p>A supportive community of learners and educators, enriching learning environment.</p>
                 </div>
 
                 <button className='text-white bg-[#0504AA] rounded-lg px-3 py-1 hover:scale-105 hover:opacity-80 duration-200'>Learn More</button>
