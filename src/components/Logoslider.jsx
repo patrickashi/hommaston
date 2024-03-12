@@ -14,9 +14,14 @@ import netcolg from "../assets/netcolg.png";
 import tecnimontlg from "../assets/tecnimontlg.png";
 import hybridlg from "../assets/hybridlg.png";
 
+import logochevron from "../assets/logochevron.png";
+import logoogtan from "../assets/logoogtan.jpg";
+import logoshell from "../assets/logoshell.png";
+
 
 const logosSet1 = [nysclogo, lng, deltaafflick, eit, oando, koeing];
 const logosSet2 = [montegolg, netcolg, dredgein, hybridlg, tecnimontlg, lng];
+const logosSet3 = [logochevron, logoogtan, logoshell];
 
 const Logoslider = () => {
 
@@ -24,7 +29,7 @@ const Logoslider = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentSetIndex((prevIndex) => (prevIndex === 0 ? 1 : 0));
+      setCurrentSetIndex((prevIndex) => (prevIndex === 0 ? 1 : prevIndex === 1 ? 2 : 0));
     }, 3000);
 
     return () => clearInterval(interval);
@@ -39,6 +44,11 @@ const Logoslider = () => {
       </div>
       <div className={`logos-set ${currentSetIndex === 1 ? 'active' : ''} flex justify-between items-center 2xl:gap-5 xl:gap-2 lg:gap-8 md:gap-2 sm:gap-8 mobile:gap-8 flex-wrap`}>
         {logosSet2.map((logo, index) => (
+          <img key={index} src={logo} alt={`Logo ${index}`} className="w-20 object-cover"  />
+        ))}
+      </div>
+      <div className={`logos-set ${currentSetIndex === 2 ? 'active' : ''} flex justify-between items-center 2xl:gap-5 xl:gap-2 lg:gap-8 md:gap-2 sm:gap-8 mobile:gap-8 flex-wrap`}>
+        {logosSet3.map((logo, index) => (
           <img key={index} src={logo} alt={`Logo ${index}`} className="w-20 object-cover"  />
         ))}
       </div>
