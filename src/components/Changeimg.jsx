@@ -7,7 +7,7 @@ import seconestackedbooks from "../assets/seconestackedbooks.png";
 const Changeimg = () => {
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
-    const images = [seconepngone, seconepngtwo, seconestackedbooks];
+    const images = [seconepngone, seconepngtwo];
 
     useEffect( () => {
         const interval = setInterval( () => {
