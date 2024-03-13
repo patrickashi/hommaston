@@ -152,10 +152,16 @@ const  Navbar = () => {
 
                     <div className='flex items-center ml-3'>
                         <ul className='flex gap-8 '>
-                            <li><LiaLinkedinIn size={20} className='shadow-md shadow-gray-300 rounded-full hover:scale-110 duration-200 cursor-pointer'/></li>
-                            <li> <FaInstagramSquare size={20} className='shadow-md shadow-gray-300 rounded-full hover:scale-110 duration-200 cursor-pointer' /> </li>
+                            <Link to="https://www.linkedin.com/company/hommaston-training-and-manpower/">
+                                <li><LiaLinkedinIn size={20} className='shadow-md shadow-gray-300 rounded-full hover:scale-110 duration-200 cursor-pointer'/></li>
+                            </Link>
+                            <Link to="https://instagram.com/hommastonlimited?igshid=OTJhZDVkZWE=">
+                                <li> <FaInstagramSquare size={20} className='shadow-md shadow-gray-300 rounded-full hover:scale-110 duration-200 cursor-pointer' /> </li>
+                            </Link>
                             <li> <FaCirclePlay size={20} className='shadow-md shadow-gray-300 rounded-full hover:scale-110 duration-200 cursor-pointer'/></li>
-                            <li><FaFacebook size={20} className='shadow-md shadow-gray-300 rounded-full hover:scale-110 duration-200 cursor-pointer'/></li>
+                            <Link to="https://www.facebook.com/hommaston.hommaston.9?mibextid=ZbWKwL">
+                                <li><FaFacebook size={20} className='shadow-md shadow-gray-300 rounded-full hover:scale-110 duration-200 cursor-pointer'/></li>
+                            </Link>
                         </ul>
                     </div> 
 

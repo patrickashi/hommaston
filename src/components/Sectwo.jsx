@@ -8,6 +8,7 @@ import homeiconred2 from "../assets/homeiconred2.png";
 import homeiconwhite1 from "../assets/homeiconwhite1.png";
 
 import seconepng3 from "../assets/seconepng3.png";
+import sectwopng1 from "../assets/sectwopng1.png";
 
 const Sectwo = () => {
   return (
@@ -15,7 +16,7 @@ const Sectwo = () => {
         <div className='2xl:mx-28 xl:mx-28 mobile:mx-4 mobile:grid sm:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 border-b border-gray-300'>
 
             <div className='flex justify-center'>
-                <img src={seconepng3} size={20} className='md:w-full 2xl:w-80 object-contain xl:w-80 lg:w-80 mobile:w-80' alt="img" />
+                <img src={sectwopng1} size={20} className='md:w-full 2xl:w-80 object-contain xl:w-80 lg:w-80 mobile:w-80' alt="img" />
             </div>
 
             <div className='py-6'>

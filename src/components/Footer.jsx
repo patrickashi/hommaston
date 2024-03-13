@@ -25,10 +25,16 @@ const Footer = () => {
                 </div>
                 <div className='flex py-6'>
                     <ul className='flex gap-8'>
-                        <li><LiaLinkedinIn size={20} className='shadow-md shadow-gray-300 rounded-full'/></li>
-                        <li> <FaInstagramSquare size={20} className='shadow-md shadow-gray-300 rounded-full' /> </li>
+                        <Link to="https://www.linkedin.com/company/hommaston-training-and-manpower/">
+                            <li><LiaLinkedinIn size={20} className='shadow-md shadow-gray-300 rounded-full'/></li>
+                        </Link>
+                        <Link to="https://instagram.com/hommastonlimited?igshid=OTJhZDVkZWE=">
+                            <li> <FaInstagramSquare size={20} className='shadow-md shadow-gray-300 rounded-full' /> </li>
+                        </Link>
                         <li> <FaCirclePlay size={20} className='shadow-md shadow-gray-300 rounded-full'/></li>
-                        <li><FaFacebook size={20} className='shadow-md shadow-gray-300 rounded-full'/></li>
+                        <Link to="https://www.facebook.com/hommaston.hommaston.9?mibextid=ZbWKwL">
+                            <li><FaFacebook size={20} className='shadow-md shadow-gray-300 rounded-full'/></li>
+                        </Link>
                     </ul>
                 </div>
             </div>
