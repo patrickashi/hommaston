@@ -33,8 +33,8 @@ const Sectwo = () => {
                         </div>
                        <div className=''>
                             <p className=' border-l-2 border-gray-400 px-3 ml-[29px]'>
-                                There is no better investment than
-                                learning. Discover our hands-on courses
+                                Empower your team with interactive classroom training that drives
+                                real-world results.
                             </p>
                        </div>
                     </div>
@@ -54,8 +54,8 @@ const Sectwo = () => {
                         </div>
                        <div className=''>
                             <p className='ml-[29px] border-l-2 border-[#FF0000] px-3'>
-                                There is no better investment than
-                                learning. Discover our hands-on courses
+                            Elevate your skills with immersive online training designed for flexible
+                            learning anytime, anywhere
                             </p>
                        </div>
                     </div>
@@ -75,8 +75,8 @@ const Sectwo = () => {
                         </div>
                        <div className=''>
                             <p className='ml-[29px] border-l-2 border-gray-400 px-3'>
-                                There is no better investment than
-                                learning. Discover our hands-on courses
+                                Experience the best of both worlds with our blended training approach, combining the convenience of online learning with the effectiveness of in-person
+                                instruction.
                             </p>
                        </div>
                     </div>

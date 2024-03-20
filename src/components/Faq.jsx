@@ -59,9 +59,7 @@ const Faq = () => {
 
                 <div className={ hide ? "hidden" : "block" }>
                     <p>
-                        Hommaston Limited offers e-learning courses that enable learners to access course materials
-                        and training modules online. This mode of learning is convenient, flexible, and can be completed
-                        from anywhere with internet access.
+                        Yes, we allow our participants to take courses at their own pace and schedule
                     </p>
                 </div>
 
@@ -77,7 +75,7 @@ const Faq = () => {
                 </div>
 
                 <div className={ hideSecond ? "hidden" : "block" }>
-                    <p>Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit facilis error officia?</p>
+                    <p>Using our payment gateway, you can pay easily for any online course.</p>
                 </div>
 
             </div>
@@ -92,7 +90,7 @@ const Faq = () => {
                 </div>
 
                 <div className={ hideThird ? "hidden" : "block" }>
-                    <p>Lorem ipsum dolor sit.</p>
+                    <p> Hommaston is on all social media platforms</p>
                 </div>
 
             </div>
@@ -107,7 +105,7 @@ const Faq = () => {
                 </div>
 
                 <div className={ hideFourth ? "hidden" : "block" }>
-                    <p>Lorem ipsum dolor sit.</p>
+                    <p> We accept credit cards and bank transfers.</p>
                 </div>
 
             </div>
@@ -122,7 +120,8 @@ const Faq = () => {
                 </div>
 
                 <div className={ hideFifth ? "hidden" : "block" }>
-                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Hommaston is Learning performance institute and American council of training and
+                        development accredit</p>
                 </div>
 
             </div>

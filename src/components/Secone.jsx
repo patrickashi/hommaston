@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 import hommastonlogo from "../assets/hommastonlogo.png";
 import { PiDropboxLogoDuotone } from "react-icons/pi";
@@ -22,14 +23,16 @@ const Secone = () => {
             mobile:mb-10 sm:mb-10 md:mb-10 '>
 
                 <p className='2xl:text-[50px] 2xl:py-4 mobile:my-8 2xl:my-0 xl:my-0 lg:my-0 md:my-8 mobile:text-[40px] font-bold '>Occupational<span className='text-[#0504AA]'> Performance </span> 
-                Starts at<span className='text-[#0504AA]'></span> <span className='text-[#0504AA]'>Hommaston </span>
+                Starts at <span className='text-[#ED1C24]'></span><span className='text-[#0504AA]'>Hommaston</span>
                 </p>
                 
 
                 {/* <p className='my-5 text-xl font-bold'>Share your Experience through Hommaston</p> */}
                 <Changeparagraph />
 
-                <button className='bg-[#ED1C24] text-white font-bold rounded-2xl px-4 py-3 my-5 hover:scale-105 duration-300'>Explore Courses</button>
+                <Link to="https://skillsup.hommaston.com/#/course-library">
+                  <button className='bg-[#ED1C24] text-white font-bold rounded-2xl px-4 py-3 my-5 hover:scale-105 duration-300'>Explore Courses</button>
+                </Link>
 
                 <div className='flex mt-10 gap-[-4px]'>
                   <div>
