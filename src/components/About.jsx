@@ -28,7 +28,7 @@ const About = () => {
           </p>
 
           <div className='my-8 2xl:mx-20 xl:mx-20 lg:mx-6 md:mx-2 mobile:mx-4'>
-            <h1 className='text-2xl text-center font-bold'>Training programmes</h1>
+            <h1 className='text-2xl text-center font-bold'>Training Gallery</h1>
             <div className='mobile:grid 2xl:grid-cols-5 xl:grid-cols-5 lg:grid-cols-5 md:grid-cols-5 gap-4 my-12'>
 
               <div className='py-20 bg-gray-300 rounded-xl'></div>

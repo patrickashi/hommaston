@@ -136,7 +136,7 @@ const Faq = () => {
                 </div>
 
                 <div className={ hideSixth ? "hidden" : "block" }>
-                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Hommaston does onsite, in-house, and online training</p>
                 </div>
 
             </div>
@@ -151,7 +151,7 @@ const Faq = () => {
                 </div>
 
                 <div className={ hideSeventh ? "hidden" : "block" }>
-                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Hommaston does online, physical, and blended training</p>
                 </div>
 
             </div>
@@ -166,7 +166,7 @@ const Faq = () => {
                 </div>
 
                 <div className={ hideEight ? "hidden" : "block" }>
-                    <p>Lorem ipsum dolor sit.</p>
+                    <p>Hommaston issues feedback form to measure attendees’ satisfaction</p>
                 </div>
 
             </div>

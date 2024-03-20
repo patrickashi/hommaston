@@ -37,6 +37,19 @@ const Ourteamp = () => {
 
             </div>
 
+            {/* <div className='flex justify-center my-6'>
+              
+              <div className='relative'>
+                <img src={team1} alt="img" />
+                <div className='absolute 2xl:top-20 xl:top-20 lg:top-20 md:top-20 sm:top-20 mobile:top-12 left-10'>
+                  <div className='text-xl font-bold'>Joseph Carew</div>
+                  <div className='my-2 text-[#000000]'>Chief Executive Officer</div>
+                  <button className='bg-[#ED1C24] text-white rounded-xl px-4 font-bold hover:scale-105 duration-200'>Follow</button>
+                </div>
+              </div>
+
+            </div> */}
+
             <Footer />
     </div>
   )

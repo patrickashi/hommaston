@@ -6,6 +6,7 @@ import lpilogo from "../assets/lpilogo.png";
 import acdt from "../assets/acdt2.png";
 import CPD from "../assets/CPD.png";
 import logoogtan from "../assets/logoogtan.jpg";
+import ncdmb from "../assets/ncdmb.jpeg.jpg";
 
 const Accreditors = () => {
   return (
@@ -15,11 +16,13 @@ const Accreditors = () => {
 
         <div className='flex justify-center 2xl:gap-8 xl:gap-4 lg:gap-4 mobile:gap-4 flex-wrap'>
             <div> <img src={acdt} alt="logo" size={20} className='mobile:w-[70px] 2xl:w-[150px] xl:w-[150px] lg:w-[150px]'/></div>
-            <div><img src={iso9} size={20} alt="logo" className='mobile:w-[70px] 2xl:w-[150px] xl:w-[150px] lg:w-[150px]'/></div>
+            <div><img src={ncdmb} alt="logo" size={20} className='mobile:w-[60px] 2xl:w-[120px] xl:w-[120px] lg:w-[120px]' /></div> 
             <div> <img src={iso1} size={20} alt="logo" className='mobile:w-[70px] 2xl:w-[150px] xl:w-[150px] lg:w-[150px]'/></div>
             <div> <img src={CPD} alt="logo" size={20} className='mobile:w-[50px] 2xl:w-[100px] xl:w-[100px] lg:w-[100px]'/></div>  
             <div> <img src={lpilogo} alt="logo" size={20} className='mobile:w-[60px] 2xl:w-[120px] xl:w-[120px] lg:w-[120px]'/></div> 
+            <div><img src={iso9} size={20} alt="logo" className='mobile:w-[70px] 2xl:w-[150px] xl:w-[150px] lg:w-[150px]'/></div>
             <div><img src={logoogtan} alt="logo" size={20} className='mobile:w-[60px] 2xl:w-[120px] xl:w-[120px] lg:w-[120px]' /></div> 
+            
         </div>
     </div>
   )

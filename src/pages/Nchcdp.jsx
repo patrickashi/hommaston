@@ -92,9 +92,11 @@ const Nchcdp = () => {
         <div className='mt-20 mb-10 2xl:mx-[200px] xl:mx-20 lg:mx-20 md:mx-10 sm:mx-5 mobile:mx-4
         2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 mobile:grid'>
 
-            <div className='2xl:col-span-2 xl:col-span-2 lg:col-span-2 text-justify'>
+            <div className='2xl:col-span-2 xl:col-span-2 lg:col-span-2 mobile:text-start 2xl:text-justify
+            xl:text-justify lg:text-justify md:text-justify'>
                 
-                    
+                <h1 className='mb-4 font-bold ml-9 text-2xl'>Our NC-HCD services includes:</h1>
+
                 <div className='flex gap-4'>
                     <div className='flex items-center'> 
                         <PiCheckThin className='text-red-600' size={20}/>
