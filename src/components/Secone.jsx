@@ -21,8 +21,8 @@ const Secone = () => {
             <div className=' 2xl:w-full xl:mx-[100px] lg:mx-[40px] mobile:ml-4 2xl:py-4 xl:py-4 lg:py-4 md:py-4 sm:py-4
             mobile:mb-10 sm:mb-10 md:mb-10 '>
 
-                <p className='2xl:text-[50px] 2xl:py-4 mobile:my-8 2xl:my-0 xl:my-0 lg:my-0 md:my-8 mobile:text-[40px] font-bold '>Up Your <span className='text-[#0504AA]'> Skills </span> 
-                to <span className='text-[#0504AA]'>advance</span> your <span className='text-[#0504AA]'>career </span>path
+                <p className='2xl:text-[50px] 2xl:py-4 mobile:my-8 2xl:my-0 xl:my-0 lg:my-0 md:my-8 mobile:text-[40px] font-bold '>Occupational<span className='text-[#0504AA]'> Performance </span> 
+                Starts at<span className='text-[#0504AA]'></span> <span className='text-[#0504AA]'>Hommaston </span>
                 </p>
                 
 

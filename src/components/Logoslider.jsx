@@ -15,14 +15,18 @@ import tecnimontlg from "../assets/tecnimontlg.png";
 import hybridlg from "../assets/hybridlg.png";
 
 import logochevron from "../assets/logochevron.png";
-import logoogtan from "../assets/logoogtan.jpg";
+
 import logoshell from "../assets/logoshell.png";
 import nnpc from "../assets/nnpc.png";
+import logoamatrol from "../assets/logoamatrol.jpg";
+import logodolang from "../assets/logodolang.jpg";
+import logonuveda from "../assets/logonuveda.jpg";
+import logoseplat from "../assets/logoseplat.png";
 
 
 const logosSet1 = [nysclogo, lng, deltaafflick, eit, oando, koeing];
 const logosSet2 = [montegolg, nnpc, dredgein, hybridlg, tecnimontlg, lng];
-const logosSet3 = [logochevron, logoogtan, logoshell];
+const logosSet3 = [logochevron, logoamatrol, logodolang, logonuveda, logoseplat, logoshell];
 
 const Logoslider = () => {
 

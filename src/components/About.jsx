@@ -20,7 +20,8 @@ const About = () => {
 
         <div className='py-16 mt-10 2xl:mx-40 xl:mx-20 lg:mx-6 md:mx-6 sm:mx-4 mobile:mx-4'>
 
-          <p className='2xl:text-center xl:text-center lg:text-center md:text-center sm:text-center mobile:text-center 2xl:text-lg xl:text-lg lg:text-lg md:text-lg mobile:text-md'>
+          <p className='2xl:text-center xl:text-center lg:text-center md:text-center sm:text-center mobile:text-center 2xl:text-lg xl:text-lg lg:text-lg md:text-lg mobile:text-md
+          2xl:mx-20 xl:mx-20 lg:mx-6 md:mx-2 mobile:mx-4'>
           Hommaston operates two core divisions. Red Division (Hommaston Engineering) focal delivery of choice skillsets for design engineering, facility maintenance and operations 
           supports competency and performance.  Blue division (Hommaston Digital) handles human capital development, drone tech, cloud computing, corporate soft skills and all other 
           non-engineering, certification preparatory courses.
