@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import webdesign2 from "../assets/webdesign2.jpg";
 import hommastonashlogo from "../assets/hommastonashlogo.png";
 import mission from "../assets/mission.png";
@@ -141,7 +142,9 @@ const About = () => {
         </div>
 
         <div className='text-center mb-12'>
-          <button className='text-black border border-gray-700 px-4 rounded-md font-bold hover:scale-105 duration-200 hover:bg-black hover:text-white'>View Team</button>
+          <Link to="/Ourteamp">
+            <button className='text-black border border-gray-700 px-4 rounded-md font-bold hover:scale-105 duration-200 hover:bg-black hover:text-white'>View Team</button>
+          </Link>
         </div>
         
     </div>
