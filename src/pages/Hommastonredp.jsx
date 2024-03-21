@@ -31,8 +31,12 @@ const Hommastonredp = () => {
                 <Link to="/Classroomredp">
                     <button className='border-1 rounded-full py-2 px-4 shadow-md shadow-gray-300 hover:scale-105 duration-200 hover:bg-[#ED1C24] hover:text-white'>Classroom Training</button>
                 </Link>
-                <button className='border-1 rounded-full py-2 px-4 shadow-md shadow-gray-300 hover:scale-105 duration-200 hover:bg-[#ED1C24] hover:text-white'>Online Training</button>
-                <button className='border-1 rounded-full py-2 px-4 shadow-md shadow-gray-300 hover:scale-105 duration-200 hover:bg-[#ED1C24] hover:text-white'>Blended Training</button>
+                <Link to="https://skillsup.hommaston.com/#/course-library">
+                    <button className='border-1 rounded-full py-2 px-4 shadow-md shadow-gray-300 hover:scale-105 duration-200 hover:bg-[#ED1C24] hover:text-white'>Online Training</button>
+                </Link>
+                <Link to="/Blendedtrainingp">
+                    <button className='border-1 rounded-full py-2 px-4 shadow-md shadow-gray-300 hover:scale-105 duration-200 hover:bg-[#ED1C24] hover:text-white'>Blended Training</button>
+                </Link>
             </div>
 
         </div>

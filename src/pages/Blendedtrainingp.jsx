@@ -3,6 +3,7 @@ import axios from 'axios';
 
 import contactpimg from "../assets/contactpimg.jpg";
 import blendedimg from "../assets/blendedimg.jpg";
+import blendedbanner from "../assets/blendedbanner.jpg";
 
 
 const getCookie = (name) => {
@@ -59,7 +60,7 @@ const Blendedtrainingp = () => {
   return (
     <div className='font-Montserrat'>
         
-        <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${contactpimg})` }}>
+        <div className='relative w-full h-[300px] bg-cover bg-bottom' style={{ backgroundImage: `url(${blendedbanner})` }}>
                 {/* <img src={hepburnpic}  alt="img" size={20} className='h-full w-full object-cover z-0' /> */}
                 <div className='absolute 2xl:mt-[255px] mobile:mt-[262px] mx-auto border-2 flex justify-center 
                 xl:mt-[255px] lg:mt-[255px] md:mt-[262px] sm:mt-[262px] items-center inset-x-0 bg-neutral-50/70

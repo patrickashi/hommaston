@@ -37,8 +37,11 @@ const Hommastonbluep = () => {
                 <Link to="https://skillsup.hommaston.com/#/course-library">
                     <button className='border-1 rounded-full py-2 px-4 shadow-md shadow-gray-300 hover:scale-105 duration-200 hover:bg-[#0504AA] hover:text-white'>Online Training</button>
                 </Link>
-                <button className='border-1 rounded-full py-2 px-4 shadow-md shadow-gray-300 hover:scale-105 duration-200 hover:bg-[#0504AA] hover:text-white'>Blended Training</button>
+                <Link to="/Blendedtrainingp">
+                    <button className='border-1 rounded-full py-2 px-4 shadow-md shadow-gray-300 hover:scale-105 duration-200 hover:bg-[#0504AA] hover:text-white'>Blended Training</button>
+                </Link>
             </div>
+            
 
         </div>
 
