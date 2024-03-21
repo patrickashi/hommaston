@@ -82,7 +82,7 @@ const Sectwo = () => {
                     </div>
                         
                     <div className='flex items-center'>
-                        <Link to="Hommastonredp/">
+                        <Link to="Blendedtrainingp/">
                             <MdOutlineKeyboardArrowRight className='rounded-full bg-white text-[#FF0000] border border-[#FF0000] hover:bg-[#FF0000] hover:text-white hover:border-[#FF0000] duration-200 cursor-pointer ' size={40}/>
                         </Link>
                     </div>
