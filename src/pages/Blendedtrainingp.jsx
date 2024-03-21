@@ -4,6 +4,7 @@ import axios from 'axios';
 import contactpimg from "../assets/contactpimg.jpg";
 import blendedimg from "../assets/blendedimg.jpg";
 import blendedbanner from "../assets/blendedbanner.jpg";
+import Footer from '../components/Footer';
 
 
 const getCookie = (name) => {
@@ -118,6 +119,8 @@ const Blendedtrainingp = () => {
             </div>
 
         </div>
+
+        <Footer />
 
 
     </div>
