@@ -6,6 +6,12 @@ import mission from "../assets/mission.png";
 import vission from "../assets/vission.png";
 import corevalues from "../assets/corevalues.png";
 
+import aboutimg1 from "../assets/aboutimg1.jpg";
+import aboutimg2 from "../assets/aboutimg2.jpg";
+import aboutimg3 from "../assets/aboutimg3.jpg";
+import aboutimg5 from "../assets/aboutimg5.jpg";
+
+
 const About = () => {
   return (
     <div className='font-Montserrat'>
@@ -28,21 +34,21 @@ const About = () => {
 
           <div className=' grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 2xl:mx-20 xl:mx-20 lg:mx-6 md:mx-6 mobile:mx-4'>
           
-            <div className=''>
-              <p className='flex 2xl:text-start xl:text-start lg:text-start md:text-start mobile:text-start mt-2'>
+            <div className='flex flex-col justify-center'>
+              <p className='flex 2xl:text-start xl:text-start lg:text-start md:text-start mobile:text-center mt-2'>
                 Hommaston operates two core divisions. Red Division (Hommaston Engineering) focal delivery of choice skillsets for design engineering, facility maintenance and operations 
                 supports competency and performance.  Blue division (Hommaston Digital) handles human capital development, drone tech, cloud computing, corporate soft skills and all other 
                 non-engineering, certification preparatory courses.
               </p>
 
-              <p className='flex 2xl:text-start xl:text-start lg:text-start md:text-start mobile:text-start mt-8'>
+              <p className='flex 2xl:text-start xl:text-start lg:text-start md:text-start mobile:text-center mt-8'>
                 At Our Training Facilities, we prioritize creating a conducive learning environment that promotes comfort and enhances 
                 the learning experience. Our courses are carefully crafted to ensure that our learners acquire, retain, and apply 
                 knowledge effectively.
               </p>
             </div>
 
-            <div className='flex justify-end md:w-full  '>
+            <div className='flex 2xl:justify-end xl:justify-end lg:justify-end mobile:justify-center md:w-full  '>
               <img src={hommastonashlogo} size={20} className='w-80 md:w-full lg:w-full' alt="img" />
             </div>
         </div>
@@ -64,8 +70,9 @@ const About = () => {
         <div className='2xl:mx-60  xl:mx-40  lg:mx-14  md:mx-6 mobile:mx-4 my-14 mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2
         border-b pb-4'>
 
-          <div className='flex 2xl:justify-center lg:justify-center xl:justify-center md:justify-center mobile:justify-start'>
-              <img src={vission} size={20} className='' alt="img" />
+          <div className='flex 2xl:justify-center lg:justify-center xl:justify-center md:justify-center mobile:justify-start
+          mobile:mb-4 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0'>
+              <img src={aboutimg1} size={20} className='object-cover' alt="img" />
           </div>
 
           <div className=' items-center'>
@@ -89,11 +96,12 @@ const About = () => {
 
         <div className='2xl:mx-60  xl:mx-40  lg:mx-14  md:mx-6 mobile:mx-4 my-14 mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2
         border-b pb-6'>
-          <div className='flex 2xl:justify-center xl:justify-center lg:justify-center md:justify-center mobile:justify-end mobile:block 2xl:hidden xl:hidden lg:hidden md:hidden'>
-              <img src={mission} size={20} className='w-60' alt="img" />
+          <div className='flex 2xl:justify-center xl:justify-center lg:justify-center md:justify-center mobile:justify-end mobile:block 2xl:hidden xl:hidden lg:hidden md:hidden
+          mobile:mb-4 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0'>
+              <img src={aboutimg5} size={20} className='' alt="img" />
           </div>
 
-          <div className=''>
+          <div className='flex flex-col justify-center'>
             <h1 className='font-bold text-2xl mb-4'>Our Mission</h1>
             <p>
               To provide a reputable skills enhancement platform that proficiently
@@ -101,18 +109,19 @@ const About = () => {
             </p>
           </div>
           <div className='flex 2xl:justify-center xl:justify-center lg:justify-center md:justify-center mobile:justify-end mobile:hidden 2xl:block xl:block lg:block md:block'>
-              <img src={mission} size={20} className='w-60' alt="img" />
+              <img src={aboutimg5} size={20} className='' alt="img" />
           </div>
         </div>
 
         <div className='2xl:mx-60  xl:mx-40  lg:mx-14  md:mx-6 mobile:mx-4 my-14 mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2
         border-b pb-4'>
 
-          <div className='flex 2xl:justify-center lg:justify-center xl:justify-center md:justify-center mobile:justify-start'>
-              <img src={vission} size={20} className='w-60' alt="img" />
+          <div className='flex 2xl:justify-center lg:justify-center xl:justify-center md:justify-center mobile:justify-start
+          mobile:mb-4 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0'>
+              <img src={aboutimg2} size={20} className='' alt="img" />
           </div>
 
-          <div className=''>
+          <div className='flex flex-col justify-center'>
             <h1 className='font-bold text-2xl mb-4 2xl:text-end xl:text-end lg:text-end md:text-end sm:text-start'>Our Vission</h1>
             <p className='flex 2xl:text-end xl:text-end lg:text-end md:text-end mobile:text-start'>
               To be the prominent standard in global delivery of qualitative capacity building services.
@@ -123,11 +132,12 @@ const About = () => {
 
         <div className='2xl:mx-60  xl:mx-40  lg:mx-14  md:mx-6 mobile:mx-4 my-14 mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2
         border-b pb-6'>
-          <div className='flex justify-center items-center mobile:block 2xl:hidden xl:hidden lg:hidden md:hidden'>
-              <img src={corevalues} size={20} className='w-80 object-contain' alt="img" />
+          <div className='flex justify-center items-center mobile:block 2xl:hidden xl:hidden lg:hidden md:hidden
+          mb-4'>
+              <img src={aboutimg3} size={20} className='' alt="img" />
           </div>
 
-          <div>
+          <div className='flex flex-col justify-center'>
             <h1 className='font-bold text-2xl mb-4'>Our Core Values</h1>
             <p>
             Our core value ‘‘WI3N’’ is the embodiment of our organizational culture, definitive of our corporate character and
@@ -137,7 +147,7 @@ const About = () => {
             </p>
           </div>
           <div className='flex 2xl:justify-center xl:justify-center lg:justify-center md:justify-center mobile:justify-end mobile:hidden 2xl:block xl:block lg:block md:block'>
-              <img src={corevalues} size={20} className='w-80 object-contain' alt="img" />
+              <img src={aboutimg3} size={20} className='' alt="img" />
           </div>
         </div>
 
