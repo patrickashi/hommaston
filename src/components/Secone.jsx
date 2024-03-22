@@ -35,7 +35,7 @@ const Secone = () => {
                 </Link>
 
                 <div className='flex mt-10 gap-[-4px]'>
-                  <div>
+                  <div className=''>
                       <img src={hero1} size={20} className='w-40' alt="img" />
                   </div>
 

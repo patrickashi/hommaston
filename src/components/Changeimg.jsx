@@ -20,7 +20,7 @@ const Changeimg = () => {
 
   return (
     <div className=' flex justify-center items-center mobile:mb-0 md:mb-0'>
-        <img src={images[currentImageIndex]} alt="img" className=' w-80' />
+        <img src={images[currentImageIndex]} alt="img" className=' w-120' />
     </div>
   )
 }
