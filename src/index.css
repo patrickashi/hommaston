@@ -34,3 +34,10 @@
   opacity: 1;
 }
 
+.image-container img {
+  width: 200px; /* Adjust the size as needed */
+  height: 100px; /* Adjust the size as needed */
+  animation: moveImages 10s linear infinite; /* Adjust duration and timing function as needed */
+}
+
+

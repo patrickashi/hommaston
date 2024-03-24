@@ -49,7 +49,7 @@ const About = () => {
             <h1 className='text-2xl text-center font-bold'>Training Gallery</h1>
 
             
-            <marquee className="border-x ">
+            <marquee className="image-container border-x ">
               <div className='flex mobile:flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row gap-4 my-12'>
 
                 <div className=''>
