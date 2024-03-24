@@ -2,8 +2,7 @@ import React from 'react'
 
 import { Link } from "react-router-dom";
 
-import fcdesign1 from "../assets/fcdesign1.jpg";
-import fcdesign from "../assets/fcdesign.jpg";
+
 import piping1 from "../assets/piping1.jpg";
 import imghandshake from "../assets/imghandshake.jpg";
 import imgbusinessethics from "../assets/imgbusinessethics.jpg";

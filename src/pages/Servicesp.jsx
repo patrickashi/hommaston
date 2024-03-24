@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 import seconepng3 from "../assets/seconepng3.png";
 import seconepng2 from "../assets/seconepng2.png";
+import sectwopng1 from "../assets/sectwopng1.png";
 import seconepng1 from "../assets/seconepng1.png";
 
 import sectwopng2 from "../assets/sectwopng2.png";
@@ -107,7 +108,7 @@ const Servicesp = () => {
             </div>
 
             <div className='flex items-center justify-center'>
-              <img src={sectwopng2} alt="img" className='w-80'/>
+              <img src={sectwopng1} alt="img" className='w-80'/>
             </div>
 
           </div>

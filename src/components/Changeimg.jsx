@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 
 import seconepngone from "../assets/seconepngone.png";
 import seconepngtwo from "../assets/seconepngtwo.png";
-import seconestackedbooks from "../assets/seconestackedbooks.png";
 
 const Changeimg = () => {
 

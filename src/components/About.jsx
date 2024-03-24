@@ -1,10 +1,8 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import webdesign2 from "../assets/webdesign2.jpg";
+import contactpimg from "../assets/contactpimg.jpg";
 import hommastonashlogo from "../assets/hommastonashlogo.png";
-import mission from "../assets/mission.png";
-import vission from "../assets/vission.png";
-import corevalues from "../assets/corevalues.png";
+
 
 import aboutimg1 from "../assets/aboutimg1.jpg";
 import aboutimg2 from "../assets/aboutimg2.jpg";
@@ -15,8 +13,7 @@ import aboutimg5 from "../assets/aboutimg5.jpg";
 const About = () => {
   return (
     <div className='font-Montserrat'>
-         <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${webdesign2})` }}>
-                {/* <img src={hepburnpic}  alt="img" size={20} className='h-full w-full object-cover z-0' /> */}
+         <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${contactpimg})` }}>
                 <div className='absolute 2xl:mt-[256px] mobile:mt-[264px] mx-auto border-2 flex justify-center 
                 xl:mt-[256px] lg:mt-[256px] md:mt-[264px] sm:mt-[264px] items-center inset-x-0 bg-neutral-50/70
                 2xl:mx-20 mobile:mx-5 rounded-2xl shadow-md shadow-violet-400'>
@@ -26,11 +23,6 @@ const About = () => {
           </div>
 
         <div className='py-16 mt-10 2xl:mx-40 xl:mx-20 lg:mx-6 md:mx-6 sm:mx-4 mobile:mx-4'>
-
-          {/* <p className='2xl:text-center xl:text-center lg:text-center md:text-center sm:text-center mobile:text-center 2xl:text-lg xl:text-lg lg:text-lg md:text-lg mobile:text-md
-          2xl:mx-20 xl:mx-20 lg:mx-6 md:mx-2 mobile:mx-4'>
-          
-          </p> */}
 
           <div className=' grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 2xl:mx-20 xl:mx-20 lg:mx-6 md:mx-6 mobile:mx-4'>
           
@@ -48,23 +40,39 @@ const About = () => {
               </p>
             </div>
 
-            <div className='flex 2xl:justify-end xl:justify-end lg:justify-end mobile:justify-center md:w-full  '>
-              <img src={hommastonashlogo} size={20} className='w-80 md:w-full lg:w-full' alt="img" />
+            <div className='flex 2xl:justify-end xl:justify-end lg:justify-end mobile:justify-center md:w-full mobile:my-20 2xl:my-10 '>
+              <img src={hommastonashlogo} size={20} className='w-80' alt="img" />
             </div>
         </div>
 
           <div className='my-8 2xl:mx-20 xl:mx-20 lg:mx-6 md:mx-2 mobile:mx-4'>
             <h1 className='text-2xl text-center font-bold'>Training Gallery</h1>
-            <div className='mobile:grid 2xl:grid-cols-5 xl:grid-cols-5 lg:grid-cols-5 md:grid-cols-5 gap-4 my-12'>
 
-              <div className='py-20 bg-gray-300 rounded-xl'></div>
-              <div className='py-20 bg-gray-300 rounded-xl'></div>
-              <div className='py-40 bg-gray-300 rounded-xl shadow-lg shadow-[#FF0000] hover:scale-105 cursor-pointer duration-200'></div>
-              <div className='py-20 bg-gray-300 rounded-xl'></div>
-              <div className='py-20 bg-gray-300 rounded-xl'></div>
+            
+            <marquee className="border-x ">
+              <div className='flex mobile:flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row gap-4 my-12'>
 
-            </div>
+                <div className=''>
+                  <img src={aboutimg1} size={20} className='object-cover 2xl:w-80 rounded-lg' alt="img" />
+                </div>
+                <div className=''>
+                  <img src={aboutimg1} size={20} className='object-cover 2xl:w-80 rounded-lg' alt="img" />
+                </div>
+                <div className=''>
+                  <img src={aboutimg1} size={20} className='object-cover 2xl:w-80 rounded-lg' alt="img" />
+                </div>
+                <div className=''>
+                  <img src={aboutimg1} size={20} className='object-cover 2xl:w-80 rounded-lg' alt="img" />
+                </div>
+                <div className=''>
+                  <img src={aboutimg1} size={20} className='object-cover 2xl:w-80 rounded-lg' alt="img" />
+                </div>
+
+              </div>
+            </marquee>
+
           </div>
+
         </div>
 
         <div className='2xl:mx-60  xl:mx-40  lg:mx-14  md:mx-6 mobile:mx-4 my-14 mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2
@@ -72,7 +80,7 @@ const About = () => {
 
           <div className='flex 2xl:justify-center lg:justify-center xl:justify-center md:justify-center mobile:justify-start
           mobile:mb-4 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0'>
-              <img src={aboutimg1} size={20} className='object-cover' alt="img" />
+              <img src={aboutimg1} size={20} className='object-cover rounded-lg' alt="img" />
           </div>
 
           <div className=' items-center'>
@@ -98,7 +106,7 @@ const About = () => {
         border-b pb-6'>
           <div className='flex 2xl:justify-center xl:justify-center lg:justify-center md:justify-center mobile:justify-end mobile:block 2xl:hidden xl:hidden lg:hidden md:hidden
           mobile:mb-4 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0'>
-              <img src={aboutimg5} size={20} className='' alt="img" />
+              <img src={aboutimg5} size={20} className='rounded-lg' alt="img" />
           </div>
 
           <div className='flex flex-col justify-center'>
@@ -109,7 +117,7 @@ const About = () => {
             </p>
           </div>
           <div className='flex 2xl:justify-center xl:justify-center lg:justify-center md:justify-center mobile:justify-end mobile:hidden 2xl:block xl:block lg:block md:block'>
-              <img src={aboutimg5} size={20} className='' alt="img" />
+              <img src={aboutimg5} size={20} className='rounded-lg' alt="img" />
           </div>
         </div>
 
@@ -118,7 +126,7 @@ const About = () => {
 
           <div className='flex 2xl:justify-center lg:justify-center xl:justify-center md:justify-center mobile:justify-start
           mobile:mb-4 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0'>
-              <img src={aboutimg2} size={20} className='' alt="img" />
+              <img src={aboutimg2} size={20} className='rounded-lg' alt="img" />
           </div>
 
           <div className='flex flex-col justify-center'>
@@ -134,7 +142,7 @@ const About = () => {
         border-b pb-6'>
           <div className='flex justify-center items-center mobile:block 2xl:hidden xl:hidden lg:hidden md:hidden
           mb-4'>
-              <img src={aboutimg3} size={20} className='' alt="img" />
+              <img src={aboutimg3} size={20} className='rounded-lg' alt="img" />
           </div>
 
           <div className='flex flex-col justify-center'>
@@ -147,7 +155,7 @@ const About = () => {
             </p>
           </div>
           <div className='flex 2xl:justify-center xl:justify-center lg:justify-center md:justify-center mobile:justify-end mobile:hidden 2xl:block xl:block lg:block md:block'>
-              <img src={aboutimg3} size={20} className='' alt="img" />
+              <img src={aboutimg3} size={20} className='rounded-lg' alt="img" />
           </div>
         </div>
 

@@ -1,11 +1,10 @@
 import React from 'react';
-import classroomedit from "../assets/classroomedit.jpg";
-import { Link, NavLink } from 'react-router-dom';
+import contactpimg from "../assets/contactpimg.jpg";
 
 const Servicessecone = () => {
   return (
     <div className='font-Montserrat'>
-        <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${classroomedit})` }}>
+        <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${contactpimg})` }}>
               
                 <div className='absolute 2xl:mt-[255px] mobile:mt-[262px] mx-auto border-2 flex justify-center 
                 xl:mt-[255px] lg:mt-[255px] md:mt-[262px] sm:mt-[262px] items-center inset-x-0 bg-neutral-50/70

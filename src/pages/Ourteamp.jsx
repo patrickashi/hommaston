@@ -1,5 +1,5 @@
 import React from 'react'
-import domore from "../assets/domore.jpg";
+import contactpimg from "../assets/contactpimg.jpg";
 import Footer from '../components/Footer';
 import team1 from "../assets/team1.png";
 import team2 from "../assets/team2.png";
@@ -11,7 +11,7 @@ import team6 from "../assets/team6.png";
 const Ourteamp = () => {
   return (
     <div className='h-screen font-Montserrat'>
-            <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${domore})` }}>
+            <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${contactpimg})` }}>
                 {/* <img src={hepburnpic}  alt="img" size={20} className='h-full w-full object-cover z-0' /> */}
                 <div className='absolute 2xl:mt-[255px] mobile:mt-[260px] mx-auto border-2 flex justify-center 
                 xl:mt-[255px] lg:mt-[255px] md:mt-[260px] sm:mt-[260px] items-center inset-x-0 bg-neutral-50/70 
@@ -28,6 +28,8 @@ const Ourteamp = () => {
                   and finance, our team works together to ensure the continued success of the organisation
                 </p>
             </div>
+
+          <div className='flex flex-wrap justify-center'>
 
             <div className='flex justify-center my-6'>
               <div className='relative'>
@@ -95,6 +97,9 @@ const Ourteamp = () => {
               </div>
             </div>
 
+
+
+           </div>
             
 
             <Footer />
