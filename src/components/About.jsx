@@ -130,7 +130,7 @@ const About = () => {
           </div>
 
           <div className='flex flex-col justify-center'>
-            <h1 className='font-bold text-2xl mb-4 2xl:text-end xl:text-end lg:text-end md:text-end sm:text-start'>Our Vission</h1>
+            <h1 className='font-bold text-2xl mb-4 2xl:text-end xl:text-end lg:text-end md:text-end sm:text-start'>Our Vision</h1>
             <p className='flex 2xl:text-end xl:text-end lg:text-end md:text-end mobile:text-start'>
               To be the prominent standard in global delivery of qualitative capacity building services.
             </p>

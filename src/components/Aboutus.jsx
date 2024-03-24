@@ -11,7 +11,7 @@ const Aboutus = () => {
         <div className='mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 py-10'>
             <div className=''>
                 <p className='text-[#FF0000] font-bold text-2xl'>About Us</p>
-                <p className='font-bold'>One Company, One Mission, Five Continent and One Promise.</p>
+                <p className='font-bold'>One Company, One Mission, Five Continents and One Promise.</p>
                 <div className='flex gap-4 my-4 items-center'>
                     <FaCircleDot className='text-[#FF0000] w-5' size={10}/>
                     <p>world-class instructors around the globe</p>
