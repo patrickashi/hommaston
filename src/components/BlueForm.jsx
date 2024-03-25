@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-
-import contactpimg from "../assets/contactpimg.jpg";
 import blendedimg from "../assets/blendedimg.jpg";
-import blendedbanner from "../assets/blendedbanner.jpg";
-import Footer from '../components/Footer';
+
 
 
 const getCookie = (name) => {
@@ -12,13 +9,13 @@ const getCookie = (name) => {
     return cookieValue ? cookieValue.pop() : null;
 };
 
-const Blendedtrainingp = () => {
+const Blueform = () => {
 
     const [formData, setFormData] = useState({
         firstname: '',
         lastname: '',
-        companyname: '',
-        companyemail: '',
+        selectcourse: '',
+        email: '',
         phonenumber: '',
         otherinfo: ''
     });
@@ -46,8 +43,8 @@ const Blendedtrainingp = () => {
             setFormData({
                 firstname: '',
                 lastname: '',
-                companyname: '',
-                companyemail: '',
+                selectcourse: '',
+                email: '',
                 phonenumber: '',
                 otherinfo: ''
             });
@@ -60,20 +57,6 @@ const Blendedtrainingp = () => {
 
   return (
     <div className='font-Montserrat'>
-        
-        <div className='relative w-full h-[300px] bg-cover bg-bottom' style={{ backgroundImage: `url(${blendedbanner})` }}>
-                {/* <img src={hepburnpic}  alt="img" size={20} className='h-full w-full object-cover z-0' /> */}
-                <div className='absolute 2xl:mt-[255px] mobile:mt-[262px] mx-auto border-2 flex justify-center 
-                xl:mt-[255px] lg:mt-[255px] md:mt-[262px] sm:mt-[262px] items-center inset-x-0 bg-neutral-50/70
-                2xl:mx-20 mobile:mx-5 rounded-2xl shadow-md shadow-violet-400'>
-                    <h1 className='2xl:text-5xl xl:text-5xl lg:text-5xl mobile:text-3xl py-4 font-bold 2xl:text-gray-700
-                    mobile:text-gray-600  text-center rounded-full'>Blended Training</h1>
-                </div>
-        </div>
-
-        <div className='pt-20 text-center font-bold text-2xl mobile:pb-6 md:pb-0 lg:pb-0 xl:pb-0 2xl:pb-0'>
-            <h1>Register Now</h1>
-        </div>
 
 
         {/* form div */}
@@ -95,12 +78,53 @@ const Blendedtrainingp = () => {
                     </div>
 
                     <div className='px-4'>
-                        <input type="text" id="companyname" name="companyname" value={formData.companyname} onChange={handleChange} className='rounded-lg bg-gray-300 pl-2 my-2 w-full py-4 ' placeholder='name' />
+                    <select id="selectcourse" name="selectcourse" value={formData.selectcourse} onChange={handleChange} className='rounded-lg bg-gray-300 pl-2 my-2 w-full py-4 '>
+                                <option value="">Select Course</option>
+                                <option value="Course 1">Project planning</option>
+                                <option value="Course 2">Agile</option>
+                                <option value="Course 3">Scrum</option>
+                                <option value="Course 4">Resources</option>
+                                <option value="Course 5">Project charter</option>
+                                <option value="Course 5">Risk Management</option>
+                                <option value="Course 5">Leadership</option>
+                                <option value="Course 5">Communication</option>
+                                <option value="Course 5">Project scheduling</option>
+                                <option value="Course 5">Scope Management</option>
+                                <option value="Course 5">Stakeholder management</option>
+                                <option value="Course 5">Microsoft Project</option>
+                                <option value="Course 5">Agile methodology basics</option>
+                                <option value="Course 5">PMI PMBOK</option>
+                                <option value="Course 5">Budgeting</option>
+                                <option value="Course 5">Program Manager</option>
+                                <option value="Course 5">Srum master</option>
+                                <option value="Course 5">Project Management Fundamentals</option>
+                                <option value="Course 5">ID Bootcamp</option>
+                                <option value="Course 5">Introduction to Instructural Design</option>
+                                <option value="Course 5">instructional design principles for </option>
+                                <option value="Course 5">Learning Experience Design</option>
+                                <option value="Course 5">Instructional design foundations and design</option>
+                                <option value="Course 5">Course Design 101</option>
+                                <option value="Course 5">Online course creation</option>
+                                <option value="Course 5">Articulate 360 Training</option>
+                                <option value="Course 5">Dash</option>
+                                <option value="Course 5">Virtual Design Principles</option>
+                                <option value="Course 5">Advanced process risk assessment and risk management</option>
+                                <option value="Course 5">Risk, Crisis and Disaster management</option>
+                                <option value="Course 5"></option>
+                                <option value="Course 5"></option>
+                                <option value="Course 5"></option>
+                                <option value="Course 5"></option>
+                                <option value="Course 5"></option>
+                                <option value="Course 5"></option>
+                                <option value="Course 5"></option>
+                                <option value="Course 5"></option>
+                                <option value="Course 5"></option>
+                            </select>
                     </div>
 
                     <div className='flex mobile:flex-col 2xl:flex-row xl:flex-row lg:flex-row md:flex-row gap-2 px-4'>
                         <div className=''>
-                            <input type="text" id="companyemail" name="companyemail" value={formData.companyemail} onChange={handleChange} className='rounded-lg bg-gray-300 pl-2 mobile:w-full py-4' placeholder='email' />
+                            <input type="text" id="email" name="email" value={formData.companyemail} onChange={handleChange} className='rounded-lg bg-gray-300 pl-2 mobile:w-full py-4' placeholder='email' />
                         </div>
                         <div>
                             <input type="text" id="phonenumber" name="phonenumber" value={formData.phonenumber} onChange={handleChange} className='rounded-lg bg-gray-300 pl-2 mobile:w-full py-4' placeholder='phone no' />
@@ -120,11 +144,9 @@ const Blendedtrainingp = () => {
 
         </div>
 
-        <Footer />
-
 
     </div>
   )
 }
 
-export default Blendedtrainingp
+export default Blueform

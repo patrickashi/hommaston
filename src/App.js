@@ -14,6 +14,8 @@ import Classroomredp from "./pages/Classroomredp";
 import Classroomblue from "./pages/Classroomblue";
 import Nchcdp from "./pages/Nchcdp";
 import Blendedtrainingp from "./pages/Blendedtrainingp";
+import Classroomblueformp from "./pages/Classroomblueformp";
+import Classroomredformp from "./pages/Classroomredformp";
 
 function App() {
   return (
@@ -33,7 +35,9 @@ function App() {
                 <Route path="/Classroomredp" element={<Classroomredp />}/>
                 <Route path="/Classroomblue" element={<Classroomblue />}/>
                 <Route path="/Nchcdp" element={<Nchcdp />} />
-                <Route path="/Blendedtrainingp" element={<Blendedtrainingp />}></Route>
+                <Route path="/Blendedtrainingp" element={<Blendedtrainingp />} />
+                <Route path="/Classroomblueformp" element={<Classroomblueformp />} />
+                <Route path="/Classroomredformp" element={<Classroomredformp />} />
               </Routes>
           </div>
         </div>

@@ -1,6 +1,5 @@
 import React from 'react'
 import banahoma1 from "../assets/banahoma1.jpg";
-
 import { Link } from "react-router-dom";
 import { MdArrowBackIosNew } from "react-icons/md";
 import Footer from '../components/Footer';
@@ -26,21 +25,39 @@ const Classroomblue = () => {
         <div className='pt-20 2xl:mx-[200px] xl:mx-20 lg:mx-10 md:mx-6 sm:mx-4 mobile:mx-4 pb-10 '>
 
             <div className='mobile:grid 2xl:grid-cols-3 gap-4 '>
-                <div className='bg-white pl-2 py-6 rounded-2xl'>Project Management </div>
-                <div className='bg-white pl-2 py-6 rounded-2xl'> Quality & Auditing</div>
-                <div className='bg-white pl-2 py-6 rounded-2xl'>Personal Development </div>
+                <Link to="/Classroomblueformp">
+                    <div className='bg-white pl-2 py-6 rounded-2xl'>Project Management </div>
+                </Link>
+                <Link to="/Classroomblueformp">
+                    <div className='bg-white pl-2 py-6 rounded-2xl'> Quality & Auditing</div>
+                </Link>
+                <Link to="/Classroomblueformp">
+                    <div className='bg-white pl-2 py-6 rounded-2xl'>Personal Development </div>
+                </Link>
             </div>
 
             <div className='mobile:grid 2xl:grid-cols-3 my-6 gap-4'>
-                <div className='bg-white pl-2 py-6 rounded-2xl'>IT</div>
-                <div className='bg-white pl-2 py-6 rounded-2xl'>Business</div>
-                <div className='bg-white pl-2 py-6 rounded-2xl'>Language</div>
+                <Link to="/Classroomblueformp">
+                    <div className='bg-white pl-2 py-6 rounded-2xl'>IT</div>
+                </Link>
+                <Link to="/Classroomblueformp">
+                    <div className='bg-white pl-2 py-6 rounded-2xl'>Business</div>
+                </Link>
+                <Link to="/Classroomblueformp">
+                    <div className='bg-white pl-2 py-6 rounded-2xl'>Language</div>
+                </Link>
             </div>
 
             <div className='mobile:grid 2xl:grid-cols-3 gap-4'>
-                <div className='bg-white pl-2 py-6 rounded-2xl'>Teaching & Academics</div>
-                <div className='bg-white pl-2 py-6 rounded-2xl'>Engineering & Construction</div>
-                <div className='bg-white pl-2 py-6 rounded-2xl'>Sales & Marketing</div>
+                <Link to="/Classroomblueformp">
+                    <div className='bg-white pl-2 py-6 rounded-2xl'>Teaching & Academics</div>
+                </Link>
+                <Link to="/Classroomblueformp">
+                    <div className='bg-white pl-2 py-6 rounded-2xl'>Engineering & Construction</div>
+                </Link>
+                <Link to="/Classroomblueformp">
+                    <div className='bg-white pl-2 py-6 rounded-2xl'>Sales & Marketing</div>
+                </Link>
             </div>
         </div>
 
