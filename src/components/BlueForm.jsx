@@ -37,7 +37,7 @@ const Blueform = () => {
 
         try {
 
-            await axios.post('https://patrickpeko.pythonanywhere.com/api/blended_submission/', formData, { headers });
+            await axios.post('https://patrickpeko.pythonanywhere.com/api/blueformsubmission/', formData, { headers });
 
             alert('Form submitted successfully!');
             setFormData({
