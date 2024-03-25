@@ -25,28 +25,48 @@ const Classroomredp = () => {
          <div className='pt-20 2xl:mx-[200px] xl:mx-20 lg:mx-10 md:mx-6 sm:mx-4 mobile:mx-4 pb-10'>
 
             <div className='mobile:grid 2xl:grid-cols-2 gap-4'>
-              <div className='bg-white pl-2 py-6 rounded-2xl'>Fundamentals of electrical engineering facility design</div>
-              <div className='bg-white pl-2 py-6 rounded-2xl'>Fundamentals of Instrumentation and control engineering facility design</div>
+              <Link to="/Classroomredformp">
+                <div className='bg-white pl-2 py-6 rounded-2xl'>Fundamentals of electrical engineering facility design</div>
+              </Link>
+              <Link to="/Classroomredformp">
+                <div className='bg-white pl-2 py-6 rounded-2xl'>Fundamentals of Instrumentation and control engineering facility design</div>
+              </Link>
             </div>
 
             <div className='mobile:grid 2xl:grid-cols-2 gap-4 my-6'>
-              <div className='bg-white pl-2 py-6 rounded-2xl'>Oil & Gas foundation series</div>
-              <div className='bg-white pl-2 py-6 rounded-2xl'> Fundamentals of Structural engineering facility design</div>
+              <Link to='/Classroomredformp'>
+                <div className='bg-white pl-2 py-6 rounded-2xl'>Oil & Gas foundation series</div>
+              </Link>
+              <Link to='/Classroomredformp'>
+                <div className='bg-white pl-2 py-6 rounded-2xl'> Fundamentals of Structural engineering facility design</div>
+              </Link>
             </div>
 
             <div className='mobile:grid 2xl:grid-cols-2 gap-4'>
-              <div className='bg-white pl-2 py-6 rounded-2xl'>Fundamentals of Mechanical /piping engineering facility design</div>
-              <div className='bg-white pl-2 py-6 rounded-2xl'>Fundamentals of pipeline (Surface/subsea) Engineering facility design</div>
+              <Link to='/Classroomredformp'>
+                <div className='bg-white pl-2 py-6 rounded-2xl'>Fundamentals of Mechanical /piping engineering facility design</div>
+              </Link>
+              <Link to='/Classroomredformp'>
+                <div className='bg-white pl-2 py-6 rounded-2xl'>Fundamentals of pipeline (Surface/subsea) Engineering facility design</div>
+              </Link>
             </div>
 
             <div className='mobile:grid 2xl:grid-cols-2 gap-4 my-6'>
-              <div className='bg-white pl-2 py-6 rounded-2xl'>EFD</div>
-              <div className='bg-white pl-2 py-6 rounded-2xl'>Piping</div>
+              <Link to='/Classroomredformp'>
+                <div className='bg-white pl-2 py-6 rounded-2xl'>EFD</div>
+              </Link>
+              <Link to='/Classroomredformp'>
+                <div className='bg-white pl-2 py-6 rounded-2xl'>Piping</div>
+              </Link>
             </div>
 
             <div className='mobile:grid 2xl:grid-cols-2 gap-4'>
-              <div className='bg-white pl-2 py-6 rounded-2xl'>Mechanical series</div>
-              <div className='bg-white pl-2 py-6 rounded-2xl'>Fundamentals of Process engineering facility design</div>
+              <Link to='/Classroomredformp'>
+                <div className='bg-white pl-2 py-6 rounded-2xl'>Mechanical series</div>
+              </Link>
+              <Link to='/Classroomredformp'>
+                <div className='bg-white pl-2 py-6 rounded-2xl'>Fundamentals of Process engineering facility design</div>
+              </Link>
             </div>
             
          </div>

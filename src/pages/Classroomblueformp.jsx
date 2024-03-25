@@ -16,11 +16,11 @@ const Classroomblueformp = () => {
             2xl:mx-20 mobile:mx-5 rounded-xl shadow-md shadow-violet-400'>
                 <Link to="/Classroomblue"> <MdArrowBackIosNew className='mr-3 rounded-md bg-gray-100 w-10 '/> </Link>
                 <h1 className='2xl:text-5xl xl:text-5xl lg:text-5xl sm:text-2xl mobile:text-2xl py-4 font-bold 2xl:text-[#0504AA]
-                mobile:text-[#0504AA]  text-center rounded-full'>Hommaston Blue</h1>
+                mobile:text-[#0504AA]  text-center rounded-full'>Classroom Registration</h1>
             </div>
         </div>
 
-        <div className='pt-20'></div>
+        <div className='pt-20 mb-10 pb-10 text-2xl text-center font-bold'>Register Now</div>
 
         <Blueform />
 
