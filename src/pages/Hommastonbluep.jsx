@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import instrumentationandcontrol from "../assets/instrumentationandcontrol.jpg";
+import banahoma1 from "../assets/banahoma1.jpg";
 import Footer from '../components/Footer';
 
 import { MdArrowBackIosNew } from "react-icons/md";
@@ -8,7 +8,7 @@ import { MdArrowBackIosNew } from "react-icons/md";
 const Hommastonbluep = () => {
   return (
     <div className='font-Montserrat'>
-        <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${instrumentationandcontrol})` }}>
+        <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${banahoma1})` }}>
             {/* <img src={hepburnpic}  alt="img" size={20} className='h-full w-full object-cover z-0' /> */}
             <div className='absolute 2xl:mt-[255px] mobile:mt-[265px] mx-auto border-2 flex justify-center 
             xl:mt-[255px] lg:mt-[255px] md:mt-[265px] sm:mt-[265px] items-center inset-x-0 bg-neutral-50/70

@@ -1,5 +1,5 @@
 import React from 'react'
-import mechanicalpiping from "../assets/mechanicalpiping.jpg";
+import banahomared from "../assets/banahomared.jpg";
 import { Link } from "react-router-dom";
 import { MdArrowBackIosNew } from "react-icons/md";
 import Footer from '../components/Footer';
@@ -8,7 +8,7 @@ const Classroomredp = () => {
   return (
     <div className='font-Montserrat bg-gray-50'>
 
-         <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${mechanicalpiping})` }}>
+         <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${banahomared})` }}>
             {/* <img src={hepburnpic}  alt="img" size={20} className='h-full w-full object-cover z-0' /> */}
             <div className='absolute py-4 2xl:mt-[240px] mobile:mt-[250px] mx-auto border-2 flex justify-center 
             xl:mt-[240px] lg:mt-[240px] md:mt-[250px] sm:mt-[250px] items-center inset-x-0 bg-neutral-50/70

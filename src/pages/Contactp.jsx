@@ -18,8 +18,8 @@ const Contactp = () => {
                 </div>
             </div>
 
-            <div className='text-2xl font-bold text-gray-600 pt-24 mb-12 ml-4 text-center '>
-                <h1 className='2xl:hidden xl:hidden lg:hidden md:hidden mobile:block animate-bounce'>Contact us</h1>
+            <div className='text-2xl font-bold text-gray-700 pt-24 mb-12 ml-4 text-center '>
+                <h1 className='2xl:hidden xl:hidden lg:hidden md:hidden mobile:block font-bold'>Contact us</h1>
             </div>
 
             <Myform />

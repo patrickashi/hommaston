@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
-
-import seconepngone from "../assets/seconepngone.png";
 import seconepngtwo from "../assets/seconepngtwo.png";
+import seconepng5 from "../assets/seconepng5.png";
 
 const Changeimg = () => {
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
-    const images = [seconepngone, seconepngtwo];
+    const images = [seconepng5, seconepngtwo];
 
     useEffect( () => {
         const interval = setInterval( () => {
