@@ -38,7 +38,7 @@ const RedForm = () => {
 
         try {
 
-            await axios.post('https://patrickpeko.pythonanywhere.com/', formData, { headers });
+            await axios.post('https://patrickpeko.pythonanywhere.com/api/redformsubmission/', formData, { headers });
 
             alert('Form submitted successfully!');
             setFormData({
