@@ -1,6 +1,6 @@
 import React from 'react'
 import hommastonlogo from "../assets/hommastonlogo.png";
-import hommastonhepburn from "../assets/hommastonhepburn.jpg";
+import { Link } from "react-router-dom";
 
 
 const Secfour = () => {
@@ -32,7 +32,10 @@ const Secfour = () => {
               in the oil field and hospitality sectors
             </p>
 
-            <button className='text-white bg-[#0504AA] rounded-lg px-3 py-1 hover:scale-105 opacity-80 duration-200'>Learn More</button>
+            <Link className="https://skillsup.hommaston.com/#/course-library">
+              <button className='text-white bg-[#0504AA] rounded-lg px-3 py-1 hover:scale-105 opacity-80 duration-200'>Learn More</button>
+            </Link>
+            
 
         </div>
     </div>

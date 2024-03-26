@@ -142,7 +142,7 @@ const Faq = () => {
             </div>
 
             <div className='py-2 px-4 bg-white text-[#170F49] 2xl:mx-80 mobile:mx-4 my-4 rounded-2xl
-            xl:mx-80 lg:mx-20 md:mx-20 sm:mx-4 font-bold'>
+            xl:mx-80 lg:mx-20 md:mx-20 sm:mx-4'>
                 <div className='flex justify-between'>
                     <div className='flex font-bold'>What Is the Mode Of Training?</div>
                     <button onClick={handleClickSeventh} className={ hide ?  '' : ""}>
