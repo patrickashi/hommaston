@@ -32,7 +32,7 @@ const Secfour = () => {
               in the oil field and hospitality sectors
             </p>
 
-            <Link className="https://skillsup.hommaston.com/#/course-library">
+            <Link to="/Aboutusp">
               <button className='text-white bg-[#0504AA] rounded-lg px-3 py-1 hover:scale-105 opacity-80 duration-200'>Learn More</button>
             </Link>
             

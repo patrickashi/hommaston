@@ -79,21 +79,23 @@ const Nchcdp = () => {
         </div>
 
 
-        <div className='pt-20 mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 2xl:mx-52 mobile:mx-4 sm:mx-4 md:mx-10 lg:mx-20 xl:mx-20' >
+        <div className='pt-20 mobile:grid text-center 2xl:mx-52 mobile:mx-4 sm:mx-4 md:mx-10 lg:mx-20 xl:mx-20' >
             <div>
                 <p>
                     Hommaston is committed in helping companies fulfilling their obligation with the NCDMB by facilitating and delivering 
                     their NC-HCD training program. We have done this for over a decade and have given our client a worry-free experience.
                 </p>
             </div>
-            <div></div>
+            
         </div>
 
         <div className='mt-20 mb-10 2xl:mx-[200px] xl:mx-20 lg:mx-20 md:mx-10 sm:mx-5 mobile:mx-4
-        2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-3 mobile:grid'>
+        2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 mobile:grid'>
 
-            <div className='2xl:col-span-2 xl:col-span-2 lg:col-span-2 mobile:text-start 2xl:text-justify
-            xl:text-justify lg:text-justify md:text-justify'>
+            <div></div>
+
+            <div className=' mobile:text-start 2xl:text-justify
+            xl:text-justify lg:text-justify md:text-justify 2xl:pr-6 xl:pr-6 lg:pr-6 md:pr-0 mobile:pr-0'>
                 
                 <h1 className='mb-4 font-bold ml-9 text-2xl'>Our NC-HCD services includes:</h1>
 
@@ -134,7 +136,7 @@ const Nchcdp = () => {
 
                 </div>
             </div>
-            <div></div>
+            
             
 
         </div>

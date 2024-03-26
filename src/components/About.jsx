@@ -9,6 +9,12 @@ import aboutimg2 from "../assets/aboutimg2.jpg";
 import aboutimg3 from "../assets/aboutimg3.jpg";
 import aboutimg5 from "../assets/aboutimg5.jpg";
 
+import classroom1 from "../assets/classroom1.jpg";
+import classroom2 from "../assets/classroom2.jpg";
+import classroom3 from "../assets/classroom3.jpg";
+import classroom4 from "../assets/classroom4.jpg";
+import classroom5 from "../assets/classroom5.jpg";
+
 
 const About = () => {
   return (
@@ -22,7 +28,7 @@ const About = () => {
                 </div>
           </div>
 
-        <div className='py-16 mt-10 2xl:mx-40 xl:mx-20 lg:mx-6 md:mx-6 sm:mx-4 mobile:mx-4'>
+        <div className='pt-8 pb-2 mt-10 2xl:mx-40 xl:mx-20 lg:mx-6 md:mx-6 sm:mx-4 mobile:mx-4'>
 
           <div className=' grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 2xl:mx-20 xl:mx-20 lg:mx-6 md:mx-6 mobile:mx-4'>
           
@@ -45,27 +51,27 @@ const About = () => {
             </div>
         </div>
 
-          <div className='my-8 2xl:mx-20 xl:mx-20 lg:mx-6 md:mx-2 mobile:mx-4'>
+          <div className='my-8 2xl:mx-20 xl:mx-20 lg:mx-6 md:mx-2 mobile:mx-0'>
             <h1 className='text-2xl text-center font-bold'>Training Gallery</h1>
 
             
-            <marquee className="image-container border-x ">
+            <marquee className="image-container border-x">
               <div className='flex mobile:flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-row gap-4 my-12'>
 
-                <div className=''>
-                  <img src={aboutimg1} size={20} className='object-cover 2xl:w-80 rounded-lg' alt="img" />
+                <div className=' w-80 '>
+                  <img src={classroom1} className='object-cover 2xl:w-80 rounded-lg' alt="img" />
                 </div>
-                <div className=''>
-                  <img src={aboutimg1} size={20} className='object-cover 2xl:w-80 rounded-lg' alt="img" />
+                <div className='w-80'>
+                  <img src={classroom2} className='object-cover 2xl:w-80 rounded-lg' alt="img" />
                 </div>
-                <div className=''>
-                  <img src={aboutimg1} size={20} className='object-cover 2xl:w-80 rounded-lg' alt="img" />
+                <div className='w-80'>
+                  <img src={classroom3} className='object-cover 2xl:w-80 rounded-lg' alt="img" />
                 </div>
-                <div className=''>
-                  <img src={aboutimg1} size={20} className='object-cover 2xl:w-80 rounded-lg' alt="img" />
+                <div className='w-80'>
+                  <img src={classroom4} className='object-cover 2xl:w-80 rounded-lg' alt="img" />
                 </div>
-                <div className=''>
-                  <img src={aboutimg1} size={20} className='object-cover 2xl:w-80 rounded-lg' alt="img" />
+                <div className='w-80'>
+                  <img src={classroom5} className='object-cover 2xl:w-80 rounded-lg' alt="img" />
                 </div>
 
               </div>

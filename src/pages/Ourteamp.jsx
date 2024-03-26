@@ -50,9 +50,9 @@ const Ourteamp = () => {
               <div className='relative'>
                 <img src={team5} alt="img" />
                 <div className='absolute 2xl:top-20 xl:top-20 lg:top-20 md:top-20 sm:top-20 mobile:top-8 left-10'>
-                  <div className='text-xl font-bold'>Taiwo Soyanwo</div>
+                  <div className='text-xl font-bold'>Taiwo Soyannwo</div>
                   <div className='2xl:text-xl xl:text-xl lg:text-xl md:text-xl sm:text-xl mobile:text-sm my-2 text-[#000000]
-                  mobile:w-40 2xl:w-80 xl:w-80 lg:w-80 md:w-80 sm:w-80'>Skilled Engineer</div>
+                  mobile:w-40 2xl:w-80 xl:w-80 lg:w-80 md:w-80 sm:w-80'>Chief Operating Officer</div>
                   <Link to="https://www.linkedin.com/in/taiwo-soyannwo-b8236114/">
                     <button className='bg-[#ED1C24] text-white rounded-xl px-4 font-bold hover:scale-105 duration-200'>Follow</button>
                   </Link>
@@ -93,7 +93,7 @@ const Ourteamp = () => {
             </div>
 
 
-            <div className='flex justify-center my-6'>
+            {/* <div className='flex justify-center my-6'>
               <div className='relative'>
                 <img src={team2} alt="img" />
                 <div className='absolute 2xl:top-20 xl:top-20 lg:top-20 md:top-20 sm:top-20 mobile:top-8 left-10'>
@@ -103,7 +103,7 @@ const Ourteamp = () => {
                   <button className='bg-[#ED1C24] text-white rounded-xl px-4 font-bold hover:scale-105 duration-200'>Follow</button>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             
 

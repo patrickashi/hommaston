@@ -80,45 +80,18 @@ const Blueform = () => {
                     <div className='px-4'>
                     <select id="selectcourse" name="selectcourse" value={formData.selectcourse} onChange={handleChange} className='rounded-lg bg-gray-300 pl-2 my-2 w-full py-4 '>
                                 <option value="">Select Course</option>
-                                <option value="project planning">Project planning</option>
-                                <option value="Agile">Agile</option>
-                                <option value="Scrum">Scrum</option>
-                                <option value="Resources">Resources</option>
-                                <option value="Project charter">Project charter</option>
-                                <option value="Risk Management">Risk Management</option>
-                                <option value="Leadership">Leadership</option>
-                                <option value="Communication">Communication</option>
-                                <option value="Project scheduling">Project scheduling</option>
-                                <option value="Scope Management">Scope Management</option>
-                                <option value="Stakeholder management">Stakeholder management</option>
-                                <option value="Microsoft Project">Microsoft Project</option>
-                                <option value="Agile methodology basics">Agile methodology basics</option>
-                                <option value="PMI PMBOK">PMI PMBOK</option>
-                                <option value="Budgeting">Budgeting</option>
-                                <option value="Program Manager">Program Manager</option>
-                                <option value="Srum master">Srum master</option>
-                                <option value="Project Management Fundamentals">Project Management Fundamentals</option>
-                                <option value="ID Bootcamp">ID Bootcamp</option>
-                                <option value="Introduction to Instructural Design">Introduction to Instructural Design</option>
-                                <option value="instructional design principles for">instructional design principles for </option>
-                                <option value="Learning Experience Design">Learning Experience Design</option>
-                                <option value="Instructional design foundations and design">Instructional design foundations and design</option>
-                                <option value="Course Design 101">Course Design 101</option>
-                                <option value="Online course creation">Online course creation</option>
-                                <option value="Articulate 360 Training">Articulate 360 Training</option>
-                                <option value="Dash">Dash</option>
-                                <option value="Virtual Design Principles">Virtual Design Principles</option>
-                                <option value="Advanced process risk assessment and risk management">Advanced process risk assessment and risk management</option>
-                                <option value="Risk, Crisis and Disaster management">Risk, Crisis and Disaster management</option>
-                                <option value="Radiation Safety Officer Course">Radiation Safety Officer Course</option>
-                                <option value="Marine Safety Course">Marine Safety Course</option>
-                                <option value="Injury and illness Prevention course">Injury and illness Prevention course</option>
-                                <option value="Fire and Arson management and control">Fire and Arson management and control</option>
-                                <option value="Developing an effective safety culture">Developing an effective safety culture</option>
-                                <option value="Safety technology and risk management">Safety technology and risk management</option>
-                                <option value="Hazardous waste management and pollution training">Hazardous waste management and pollution training</option>
-                                <option value="Environmental Management Systems (EMS)">Environmental Management Systems (EMS)</option>
-                                <option value="Behaviour based safety course">Behaviour based safety course</option>
+                                <option value="Project Management">Project Management</option>
+                                <option value="Quality and Auditing">Quality and Auditing</option>
+                                <option value="Personal Development">Personal Development</option>
+                                <option value="IT">IT</option>
+                                <option value="Business">Business</option>
+                                <option value="Language">Language</option>
+                                <option value="Teaching & Academics">Teaching & Academics</option>
+                                <option value="Engineering & Construction">Engineering & Construction</option>
+                                <option value="Sales & Marketing">Sales & Marketing</option>
+                                <option value="ISO">ISO</option>
+          
+
                             </select>
                     </div>
 
