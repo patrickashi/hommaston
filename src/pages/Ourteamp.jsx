@@ -52,7 +52,7 @@ const Ourteamp = () => {
                 <div className='absolute 2xl:top-20 xl:top-20 lg:top-20 md:top-20 sm:top-20 mobile:top-8 left-10'>
                   <div className='text-xl font-bold'>Taiwo Soyannwo</div>
                   <div className='2xl:text-xl xl:text-xl lg:text-xl md:text-xl sm:text-xl mobile:text-sm my-2 text-[#000000]
-                  mobile:w-40 2xl:w-80 xl:w-80 lg:w-80 md:w-80 sm:w-80'>Chief Operating Officer</div>
+                  mobile:w-60 2xl:w-80 xl:w-80 lg:w-80 md:w-80 sm:w-80'>Chief Operating Officer</div>
                   <Link to="https://www.linkedin.com/in/taiwo-soyannwo-b8236114/">
                     <button className='bg-[#ED1C24] text-white rounded-xl px-4 font-bold hover:scale-105 duration-200'>Follow</button>
                   </Link>
@@ -67,7 +67,7 @@ const Ourteamp = () => {
             <div className='flex justify-center my-6'>
               <div className='relative'>
                 <img src={team3} alt="img" />
-                <div className='absolute 2xl:top-20 xl:top-20 lg:top-20 md:top-20 sm:top-14 mobile:top-6 left-10'>
+                <div className='absolute 2xl:top-20 xl:top-20 lg:top-20 md:top-20 sm:top-14 mobile:top-4 left-10'>
                   <div className='text-xl font-bold'>Dapo Omolade</div>
                   <div className='2xl:text-xl xl:text-xl lg:text-xl md:text-xl sm:text-xl mobile:text-sm my-2 text-[#000000]
                   mobile:w-60 2xl:w-80 xl:w-80 lg:w-80 md:w-80 sm:w-80'>Consultant-Trainer-Coach for Hommaston's HSE</div>
@@ -81,10 +81,10 @@ const Ourteamp = () => {
             <div className='flex justify-center my-6'>
               <div className='relative'>
                 <img src={team4} alt="img" />
-                <div className='absolute 2xl:top-16 xl:top-16 lg:top-16 md:top-16 sm:top-10 mobile:top-4 left-10'>
+                <div className='absolute 2xl:top-16 xl:top-16 lg:top-16 md:top-16 sm:top-10 mobile:top-4  left-10'>
                   <div className='text-xl font-bold'>Nimot Muili</div>
                   <div className='2xl:text-xl xl:text-xl lg:text-xl md:text-xl sm:text-xl mobile:text-sm my-2 text-[#000000]
-                  mobile:w-60 2xl:w-80 xl:w-80 lg:w-80 md:w-80 sm:w-88'>Principal Civil Facilitator, Department Director, EFD programs</div>
+                  mobile:w-60 2xl:w-80 xl:w-80 lg:w-80 md:w-80 sm:w-88'>Department Director, EFD programs</div>
                   <Link to="https://www.linkedin.com/in/nimotmuili/">
                     <button className='bg-[#ED1C24] text-white rounded-xl px-4 font-bold hover:scale-105 duration-200'>Follow</button>
                   </Link>
@@ -110,7 +110,7 @@ const Ourteamp = () => {
             <div className='flex justify-center my-6'>
               <div className='relative'>
                 <img src={team6} alt="img" />
-                <div className='absolute 2xl:top-20 xl:top-20 lg:top-20 md:top-20 sm:top-20 mobile:top-8 left-10'>
+                <div className='absolute 2xl:top-20 xl:top-20 lg:top-20 md:top-20 sm:top-20 mobile:top-4 left-10'>
                   <div className='2xl:text-xl xl:text-xl lg:text-xl md:text-xl sm:text-xl mobile:text-md font-bold'>Oladeji Olawale</div>
                   <div className='2xl:text-xl xl:text-xl lg:text-xl md:text-xl sm:text-xl mobile:text-sm my-2 text-[#000000]
                     mobile:w-40 2xl:w-80 xl:w-80 lg:w-80 md:w-80 sm:w-80'>Director Of Project and Risk Management

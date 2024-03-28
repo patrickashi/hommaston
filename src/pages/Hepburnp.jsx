@@ -10,14 +10,12 @@ import hepburn1 from "../assets/hepburn1.png";
 const Hepburnp = () => {
   return (
     <div className='font-Montserrat'>
+
         <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${hepburnpic})` }}>
-            {/* <img src={hepburnpic}  alt="img" size={20} className='h-full w-full object-cover z-0' /> */}
             <div className='absolute 2xl:mt-[250px] mobile:mt-[250px] mx-auto flex justify-center 
             xl:mt-[250px] lg:mt-[250px] md:mt-[250px] sm:mt-[250px] items-center inset-x-0 
             2xl:mx-20 mobile:mx-5'>
-                {/* <h1 className='2xl:text-5xl xl:text-5xl lg:text-5xl mobile:text-3xl py-4 font-bold 2xl:text-gray-700
-                mobile:text-gray-600 text-center rounded-full'>HepBurn</h1> */}
-                <img src={hepburn1} className='w-80' alt="" />
+              <img src={hepburn1} className='w-80' alt="" />
             </div>
         </div>
 
