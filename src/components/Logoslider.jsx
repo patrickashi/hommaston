@@ -18,7 +18,7 @@ import logochevron from "../assets/logochevron.png";
 
 import logoshell from "../assets/logoshell.png";
 import nnpc from "../assets/nnpc.png";
-import logoamatrol from "../assets/logoamatrol.jpg";
+import logoamatroll from "../assets/logoamatroll.jpg";
 import logodolang from "../assets/logodolang.jpg";
 import logonuveda from "../assets/logonuveda.jpg";
 import logoseplat from "../assets/logoseplat.png";
@@ -26,7 +26,7 @@ import logoseplat from "../assets/logoseplat.png";
 
 const logosSet1 = [nysclogo, lng, deltaafflick, eit, oando, koeing];
 const logosSet2 = [montegolg, nnpc, dredgein, hybridlg, tecnimontlg, lng];
-const logosSet3 = [logochevron, logoamatrol, logodolang, logonuveda, logoseplat, logoshell];
+const logosSet3 = [logochevron, logoamatroll, logodolang, logonuveda, logoseplat, logoshell];
 
 const Logoslider = () => {
 
