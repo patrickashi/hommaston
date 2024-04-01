@@ -1,5 +1,5 @@
 import React from 'react'
-import hommastonlogo from "../assets/hommastonlogo.png";
+import hepburn1 from "../assets/hepburn1.png";
 import { Link } from "react-router-dom";
 
 
@@ -9,7 +9,7 @@ const Secfour = () => {
         <div className='flex my-6 2xl:mx-28 xl:mx-28 lg:mx-10 md:mx-5 mobile:mx-6 bg-gray-100 rounded-lg shadow-lg shadow-gray-200
          py-14 2xl:px-60 xl:px-40 lg:px-40 md:px-20 mobile:px-4 flex-col items-center justify-center '>
             <div>
-                <img src={hommastonlogo} size={20} alt="img" className='' />
+                <img src={hepburn1} size={20} alt="img" className='w-80' />
             </div>
             <p className='my-6 mobile:text-center 2xl:text-justify xl:text-justify lg:text-justify md:text-justify '>
               At Hommaston Limited, we specialize in two key areas: training and capacity building, and environmentally conscious solutions through our Hommaston Bio services. we are dedicated to enhancing capacity development and delivering top-quality, cost- effective solutions and services. This includes comprehensive training and capacity
