@@ -121,7 +121,7 @@ const Faq = () => {
 
                 <div className={ hideFifth ? "hidden" : "block" }>
                     <p>Hommaston is Learning performance institute and American council of training and
-                        development accredit</p>
+                        development accredited</p>
                 </div>
 
             </div>

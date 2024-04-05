@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import contactpimg from "../assets/contactpimg.jpg";
+import banaabtus from "../assets/banaabtus.jpg";
 import hommastonashlogo from "../assets/hommastonashlogo.png";
 
 
@@ -19,7 +19,7 @@ import classroom5 from "../assets/classroom5.jpg";
 const About = () => {
   return (
     <div className='font-Montserrat'>
-         <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${contactpimg})` }}>
+         <div className='relative w-full h-[300px] bg-cover bg-center' style={{ backgroundImage: `url(${banaabtus})` }}>
                 <div className='absolute 2xl:mt-[256px] mobile:mt-[264px] mx-auto border-2 flex justify-center 
                 xl:mt-[256px] lg:mt-[256px] md:mt-[264px] sm:mt-[264px] items-center inset-x-0 bg-neutral-50/70
                 2xl:mx-20 mobile:mx-5 rounded-2xl shadow-md shadow-violet-400'>
@@ -82,7 +82,7 @@ const About = () => {
         </div>
 
         <div className='2xl:mx-60  xl:mx-40  lg:mx-14  md:mx-6 mobile:mx-4 my-14 mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2
-        border-b pb-4'>
+        border-b pb-4 mobile:gap-0 md:gap-8 lg:gap-8 xl:gap-8 2xl:gap-8'>
 
           <div className='flex 2xl:justify-center lg:justify-center xl:justify-center md:justify-center mobile:justify-start
           mobile:mb-4 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0'>
@@ -128,7 +128,7 @@ const About = () => {
         </div>
 
         <div className='2xl:mx-60  xl:mx-40  lg:mx-14  md:mx-6 mobile:mx-4 my-14 mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2
-        border-b pb-4'>
+        border-b pb-4 mobile:gap-0 md:gap-8 lg:gap-8 xl:gap-8 2xl:gap-8'>
 
           <div className='flex 2xl:justify-center lg:justify-center xl:justify-center md:justify-center mobile:justify-start
           mobile:mb-4 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0'>
@@ -145,7 +145,7 @@ const About = () => {
         </div>
 
         <div className='2xl:mx-60  xl:mx-40  lg:mx-14  md:mx-6 mobile:mx-4 my-14 mobile:grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2
-        border-b pb-6'>
+        border-b pb-6 mobile:gap-0 md:gap-8 lg:gap-8 xl:gap-8 2xl:gap-8'>
           <div className='flex justify-center items-center mobile:block 2xl:hidden xl:hidden lg:hidden md:hidden
           mb-4'>
               <img src={aboutimg3} size={20} className='rounded-lg' alt="img" />

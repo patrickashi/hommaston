@@ -20,7 +20,7 @@ const Secfive = () => {
                         <div className=' 2xl:w-[380px] mobile:w-[300px] flex justify-center'>
                             <img src={imghandshake} className='h-[200px] w-cover justify-center rounded-md 2xl:w-[300px] mobile:w-[300px]' alt="img" />
                         </div>
-                        <p className='py-2 text-center 2xl:w-[300px] mobile:w-[300px]'>Fundamentals of Electrical Engineering Facility Design</p>
+                        <p className='py-2 text-center 2xl:w-[300px] mobile:w-[300px] text-sm'>Negotiation Skill</p>
                     </div>
                 </Link>
 
@@ -29,7 +29,7 @@ const Secfive = () => {
                         <div className=' 2xl:w-[380px] mobile:w-[300px] flex justify-center '>
                             <img src={imgbusinessethics} className='h-[210px] w-cover justify-center rounded-md 2xl:w-[300px] mobile:w-[300px]' alt="img" />
                         </div>
-                        <p className='py-2 text-center sm:mx-[68px] mobile:mx-[6px] 2xl:mx-0 xl:mx-0 lg:mx-0 mobile:text-sm 2xl:w-[300px] mobile:w-[300px]'>Fundamentals of Instrumentation and control Engineering Facility Design</p>
+                        <p className='py-2 text-center sm:mx-[68px] mobile:mx-[6px] 2xl:mx-0 xl:mx-0 lg:mx-0 mobile:text-sm 2xl:w-[300px] mobile:w-[300px]'>Business Ethics</p>
                     </div>
                 </Link>
 
@@ -38,7 +38,7 @@ const Secfive = () => {
                         <div className=' 2xl:w-[380px] mobile:w-[300px] flex justify-center'>
                             <img src={piping1} className='h-[200px] w-cover justify-center rounded-md 2xl:w-[300px] mobile:w-[300px]' alt="img" />
                         </div>
-                        <p className='py-2 sm:mx-[68px] mobile:mx-[6px] text-center 2xl:mx-0 xl:mx-0 lg:mx-0 2xl:w-[300px] mobile:w-[300px]'>Fundamentals of Mechanical/Piping Engineering Facility Design</p>
+                        <p className='py-2 sm:mx-[68px] mobile:mx-[6px] text-center 2xl:mx-0 xl:mx-0 lg:mx-0 2xl:w-[300px] mobile:w-[300px] text-sm'>Mechanical Engineering Facility Design</p>
                     </div>
                 </Link>
             </div>

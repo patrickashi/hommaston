@@ -14,7 +14,7 @@ const Aboutus = () => {
                 <p className='font-bold'>One Company, One Mission, Five Continents and One Promise.</p>
                 <div className='flex gap-4 my-4 items-center'>
                     <FaCircleDot className='text-[#FF0000] w-5' size={10}/>
-                    <p>world-class instructors around the globe</p>
+                    <p>World-class instructors around the globe</p>
                 </div>
                 <div className='flex gap-4 my-4 items-center '>
                     <FaCircleDot className='text-[#FF0000] w-5' size={10}/>
