@@ -16,6 +16,7 @@ import Nchcdp from "./pages/Nchcdp";
 import Blendedtrainingp from "./pages/Blendedtrainingp";
 import Classroomblueformp from "./pages/Classroomblueformp";
 import Classroomredformp from "./pages/Classroomredformp";
+import RegistrationForm from "./components/RegistrationForm";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
                 <Route path="/Blendedtrainingp" element={<Blendedtrainingp />} />
                 <Route path="/Classroomblueformp" element={<Classroomblueformp />} />
                 <Route path="/Classroomredformp" element={<Classroomredformp />} />
+                <Route path="/Aboutusp" element={<RegistrationForm />} />
               </Routes>
           </div>
         </div>
