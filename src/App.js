@@ -17,6 +17,7 @@ import Blendedtrainingp from "./pages/Blendedtrainingp";
 import Classroomblueformp from "./pages/Classroomblueformp";
 import Classroomredformp from "./pages/Classroomredformp";
 import RegistrationForm from "./components/RegistrationForm";
+import Receiptuploadp from "./pages/Receiptuploadp";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
                 <Route path="/Classroomblueformp" element={<Classroomblueformp />} />
                 <Route path="/Classroomredformp" element={<Classroomredformp />} />
                 <Route path="/Aboutusp" element={<RegistrationForm />} />
+                <Route path="/Receiptupload" element={<Receiptuploadp /> } />
               </Routes>
           </div>
         </div>
