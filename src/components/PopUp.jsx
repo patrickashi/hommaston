@@ -19,11 +19,11 @@ const PopUp = ({ registrationUrl }) => {
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-10">
       <div className="relative bg-white p-4 rounded shadow-lg">
-        <button className="absolute top-0 right-0 m-0 text-gray-600 hover:text-gray-900" onClick={handleClose} >
+        <button className="absolute top-0 right-0 m-0 text-white hover:font-bold bg-red-600 w-10 " onClick={handleClose} >
           &times;
         </button>
         <a href={registrationUrl}>
-          <img src={bootcampwebflyer} size={40} alt="Advert" className="cursor-pointer w-[650px]" />
+          <img src={bootcampwebflyer} size={40} alt="Advert" className="cursor-pointer w-[600px]" />
         </a>
       </div>
     </div>

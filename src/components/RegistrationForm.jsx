@@ -169,6 +169,7 @@ const RegistrationForm = () => {
         <option value="Cyber Security">Cyber Security</option>
         <option value="Project Management">Project Management</option>
       </select>
+      <p className='mb-2 text-xs'>Disclaimer: Please note that we cannot do drone piloting online.</p>
       <select
         name="mode_of_attendance"
         value={formData.mode_of_attendance}

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useDropzone } from 'react-dropzone';
+import { Link } from "react-router-dom";
 
 const getCookie = (name) => {
     const cookieValue = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
@@ -72,13 +73,18 @@ const ReceiptUpload = () => {
                         <p>Drop your payment receipt here, or click to select a file</p>
                     )}
                 </div>
-                <div className='text-center mb-4'>
+                <div className='text-center mb-2'>
                     <button type="submit" className="bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-4 rounded w-full">Submit</button>
                 </div>
-                <div className='text-center mb-4'>
-                    <div className="bg-white hover:bg-red-600 duration-200 hover:text-white text-black border border-red-500 font-bold py-4 px-4 rounded w-full">Call for confirmation</div>
-                </div>
                 {message && <p>{message}</p>}
+                <div className='text-center mb-4'>
+                    <div className='mt-2'>
+                        <Link to="https://wa.me/message/5AXEN3LR5JU6P1">
+                            <div className="bg-white hover:bg-red-600 duration-200 hover:text-white text-black border border-red-500 font-bold py-4 px-4 rounded w-full">Call for confirmation</div>
+                        </Link>
+                    </div>
+                </div>
+                
             </form>
             
         </div>
