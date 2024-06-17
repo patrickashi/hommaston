@@ -18,12 +18,15 @@ import Classroomblueformp from "./pages/Classroomblueformp";
 import Classroomredformp from "./pages/Classroomredformp";
 import RegistrationForm from "./components/RegistrationForm";
 import Receiptuploadp from "./pages/Receiptuploadp";
+import PopUp from "./components/PopUp";
+import Registrationformp from "./pages/Registrationformp";
 
 function App() {
   return (
     <Router>
         <div className="App">
           <Navbar />
+          <PopUp imageUrl="https://example.com/advert.jpg" registrationUrl="/registrationformp" />
           <div className="content">
               <Routes>
                 <Route index path="/" element={<Home />} />
@@ -41,7 +44,8 @@ function App() {
                 <Route path="/Classroomblueformp" element={<Classroomblueformp />} />
                 <Route path="/Classroomredformp" element={<Classroomredformp />} />
                 <Route path="/Aboutusp" element={<RegistrationForm />} />
-                <Route path="/Receiptupload" element={<Receiptuploadp /> } />
+                <Route path="/Receiptuploadp" element={<Receiptuploadp /> } />
+                <Route path="/Registrationformp" element={<Registrationformp />} />
               </Routes>
           </div>
         </div>

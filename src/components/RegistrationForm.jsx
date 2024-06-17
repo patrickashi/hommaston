@@ -71,7 +71,7 @@ const RegistrationForm = () => {
         mode_of_attendance: '',
       });
 
-      navigate('/Receiptupload');
+      navigate('/Receiptuploadp');
 
     } catch (error) {
       console.error('There was an error!', error);
@@ -79,25 +79,32 @@ const RegistrationForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="max-w-md mx-auto bg-white p-6 rounded-lg shadow-md">
-      <input
-        type="text"
-        name="first_name"
-        value={formData.first_name}
-        onChange={handleChange}
-        placeholder="First Name"
-        className="mb-4 p-2 border border-gray-300 rounded w-full"
-        required
-      />
-      <input
-        type="text"
-        name="last_name"
-        value={formData.last_name}
-        onChange={handleChange}
-        placeholder="Last Name"
-        className="mb-4 p-2 border border-gray-300 rounded w-full"
-        required
-      />
+    <form onSubmit={handleSubmit} className="max-w-lg mx-auto bg-white p-6 rounded-lg shadow-md my-4">
+
+      <h1 className='text-center mobile:text-3xl md:text-5xl lg:text-5xl xl:text-5xl 2xl:text-5xl font-bold text-red-600 mb-4'>Registration Form</h1>
+
+      <p className='text-center mb-4'>Register for the Hommaston Teen Tech Bootcamp</p>
+
+      <div className='flex gap-2'>
+        <input
+          type="text"
+          name="first_name"
+          value={formData.first_name}
+          onChange={handleChange}
+          placeholder="First Name"
+          className="mb-4 p-2 border border-gray-300 rounded w-full"
+          required
+        />
+        <input
+          type="text"
+          name="last_name"
+          value={formData.last_name}
+          onChange={handleChange}
+          placeholder="Last Name"
+          className="mb-4 p-2 border border-gray-300 rounded w-full"
+          required
+        />
+      </div>
       <input
         type="email"
         name="email"
@@ -116,26 +123,28 @@ const RegistrationForm = () => {
         className="mb-4 p-2 border border-gray-300 rounded w-full"
         required
       />
-      <select
-        name="gender"
-        value={formData.gender}
-        onChange={handleChange}
-        className="mb-4 p-2 border border-gray-300 rounded w-full"
-        required
-      >
-        <option value="">Select Gender</option>
-        <option value="M">Male</option>
-        <option value="F">Female</option>
-      </select>
-      <input
-        type="number"
-        name="age"
-        value={formData.age}
-        onChange={handleChange}
-        placeholder="Age"
-        className="mb-4 p-2 border border-gray-300 rounded w-full"
-        required
-      />
+      <div className='flex gap-2'>
+        <select
+          name="gender"
+          value={formData.gender}
+          onChange={handleChange}
+          className="mb-4 p-2 border border-gray-300 rounded w-full"
+          required
+        >
+          <option value="">Select Gender</option>
+          <option value="M">Male</option>
+          <option value="F">Female</option>
+        </select>
+        <input
+          type="number"
+          name="age"
+          value={formData.age}
+          onChange={handleChange}
+          placeholder="Age"
+          className="mb-4 p-2 border border-gray-300 rounded w-full"
+          required
+        />
+      </div>
       <input
         type="text"
         name="sponsor_name"
@@ -173,7 +182,7 @@ const RegistrationForm = () => {
       </select>
     
         <div>
-        <button type="submit" className="bg-blue-500 text-white p-2 rounded w-full">Submit </button>
+        <button type="submit" className="bg-red-600 text-white p-2 rounded w-full">Submit </button>
         </div>
         
     </form>
