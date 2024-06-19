@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { useDropzone } from 'react-dropzone';
 import { Link } from "react-router-dom";
+// import { useNavigate } from 'react-router-dom';
 
 const getCookie = (name) => {
     const cookieValue = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)');
@@ -21,6 +22,7 @@ const ReceiptUpload = () => {
         multiple: false,
         accept: 'image/*,application/pdf' // Accept images and PDFs
     });
+    // const navigate = useNavigate();
 
     const handleSubmit = async (e) => {
         const csrftoken = getCookie('csrftoken');
@@ -43,6 +45,7 @@ const ReceiptUpload = () => {
             await axios.post(
                 'https://patrickpeko.pythonanywhere.com/api/upload_receipt/', formData, {headers});
             setMessage('Receipt uploaded successfully');
+            // navigate('/');
         } catch (error) {
             console.error('Error uploading receipt:', error);
             setMessage('Failed to upload receipt');
@@ -50,12 +53,12 @@ const ReceiptUpload = () => {
     };
 
     return (
-        <div className="container mx-auto p-4">
+        <div className="container mx-auto p-4 font-Montserrat">
             <form onSubmit={handleSubmit} className="w-full max-w-lg mx-auto">
 
                 <h1 className='text-center text-5xl font-bold text-red-500 mb-10'>Payment</h1>
 
-                <p className='text-center font-bold'>Bank Name:</p>
+                <p className='text-center font-bold'>Bank Name</p>
                 <p className='text-center text-2xl font-bold text-red-500 mb-4'>First Bank</p>
 
                 <p className='text-center font-bold'>Account Number</p>
